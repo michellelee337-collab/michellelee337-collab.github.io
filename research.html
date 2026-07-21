@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labor Rights &amp; Industrial Automation | Michelle Lee</title>
+<meta name="description" content="Independent research by Michelle Lee on how Korean labor law protects manufacturing workers in the age of industrial robots.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html#story">My Story</a></li>
+      <li><a href="index.html#writing">Writing &amp; Research</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="index.html#skills">Interest &amp; Skill</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#story">&larr; My Story</a>
+    <p class="eyebrow">Since 2026</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Labor Rights and Industrial Automation</h1>
+    <p class="meta-line"><strong>Researcher</strong>, Jun 2026 - present &middot; Seoul, Korea</p>
+  </div>
+</header>
+<div class="hero-strip">
+  <div class="wrap" style="position:relative">
+    <button class="hs-nav hs-prev" aria-label="Previous photos">&#8249;</button>
+    <div class="hs-track"><figure class="hs-item has-cap"><img loading="lazy" decoding="async" src="images/story/jurio-1.jpg" alt=""><figcaption>A photo of a meeting with labor attorney Jeong Si-hyun at the Cheongin Labor &amp; Employment Law Firm (Seoul Headquarters)</figcaption></figure></div>
+    <button class="hs-nav hs-next" aria-label="More photos">&#8250;</button>
+  </div>
+</div>
+
+
+<div class="proj-section">
+  <div class="wrap">
+    <p class="lede">Working title: <strong>Industrial Robots and the Protection of Korean Manufacturing Workers: How Certified Labor Attorneys Assess Safety, Participation, and Transition Protection</strong></p>
+
+    <p>My engagement with migrant workers since 2024, many of whom expressed concern about how their employment prospects were reduced by industrial automation and shifting labor demand, led me to this research topic. This study does not ask whether robots should be stopped. It asks what happens to the workers working alongside or replaced by them.</p>
+
+    <ul>
+      <li><strong>Safety</strong>: collision, entrapment, and maintenance accidents, as well as less visible risks such as increased work pace, musculoskeletal strain, and data-driven monitoring of performance.</li>
+      <li><strong>Participation</strong>: whether workers, unions, and labor-management councils receive information and a genuine chance to consult before robots are introduced, not after.</li>
+      <li><strong>Transition</strong>: what actually happens to redeployment, retraining, wages, and job security once automation changes the nature of the employment.</li>
+    </ul>
+
+    <p style="margin-top:24px">My inquiries reminded me of Lina Khan&#8217;s critique of Amazon, which reasoned that measuring only consumer benefit makes the costs borne by workers and suppliers invisible. When automation makes firms and consumers better off, what costs does it shift onto workers, and is current Korean law prepared for that change?</p>
+
+    <ul>
+      <li>Occupational Safety and Health Act (&#49328;&#50629;&#50504;&#51204;&#48372;&#44148;&#48277;)</li>
+      <li>Workers&#8217; Participation and Cooperation Act (&#44540;&#47196;&#51088;&#52280;&#50668;&#48277;)</li>
+      <li>Trade Union Act (&#45432;&#46041;&#51312;&#54633;&#48277;)</li>
+      <li>Labor Standards Act (&#44540;&#47196;&#44592;&#51456;&#48277;)</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Method</h2>
+    <p>Literature review, then Korean statutory analysis, then U.S. comparison, then semi-structured interviews of 10 to 15 minutes built on five core questions with certified labor attorneys: licensed professionals specializing in Korean labor law, workplace compliance, and labor-management relations, spanning employer-side advisory, worker- and union-side cases, manufacturing workplaces, industrial-accident practice, and restructuring experience. Interview responses are being anonymized and thematically organized.</p>
+    <p><strong>370 certified labor attorneys contacted; 44 interviews completed.</strong> The research is still in progress.</p>
+
+    <h2 style="margin-top:40px">In photos</h2>
+    <div class="ph-grid"><figure class="ph-item has-cap"><img loading="lazy" decoding="async" src="images/story/jurio-1.jpg" alt="Meeting with labor attorney Jeong Si-hyun"><figcaption>A photo of a meeting with labor attorney Jeong Si-hyun at the Cheongin Labor &amp; Employment Law Firm (Seoul Headquarters)</figcaption></figure></div>
+    <div class="pn" style="margin-top:40px">
+      <a class="btn ghost" href="index.html#writing">&larr; Writing &amp; Research</a>
+      <a class="btn primary" href="jurio.html">Jurio &rarr;</a>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p style="letter-spacing:.14em;font-size:13px">&copy; 2026 MICHELLE LEE</p>
+  </div>
+</footer>
+<script>
+(function(){
+  document.querySelectorAll('.hero-strip').forEach(function(st){
+    var t=st.querySelector('.hs-track'), p=st.querySelector('.hs-prev'), n=st.querySelector('.hs-next');
+    if(!t) return;
+    function step(){ var it=t.querySelector('.hs-item'); return it? it.offsetWidth+14 : 314; }
+    function upd(){ if(!p) return;
+      p.disabled = t.scrollLeft<=2;
+      n.disabled = t.scrollLeft >= t.scrollWidth-t.clientWidth-2;
+      var one = t.scrollWidth<=t.clientWidth+2;
+      p.style.display=n.style.display= one?'none':'flex';
+    }
+    if(p) p.addEventListener('click',function(){t.scrollBy({left:-step()*2,behavior:'smooth'});setTimeout(upd,650);});
+    if(n) n.addEventListener('click',function(){t.scrollBy({left:step()*2,behavior:'smooth'});setTimeout(upd,650);});
+    t.addEventListener('scroll',upd); window.addEventListener('resize',upd);
+    window.addEventListener('load',upd);
+    t.querySelectorAll('img').forEach(function(im){im.addEventListener('load',upd);});
+    [0,300,1200,2500].forEach(function(d){setTimeout(upd,d);});
+  });
+})();
+</script>
+</body>
+</html>

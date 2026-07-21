@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jurio, Korean Labor Rights App | Michelle Lee</title>
+<meta name="description" content="Jurio: a bilingual Korean and English legal-information app for workers in Korea.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html#story">My Story</a></li>
+      <li><a href="index.html#writing">Writing &amp; Research</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="index.html#skills">Interest &amp; Skill</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#story">&larr; My Story</a>
+    <p class="eyebrow">Since 2026</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Jurio: Korean Labor Rights App</h1>
+    <p class="meta-line"><strong>Co-Creator &amp; Legal Content Researcher</strong>, May 2026 - present &middot; Seoul, Korea</p>
+    <div class="btn-row" style="margin-top:18px"><a class="btn primary" href="https://jurio-gamma.vercel.app/" target="_blank" rel="noopener">Visit the app &#8599;</a></div>
+  </div>
+</header>
+
+<div class="proj-section">
+  <div class="wrap">
+    <p class="lede">Jurio was created to make Korean labor law more accessible to people without legal backgrounds, including non-Korean speakers such as the migrant workers I work with at the <a href="mission.html">Mission Center for Migrants</a>. The app provides simply worded legal information. It is not a substitute for professional legal advice: for a specific situation, it directs users to nearby certified labor attorneys, public counseling services, and relevant hotlines.</p>
+
+    <h2>The app</h2>
+    <div style="margin-top:8px"><div style="position:relative;width:100%;height:520px;border:1px solid var(--border);border-radius:14px;overflow:hidden"><iframe src="https://jurio-gamma.vercel.app/" title="Jurio website" loading="lazy" style="width:100%;height:100%;border:0"></iframe></div><p style="font-size:13px;color:var(--muted);margin-top:8px"><a href="https://jurio-gamma.vercel.app/" target="_blank" rel="noopener">Open the live site &#8599;</a></p></div>
+        <h2 style="margin-top:40px">My contributions</h2>
+    <ul>
+      <li>Create the app with developer Alex Lee in tight feedback loops, planning what a worker needs to know.</li>
+      <li>Developed the plain-language content: a know-your-rights guide and a bilingual glossary of 100+ terms, each cited to statute.</li>
+      <li>Checked the English translations for migrant and Korean readers, and gathered the official hotlines and labor-attorney directories to point them to.</li>
+      <li>Named it after a trademark check, designed the logo, and worked through UX, UI, and the App Store review cycles.</li>
+    </ul>
+    <div class="pn" style="margin-top:40px">
+      <a class="btn ghost" href="lumen.html">&larr; Lumen Education Program</a>
+      <a class="btn primary" href="index.html#story">My Story &rarr;</a>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p style="letter-spacing:.14em;font-size:13px">&copy; 2026 MICHELLE LEE</p>
+  </div>
+</footer>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-x" aria-label="Close">&times;</button>
+  <button class="lb-p" aria-label="Previous">&#8249;</button>
+  <div id="lb-slot"></div>
+  <button class="lb-n" aria-label="Next">&#8250;</button>
+  <p class="lb-cap" id="lb-cap"></p>
+</div>
+<script>
+(function(){
+  var lb=document.getElementById('lb'),slot=document.getElementById('lb-slot'),cap=document.getElementById('lb-cap');
+  if(!lb)return;
+  var items=[],idx=0;
+  function markClamped(){
+    document.querySelectorAll('.ph-item.has-cap,.g-item.has-cap,.hs-item.has-cap').forEach(function(el){
+      var f=el.querySelector('figcaption'); if(!f) return;
+      el.classList.toggle('clamped', f.scrollHeight-2 > f.clientHeight);
+    });
+  }
+  window.addEventListener('load',markClamped);
+  window.addEventListener('resize',markClamped);
+  function collect(){items=[].slice.call(document.querySelectorAll('.hs-item,.ph-item,.g-item'));}
+  function render(){
+    var el=items[idx];if(!el)return;
+    var v=el.getAttribute('data-video');
+    slot.innerHTML = v ? '<iframe src="https://www.youtube.com/embed/'+v+'?autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'
+                       : '<img src="'+el.querySelector('img').getAttribute('src')+'" alt="">';
+    var f=el.querySelector('figcaption');cap.textContent=f?f.textContent.trim():'';
+  }
+  function open(i){collect();idx=i;render();lb.classList.add('open');document.body.style.overflow='hidden';}
+  function close(){lb.classList.remove('open');slot.innerHTML='';document.body.style.overflow='';}
+  function step(d){idx=(idx+d+items.length)%items.length;render();}
+  document.addEventListener('click',function(e){
+    var it=e.target.closest('.hs-item,.ph-item,.g-item');
+    if(it&&!e.target.closest('a')){collect();open(items.indexOf(it));return;}
+    if(e.target.closest('.lb-x')||e.target===lb)close();
+    if(e.target.closest('.lb-n'))step(1);
+    if(e.target.closest('.lb-p'))step(-1);
+  });
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('open'))return;
+    if(e.key==='Escape')close();
+    if(e.key==='ArrowRight')step(1);
+    if(e.key==='ArrowLeft')step(-1);
+  });
+})();
+</script>
+</body>
+</html>

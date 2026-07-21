@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peaceful Unification Advisory Council | Michelle Lee</title>
+<meta name="description" content="Michelle Lee with the Peaceful Unification Advisory Council: youth photography on division, memory, and peaceful unification, and a documentary on North Korean defector painter Ahn Chung-guk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html#story">My Story</a></li>
+      <li><a href="index.html#writing">Writing &amp; Research</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="index.html#skills">Interest &amp; Skill</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#story">&larr; My Story</a>
+    <p class="eyebrow">Jul - Aug 2024</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Peaceful Unification Advisory Council</h1>
+    <p class="meta-line"><strong>High Honors in Photography &amp; Video</strong>, Jul - Aug 2024 &middot; Seoul, Korea</p>
+  </div>
+</header>
+<div class="hero-strip">
+  <div class="wrap" style="position:relative">
+    <button class="hs-nav hs-prev" aria-label="Previous photos">&#8249;</button>
+    <div class="hs-track"><figure class="hs-item has-cap"><img loading="lazy" decoding="async" src="images/story/puac-1.jpg" alt=""><figcaption>Receiving recognition at a PUAC ceremony, Aug 2024</figcaption></figure><figure class="hs-item" data-video="sm1aYcoeTpQ"><img loading="lazy" decoding="async" src="images/tiles/yt-sm1aYcoeTpQ.jpg" alt=""><span class="hs-play"><span>&#9654;</span></span></figure></div>
+    <button class="hs-nav hs-next" aria-label="More photos">&#8250;</button>
+  </div>
+</div>
+
+
+<div class="proj-section">
+  <div class="wrap">
+    <h2>At a glance</h2>
+    <ul class="course-list" style="max-width:720px">
+      <li>Recognized in the Peaceful Unification Advisory Council Photo Contest (Aug 2024) and the National Student Smartphone Photography Contest (Jul 2024)</li>
+      <li>Photographed themes of division, memory, and peaceful unification: bridges, train tracks, riverbanks, and heritage sites rather than barbed wire and military symbols</li>
+      <li>Planned and filmed an English-language documentary on North Korean defector and contemporary artist Ahn Chung-guk, built from studio visits and his exhibition <em>LINE</em></li>
+    </ul>
+    <p style="margin-top:24px">The Peaceful Unification Advisory Council is a constitutional advisory body supporting the President of the Republic of Korea on policy for peaceful unification of the Korean Peninsula, and it runs youth programs and contests to deepen understanding of division among younger generations. I entered this space as a creator and photographer rather than a policy expert, asking what division actually looks like in ordinary landscapes, and how to picture unification without relying on slogans.</p>
+    <p>These questions carried into how I approach North Korea in later work: at the <a href="unmck.html">UN Memorial Cemetery</a>, in Hiroshima, and in my reporting for <a href="leaderstimes.html">Leaders Times</a>.</p>
+
+    <h2 style="margin-top:40px">In video</h2>
+    <div style="max-width:720px;margin-bottom:22px"><div style="position:relative;padding-bottom:56.25%;height:0"><iframe src="https://www.youtube.com/embed/sm1aYcoeTpQ" title="Documentary on North Korean defector and painter Ahn Chung-guk, planned and filmed for a wider international audience." loading="lazy" frameborder="0" allow="picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:14px"></iframe></div><p style="font-size:13.5px;color:var(--muted);margin-top:10px">Documentary on North Korean defector and painter Ahn Chung-guk, planned and filmed for a wider international audience.</p></div>
+
+    <h2 style="margin-top:40px">In photos</h2>
+    <div class="ph-grid"><figure class="ph-item has-cap"><img loading="lazy" decoding="async" src="images/story/puac-1.jpg" alt="Award ceremony at the Peaceful Unification Advisory Council"><figcaption>Receiving recognition at a PUAC ceremony, Aug 2024</figcaption></figure></div>
+        <div class="pn" style="margin-top:40px">
+      <a class="btn ghost" href="soldiers.html">&larr; Soldiers' Angels</a>
+      <a class="btn primary" href="welltain.html">Welltain &rarr;</a>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p style="letter-spacing:.14em;font-size:13px">© 2026 MICHELLE LEE</p>
+  </div>
+</footer>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-x" aria-label="Close">&times;</button>
+  <button class="lb-p" aria-label="Previous">&#8249;</button>
+  <div id="lb-slot"></div>
+  <button class="lb-n" aria-label="Next">&#8250;</button>
+  <p class="lb-cap" id="lb-cap"></p>
+</div>
+<script>
+(function(){
+  var lb=document.getElementById('lb'),slot=document.getElementById('lb-slot'),cap=document.getElementById('lb-cap');
+  if(!lb)return;
+  var items=[],idx=0;
+  function markClamped(){
+    document.querySelectorAll('.ph-item.has-cap,.g-item.has-cap,.hs-item.has-cap').forEach(function(el){
+      var f=el.querySelector('figcaption'); if(!f) return;
+      el.classList.toggle('clamped', f.scrollHeight-2 > f.clientHeight);
+    });
+  }
+  window.addEventListener('load',markClamped);
+  window.addEventListener('resize',markClamped);
+  function collect(){items=[].slice.call(document.querySelectorAll('.hs-item,.ph-item,.g-item'));}
+  function render(){
+    var el=items[idx];if(!el)return;
+    var v=el.getAttribute('data-video');
+    slot.innerHTML = v ? '<iframe src="https://www.youtube.com/embed/'+v+'?autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'
+                       : '<img src="'+el.querySelector('img').getAttribute('src')+'" alt="">';
+    var f=el.querySelector('figcaption');cap.textContent=f?f.textContent.trim():'';
+  }
+  function open(i){collect();idx=i;render();lb.classList.add('open');document.body.style.overflow='hidden';}
+  function close(){lb.classList.remove('open');slot.innerHTML='';document.body.style.overflow='';}
+  function step(d){idx=(idx+d+items.length)%items.length;render();}
+  document.addEventListener('click',function(e){
+    var it=e.target.closest('.hs-item,.ph-item,.g-item');
+    if(it&&!e.target.closest('a')){collect();open(items.indexOf(it));return;}
+    if(e.target.closest('.lb-x')||e.target===lb)close();
+    if(e.target.closest('.lb-n'))step(1);
+    if(e.target.closest('.lb-p'))step(-1);
+  });
+  document.addEventListener('keydown',function(e){
+    if(!lb.classList.contains('open'))return;
+    if(e.key==='Escape')close();
+    if(e.key==='ArrowRight')step(1);
+    if(e.key==='ArrowLeft')step(-1);
+  });
+})();
+</script>
+<script>
+(function(){
+  document.querySelectorAll('.hero-strip').forEach(function(st){
+    var t=st.querySelector('.hs-track'), p=st.querySelector('.hs-prev'), n=st.querySelector('.hs-next');
+    if(!t) return;
+    function step(){ var it=t.querySelector('.hs-item'); return it? it.offsetWidth+14 : 314; }
+    function upd(){ if(!p) return;
+      p.disabled = t.scrollLeft<=2;
+      n.disabled = t.scrollLeft >= t.scrollWidth-t.clientWidth-2;
+      var one = t.scrollWidth<=t.clientWidth+2;
+      p.style.display=n.style.display= one?'none':'flex';
+    }
+    if(p) p.addEventListener('click',function(){t.scrollBy({left:-step()*2,behavior:'smooth'});setTimeout(upd,650);});
+    if(n) n.addEventListener('click',function(){t.scrollBy({left:step()*2,behavior:'smooth'});setTimeout(upd,650);});
+    t.addEventListener('scroll',upd); window.addEventListener('resize',upd);
+    window.addEventListener('load',upd);
+    t.querySelectorAll('img').forEach(function(im){im.addEventListener('load',upd);});
+    [0,300,1200,2500].forEach(function(d){setTimeout(upd,d);});
+  });
+})();
+</script>
+</body>
+</html>
