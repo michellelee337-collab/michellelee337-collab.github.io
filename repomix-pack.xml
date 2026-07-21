@@ -1,0 +1,2256 @@
+<file_summary>
+This file is a packed representation of the michelle-website project, generated in Repomix XML style (Repomix CLI unavailable on this machine; produced by an equivalent local script).
+Generated: 2026-07-07
+Purpose: single-file context for AI tools or reviewers. Images are listed but not embedded.
+</file_summary>
+
+<directory_structure>
+1-STRATEGY.md
+10-A-PAGODA-INTEGRATION.md
+2-COPY.md
+3-CONTENT-INVENTORY.md
+4-PROJECT-PAGE-ANGELS.md
+5-PROJECT-PAGE-LUMEN.md
+6-UPDATE-STRATEGY.md
+7-PROJECT-PAGE-RESEARCH.md
+8-PROJECT-PAGE-JURIO.md
+9-RESUME-THESIS-UPDATE.md
+angels.html
+index.html
+jurio.html
+lumen.html
+pagoda.html
+research.html
+styles.css
+thesis.html
+images/angels-cetusa-meeting.jpg
+images/angels-chanra-graduation.png
+images/angels-workshop-watching.png
+images/book-amok.png
+images/book-phnom-pros-srei.png
+images/candidates
+images/favicon.svg
+images/lumen-library-children.png
+images/lumen-national-library-donation.jpg
+images/lumen-nlc-thankyou-letter.png
+images/lumen-reading-session.jpg
+images/lumen-team-library-desk.jpg
+images/lumen-youth-workshop.png
+images/michelle-portrait.png
+images/og-image.png
+</directory_structure>
+
+<files>
+<file path="1-STRATEGY.md">
+# Michelle Lee / Minjung Lee — Personal Website Strategy
+
+Prepared July 2026. Companion files: `2-COPY.md` (all draft copy) and `index.html` (working coded draft).
+
+---
+
+## 1. Reference site analysis
+
+### A. alexjongholee.com
+
+**Structure observed:**
+- Single long-scroll page. Nav: Home · About · Projects · Writing · Contact
+- Hero: name + identity line ("Seoul National University · Journalist · Social Entrepreneur") + personal quote ("I build bridges between languages, cultures, and communities…")
+- Statistics banner: 2,500+ books donated · 3 libraries built · 4 languages · 6+ years of service · 2 research papers
+- About: "Student, writer, and builder" framing; language proficiencies listed
+- Three featured project cards (Lumen, Angels for the Journey, Jurio), each with role, date range, location, description, bulleted achievements
+- Chronological timeline 2019 → 2026
+- Community & journalism roles (MediaWatchTV, LeadersTimes, AsianHub, Mission Center for Migrants)
+- Writing & research: two papers with journal names and volume numbers
+- Skills grouped by category; contact with plain email
+
+**What works (adapt for Michelle):**
+1. **One-sentence identity + quote in the hero** — a reader knows who he is in 5 seconds.
+2. **Metrics banner** — concrete numbers create instant credibility. Only works because the numbers are specific and plausible.
+3. **Project cards with role / dates / location / bulleted outcomes** — reads like evidence, not description.
+4. **Timeline** — turns a list of activities into a narrative of development. This is exactly what admissions readers look for.
+5. **Specific citations** in Writing & Research (journal, volume, issue) — verifiable = credible.
+6. **Photography from the field** integrated into sections, not a separate gallery.
+
+**Weaknesses (avoid):**
+1. Identity line leads with a university name — fine for a student, wrong for Michelle, who is post-BA with professional experience.
+2. "Social entrepreneur / builder / CEO & Founder" language skews startup-flavored; it would ring false for Michelle's educator-writer-advocate identity.
+3. Skills section mixes JavaScript/Pandas with cultural mediation — grab-bag feel.
+4. No teaching or pedagogy dimension at all — that's Michelle's differentiator.
+
+**⚠️ The critical strategic issue — shared projects.**
+Alex's site claims Lumen ("CEO & Founder"), Angels for the Journey ("Co-founder"), AsianHub, and LeadersTimes — the same organizations in Michelle's history. If both sites present identical org-level achievements ("3 libraries built," "186 students supported"), a reader who encounters both (admissions offices do search) will see duplication and discount both. **Michelle's site must therefore describe her specific, personal contributions** — what *she* wrote, translated, taught, edited, organized — and may cite org-level outcomes only with attribution ("as part of a team…"). This is not just honest; it's what makes her site stronger than a copy.
+
+### B. michellelee337.myportfolio.com (current site)
+
+**Content found:**
+- Nav: Welcome · About Michelle · My Journey · Leaders Times · Writing & Research · Contact · YouTube
+- Welcome: "student, educator, and storyteller"; core questions "Who gets to learn? Who is remembered? Whose stories are heard?"; theme of law, policy, language, translation, and historical memory
+- About: B.A. International Studies (concentration in **International Law and Diplomacy**), Ewha; **pursuing LL.B. at Korea Cyber University**; thematic timeline (2018 languages & exchange → 2021 educational empowerment → 2023 publishing & journalism → 2024 law, policy & memory)
+- Journey covers: Angels for the Journey, Lumen, ISC Global, Mission Migrant Center, UN Memorial / Soldiers' Angels, Hiroshima Peace Memorial, AsianHub, Peaceful Unification Advisory Council, MEDIAWATCH
+- Writing topic: "The Second Great Game"
+
+**What is genuinely good (keep):**
+- The three questions — *"Who gets to learn? Who is remembered? Whose stories are heard?"* — are the single best asset on either site. Distinctive, sincere, and they unify education + memory + justice. They should anchor the new hero.
+- The thematic framing of the timeline (era titles like "Law, Policy & Memory") — smarter than Alex's plain years.
+- The insight "how laws and policies look from the perspective of the people they are written about" — this is a law-school-essay-grade sentence. Feature it.
+- Real, current facts (LL.B., law & diplomacy concentration) that strengthen the law narrative.
+
+**What feels outdated / weak (fix):**
+- Adobe Portfolio template look: text-heavy, placeholder graphics, no photos, no visual hierarchy. It reads as a *document*, not a professional presence.
+- No proof layer: no metrics, no article links, no PDFs, no images of the work.
+- "Student" self-description undersells a working educator with a completed B.A.
+- Project pages are organization descriptions, not "here is what I did" cards with roles and dates.
+- A YouTube nav link with unclear purpose; "Leaders Times" as a top-level nav item gives one activity outsized weight.
+- No teaching section at all, despite teaching being her deepest experience.
+- No clear contact call-to-action; no downloadable CV.
+- It feels like a scrapbook of affiliations rather than one person's coherent story.
+
+---
+
+## 2. Brand positioning recommendation
+
+**Position Michelle as:** *an educator, writer, and translator whose decade of work in classrooms, migrant communities, and multilingual publishing is now leading her into public-interest law.*
+
+Three pillars, one thread:
+1. **Education** — teaching (English, social studies, writing, debate, AP), curriculum, Lumen's books and libraries, Angels for the Journey.
+2. **Language access** — AsianHub translation for multicultural families, MEDIAWATCH translation, bilingual publishing, cross-cultural coordination (ISC Global).
+3. **Justice & memory** — LeadersTimes journalism on historical memory, labor/migrant-rights interests, LL.B. study, U.S. JD direction.
+
+**The thread:** access — to learning, to language, to the law, to being remembered. Every project is her removing a barrier between a person and something they're entitled to.
+
+**Identity line (recommended):**
+> **Educator · Writer · Translator — working toward public-interest law**
+
+Runner-up (warmer, for the hero sub-line rather than the title):
+> *Working at the intersection of education, language access, and justice — across borders.*
+
+Avoid "future legal advocate" as a headline — it frames her by what she isn't yet. The LL.B. and JD direction belong in the story, not the title.
+
+**Mission line for hero (keep hers):**
+> *Who gets to learn? Who is remembered? Whose stories are heard?*
+
+**Differentiation from Alex's site:** Michelle = the educator/writer/interpreter of the shared work (pedagogy, editorial, translation, care), moving toward law. Not "founder/builder/CEO." Different verbs: *taught, translated, edited, wrote, organized, coordinated* — not *built, launched, founded* (except where "co-founded" is literally true).
+
+---
+
+## 3. Sitemap
+
+One long-scrolling homepage (like Alex's — right call for this stage), plus two optional subpages later.
+
+```
+/                      Home (long scroll)
+ ├─ #home              Hero
+ ├─ #impact            Impact at a glance (stats)
+ ├─ #about             About Michelle
+ ├─ #projects          Featured Projects (6 cards + 2 conditional)
+ ├─ #writing           Writing & Research
+ ├─ #teaching          Teaching & Education
+ ├─ #law               Toward Public-Interest Law
+ ├─ #journey           Journey (timeline)
+ ├─ #skills            Skills & Languages
+ └─ #contact           Contact
+/writing/<slug>        (Phase 2, optional) individual article/translation pages
+/cv                    (Phase 2, optional) printable CV page or PDF link
+```
+
+**Navigation labels (keep to 6):** About · Projects · Writing · Teaching · Journey · Contact
+(Stats, Law direction, and Skills are passed through by scrolling; they don't need nav slots.)
+
+---
+
+## 4. Homepage wireframe (section by section)
+
+1. **Sticky nav** — "Michelle Lee" wordmark left; 6 links right; hamburger on mobile.
+2. **Hero** — full-width, warm ivory background. Left: eyebrow ("Michelle Lee · 이민정 Minjung Lee"), H1 identity line, the three questions as an italic mission line, one-sentence intro, three buttons (View Projects / Read Writing / Contact Michelle). Right: professional or warm fieldwork photo, soft-radius mask. Mobile: photo above text, buttons full-width.
+3. **Impact strip** — 5 stats on one band, big serif numerals. All numbers verified or visibly placeholdered.
+4. **About** — two columns: 4-paragraph bio left; facts card right (education, languages, based in, focus areas, CV download).
+5. **Featured Projects** — responsive card grid (3 → 2 → 1 columns). Each card: image, category tag, title, role · dates · location, 2–4 sentence description, "My contributions" bullets, impact line, optional link.
+6. **Writing & Research** — list rows (not cards): title, publication/venue, date, one-line description, link/PDF chip.
+7. **Teaching & Education** — split: philosophy paragraph + subjects/age-groups/formats grid; one testimonial slot.
+8. **Toward Public-Interest Law** — narrow prose section, visually quieter (darker band), 3 short paragraphs. No bullets — this is the essay moment.
+9. **Journey** — vertical timeline, thematic era headers + year markers, alternating on desktop, single rail on mobile.
+10. **Skills & Languages** — 6 category cards with short tag lists; languages with honest proficiency levels.
+11. **Contact** — centered invitation, email button, optional LinkedIn, note on languages ("English / 한국어 welcome").
+12. **Footer** — name, one-line identity, nav repeat, © year.
+
+---
+
+## 5. Visual design direction
+
+- **Feel:** academic warmth — personal academic site × nonprofit portfolio × writer's page. Serious, but human.
+- **Palette:** warm ivory background `#FAF6EF`; ink `#26221C`; muted `#6E6459`; primary accent deep pine `#1E5C4B` (credible, calm, not corporate blue); secondary accent terracotta `#C1683C` used sparingly (tags, timeline dots).
+- **Type:** Fraunces (serif) for display/headings — literary and warm; Inter for body/UI. Generous line-height (1.7 body).
+- **Imagery:** real photographs only — classrooms, libraries, book pages, fieldwork. No stock. Consistent warm grade. If a project has no photo, use a typographic tile in palette colors rather than a random image.
+- **Layout:** max content width ~1100px; large section spacing (96–128px); cards with 1px warm borders + soft shadow on hover; no parallax, no animation heavier than a fade-up.
+- **Accessibility:** all text ≥ 4.5:1 contrast; visible focus rings; semantic headings; alt text on every image.
+
+**Mobile:** single column throughout; hero photo above name; stats 2×2 grid + 1; timeline collapses to left rail; nav collapses to hamburger; buttons full-width with 48px tap targets; base font 17px.
+
+---
+
+## 6. Platform recommendation
+
+**Recommended: Framer** — best balance for this site: modern templates, real typography control, fast hosting, easy CMS for adding articles later, ~$10/mo, and you can paste structure from the coded draft. Squarespace is the fallback if you want the least maintenance. Webflow is overkill; Wix skews decorative; WordPress adds upkeep burden.
+
+**Also viable: the custom-coded site in this folder** (`index.html`) — zero cost on GitHub Pages/Netlify, total control, already built. Downside: edits require editing HTML. Honest recommendation: use `index.html` now (it's ready once content is filled in), migrate to Framer only if Michelle wants to self-edit frequently.
+
+**Domain:** buy `michelleminjunglee.com` or `minjunglee.com` (check availability) — a real domain matters for the audiences listed. Keep "michellelee.com"-style consistency with how she signs her writing.
+
+---
+
+## 7. SEO
+
+- **Title:** `Michelle Lee (Minjung Lee) — Educator, Writer & Translator | Education, Language Access & Public-Interest Law`
+- **Meta description:** `Michelle Lee (Minjung Lee) is an educator, writer, and translator working across Korea and Southeast Asia — multilingual children's books, migrant-community translation, journalism on historical memory, and a path toward public-interest law.`
+- H1 = the identity line; her full names (English + Korean) appear in visible text; Open Graph image = hero photo; `og:` and `twitter:` tags included in the draft.
+
+---
+
+## 8. What to remove or rewrite from the old site
+
+| Old | Action |
+|---|---|
+| "Student, educator, and storyteller" | Rewrite → "Educator, writer, and translator" (post-BA professional) |
+| The three questions | **Keep verbatim** — promote to hero |
+| "…perspective of the people they are written about" line | **Keep** — anchor of the Law section |
+| Thematic timeline eras | Keep concept; add specifics, dates, verbs |
+| Organization-description project pages | Rewrite as role-first cards with personal contributions |
+| "Leaders Times" as top-level nav | Remove; fold into Writing section |
+| YouTube nav link | Remove unless it hosts specific project videos — then link from those cards |
+| Placeholder graphics / no photos | Remove; replace with real photography or typographic tiles |
+| "The Second Great Game" | Keep only with full citation + link/PDF; otherwise hold for Phase 2 |
+| Peaceful Unification Advisory Council, Hiroshima, UN Memorial items | Consolidate — these become timeline entries and one "Community & Memory" card, not separate pages |
+
+---
+
+## 9. Implementation plan
+
+**Phase 1 — Content (Michelle, ~1 week):** answer the checklist in `2-COPY.md` §Checklist; gather 8–12 photos; collect article links/PDFs; confirm which numbers are real.
+**Phase 2 — Fill (1–2 days):** replace every `[bracketed placeholder]` in `index.html` / copy doc; drop in images; delete conditional sections that don't apply (e.g., Jurio card if not involved).
+**Phase 3 — Publish (half day):** buy domain; deploy `index.html` to Netlify or GitHub Pages (or rebuild in Framer from this structure); connect domain; test on phone.
+**Phase 4 — Verify:** contrast check, mobile check, every link clicked, someone who doesn't know Michelle reads it and answers "who is she?" in one sentence.
+**Phase 5 — Ongoing:** add each new article/translation to Writing within a week of publication; update stats twice a year; add testimonials as they arrive.
+
+</file>
+
+<file path="10-A-PAGODA-INTEGRATION.md">
+# "A Pagoda" — Site-Wide Integration
+
+July 2026. Source: the published essay (teachersandwritersmagazine.org/a-pagoda/, April 15, 2026; 2026 Bechtel Prize honorable mention).
+
+**Why this essay is the keystone:** it is the only public document where Michelle's philosophy is in her own published voice — and it converts the site's biggest vulnerability ("is this just volunteering and English teaching?") into its biggest strength ("this is a coherent, articulated pedagogy"). The essay's classroom arc (feelings → identity → letters to mothers → bilingual folktale transcription) is literally the Lumen publication pipeline in embryonic form.
+
+---
+
+## 1. Where it now lives on the site (implemented)
+
+| Location | Treatment |
+|---|---|
+| Homepage · Research & Writing | Top-tier row with Bechtel badge, dated April 2026, links to `pagoda.html` + the magazine |
+| `pagoda.html` (new) | Full publication page: context, classroom arc, themes, philosophy, Lumen connection, pull quote, read link |
+| Homepage · Teaching section | Philosophy rewritten from the essay under sub-heading "Teaching Through Story"; pull-quote added |
+| Homepage · About | Upgraded sentence tying the essay to her whole approach |
+| At-a-glance card · Recognition | Already lists the Bechtel honorable mention (kept — not repeated elsewhere as a separate awards section, per "avoid repetitive") |
+| `lumen.html` | New "The philosophy" paragraph connecting the essay to Lumen's model |
+
+**Recognition placement decision (as recommended):** in *Selected Writing* (the row) and in the *Recognition* line of the At-a-glance card — not a separate Awards section, which would feel padded with one entry. If more awards accumulate (photography contests, LeadersTimes certificate), a dedicated Awards & Recognition block becomes worth it — ask Michelle.
+
+## 2. Publication entry (full, as implemented on pagoda.html)
+
+**"A Pagoda"** — *Teachers & Writers Magazine* (New York), April 15, 2026 · **2026 Bechtel Prize honorable mention**
+
+A reflective essay on teaching creative writing in Cambodia. In a crowded classroom that loses power mid-lesson — with mothers and grandmothers sitting in — Michelle builds a writing course from the inside out: a read-aloud of *The Grand Hotel of Feelings*, a feelings-and-needs inventory to give students emotional vocabulary, identity trees branching from "I am," letters to their mothers in vivid sensory language, and finally the transcription of Cambodian folktales in both Khmer and English. The essay's argument is its method: students don't need to borrow stories from elsewhere to become writers — they need a classroom that treats their emotions, families, languages, and cultural memories as literary material, and a teacher who listens first.
+
+**Key themes:** multilingual literacy · Khmer–English learning · emotional vocabulary · identity writing · oral tradition · narrative pedagogy · student voice · community-based education
+
+**Why it matters in her body of work:** it is the philosophy underneath everything else — the reason Lumen publishes folktales children already know, the reason her translation work treats language as a bridge, and the reason her legal direction centers on making systems legible. One essay, one classroom, and the whole through-line of the site becomes visible.
+
+## 3. Teaching philosophy (final copy — implemented)
+
+> Michelle's teaching begins with listening. The creative-writing classroom she describes in "A Pagoda" — her Bechtel Prize–recognized essay for *Teachers & Writers Magazine* — starts not with grammar but with a feelings-and-needs vocabulary, identity trees, and letters to mothers, because students must first believe they have a voice worth writing with. English, in her classroom, does not replace Khmer; it works as a bridge, another tool for naming emotions, preserving memory, and telling stories rooted in family and community. Writing is treated as construction — word by word, like stones fitted into a pagoda — and the classroom as a safe place to build: for students whose lives are otherwise unstable, the page is one space they wholly decide for themselves.
+
+## 4. Lumen connection (final copy — implemented on lumen.html)
+
+> The classroom described in "A Pagoda" is the philosophy behind Lumen in miniature. Michelle's students moved from naming feelings to writing letters to their mothers to transcribing Cambodian folktales in Khmer and English — and Lumen industrialized exactly that arc: children do not need to borrow stories from elsewhere to become readers and writers, because their families, villages, languages, and memories are already full of literary material. Publication, in this model, is not a product; it is dignity — a child's own culture, bound and shelved where they can reach it.
+
+## 5. About-page sentence (final copy — implemented)
+
+> Her essay "A Pagoda" — a 2026 Bechtel Prize honorable mention in *Teachers & Writers Magazine* — sets out the approach that runs through all of it: education begins with listening, language works best as a bridge rather than a replacement, and students' own families, memories, and cultures are the rightful foundation of their writing.
+
+## 6. Pull quotes — ⚠️ verification required
+
+The two used on-site (flagged with `.ph` until checked against the published text — do **not** publish unverified quotations):
+
+1. *"English would not replace Khmer. This lingua franca would become a bridge."*
+2. *"Each chosen word was another stone, fitted with greater care."* (the pagoda metaphor)
+
+Rules applied: max two short quotes, attributed, each adjacent to a link to the original — well within fair-use and ethical norms. Longer excerpting avoided deliberately.
+
+## 7. Section titles (decision)
+
+Chosen: **"Research & Writing"** (nav/section — already established), **"Teaching Through Story"** (teaching-philosophy sub-heading), **"Featured Publication"** (pagoda page eyebrow). Runners-up if Michelle prefers warmer: "Writing as a Bridge" (good essay-page alternative), "Where Language Becomes Home" (lovely but too lyrical for a law-school audience as a *section* title; fine as a photo caption or essay-page pull-line).
+
+## 8. Visuals for the essay/teaching sections
+
+Have now: `lumen-reading-session.jpg` (used on pagoda page — children with books, wide shot), Lumen book covers. **Ask Michelle for:** a photo of student worksheets/identity trees/notebooks (no faces needed — ideal), a classroom writing shot (wide, faces incidental), any photo of her teaching or reading aloud. Avoid: close-ups of individual children writing (privacy), anything staged-looking. A photographed identity-tree worksheet would be the single best image for this content.
+
+## 9. SEO (implemented on pagoda.html)
+
+- Title: `“A Pagoda” — Michelle Lee | Teachers & Writers Magazine · 2026 Bechtel Prize Honorable Mention`
+- Meta description: `Minjung (Michelle) Lee's published essay “A Pagoda” (Teachers & Writers Magazine, 2026 Bechtel Prize honorable mention) — on teaching creative writing in Cambodia through feelings, identity, Khmer–English storytelling, and student voice.`
+
+## 10. Remaining asks for Michelle
+
+1. Verify the two pull quotes verbatim against the published essay (or send preferred alternatives).
+2. Student names appear in the published essay (Poei, Srey, Davit, et al.) — they stay OFF the personal site; confirm.
+3. A worksheet/identity-tree photo or classroom writing photo for the teaching + pagoda pages.
+4. Should a future Awards & Recognition block collect Bechtel + photography contests + LeadersTimes certificate, or keep recognition inline as now?
+
+</file>
+
+<file path="2-COPY.md">
+# Michelle Lee — Draft Website Copy
+
+All `[bracketed text]` is a placeholder that must be confirmed or filled before publishing. Nothing in brackets is a fact.
+Verified sources: Michelle's current portfolio site (July 2026) and the brief provided. **No numbers, dates, or outcomes have been invented.**
+
+---
+
+## HERO
+
+**Eyebrow:** Michelle Lee · 이민정 Minjung Lee
+
+**H1:** Educator · Writer · Translator
+**H1 second line:** working toward public-interest law
+
+**Mission line (italic):**
+*Who gets to learn? Who is remembered? Whose stories are heard?*
+
+**Intro sentence:**
+I teach, write, and translate across Korea and Southeast Asia — helping children find books in their own languages, migrant families find words for their rights, and overlooked histories find readers.
+
+**Buttons:** View Projects → `#projects` · Read Writing → `#writing` · Contact Michelle → `#contact`
+
+---
+
+## IMPACT AT A GLANCE
+
+> Rule: publish only what can be defended in an interview. Until confirmed, the site shows the placeholder styling.
+
+- **[X]+** years teaching *(count from first paid/regular teaching year)*
+- **[X]** countries connected through education & service *(candidates: South Korea, Philippines, Cambodia, Laos, U.K., U.S. — count only ones with real work)*
+- **[X]+** students taught & supported *(estimate conservatively; can say "100+" style floor)*
+- **[X]** community projects & organizations served *(AFJ, Lumen, AsianHub, LeadersTimes, MEDIAWATCH, ISC Global, UN Memorial/Soldiers' Angels = up to 7)*
+- **2** languages of daily work — Korean & English *(verified; add others only if real)*
+- **[X]** articles, translations & publications *(count LeadersTimes pieces + MEDIAWATCH translations + Lumen books)*
+
+---
+
+## ABOUT MICHELLE (full bio — also serves as About page copy)
+
+Michelle Lee (Minjung Lee) is an educator, writer, and translator whose work begins with a simple conviction: access is everything — access to learning, to language, and to the law.
+
+She grew up moving between languages and countries, and that early experience of translation — of carrying meaning across a border — became the through-line of her work. She holds a B.A. in International Studies with a concentration in International Law and Diplomacy from Ewha Womans University, including an exchange term at the University of Exeter in autumn 2023, and is currently pursuing an LL.B. at Korea Cyber University as she prepares for U.S. law school.
+
+In the classroom, Michelle has taught English, social studies, reading, writing, debate, and AP subjects to students across age groups, in person and online, in Korean and English. [Placeholder: one sentence naming where she has taught — school/academy/program names and years.] Teaching showed her how unevenly opportunity is distributed — and pushed her work beyond the classroom. In 2021 she co-founded Angels for the Journey, a youth-led initiative providing long-term tuition and educational assistance to vulnerable children and families in the Philippines, Cambodia, and Laos. In 2025 she co-founded Lumen Education in Cambodia, where she [placeholder: her specific Lumen role — e.g., edits/writes/translates the books, designs reading curriculum, coordinates library partnerships] for multilingual children's books and community libraries.
+
+Alongside education, language access anchors her service. Since 2018 she has volunteered as a community translator with AsianHub, working with immigrants and multicultural families in Korea, and she has supported international students as an exchange coordinator with ISC Global. As a youth journalist and later intern at LeadersTimes, and as a translator of political and constitutional reporting for MEDIAWATCH, she has written and translated stories about historical memory — from war remembrance to press freedom — guided by a question she keeps returning to: how do laws and policies look from the perspective of the people they are written about?
+
+That question is now taking her toward public-interest law, with a focus on labor rights, migrant communities, children, and language access. Wherever the work leads, its shape stays the same: standing between a person and a barrier, and translating.
+
+**Facts card (sidebar):**
+- **Education:** B.A. International Studies (Int'l Law & Diplomacy), Ewha Womans University · Exchange, University of Exeter (Autumn 2023) · LL.B. candidate, Korea Cyber University
+- **Languages:** Korean (native), English (fluent), [others?]
+- **Based in:** [Seoul, South Korea?]
+- **Focus:** education access · language access · migrant & labor rights · children & youth · historical memory
+- **[CV — download PDF]**
+
+---
+
+## FEATURED PROJECT CARDS
+
+> Every card leads with *Michelle's* role and contributions — never org-level claims without attribution (see Strategy §2 re: overlap with alexjongholee.com).
+
+### 1. Lumen Education
+**Role:** Co-founder · [specific title — e.g., Editorial & Curriculum Lead?] | **Dates:** 2025 – present | **Location:** Cambodia
+Lumen Education creates multilingual children's books and community libraries for children in underserved Cambodian communities. Michelle co-founded the program and [placeholder: her contribution — wrote/edited/translated X books? designed reading materials? coordinated with schools/libraries?].
+**My contributions:** [• …] [• …] [• …]
+**Impact:** [e.g., "co-produced X illustrated books; supported X library openings" — team-attributed]
+**Evidence to add:** book cover images, library photos, a spread from a book, press/link.
+
+### 2. Angels for the Journey
+**Role:** Co-founder | **Dates:** 2021 – present | **Location:** Philippines · Cambodia · Laos
+A youth-led initiative providing long-term tuition assistance, school supplies, and educational support to vulnerable children and families in Southeast Asia. Michelle co-founded the organization and [placeholder: her lane — fundraising? student correspondence/pen pals? tutoring? communications?].
+**My contributions:** [• …] [• …] [• …]
+**Impact:** [team-attributed figure if confirmed, e.g., "as part of a team that has supported X students"]
+**Evidence to add:** field photos, a student story (with permission), donation/receipt trail if public.
+
+### 3. Teaching — [Program/Academy name(s)]
+**Role:** [Teacher / Instructor] | **Dates:** [YYYY] – present | **Location:** [Seoul / online]
+Michelle has taught English, social studies, reading, writing, debate, and AP subjects to [age groups], in person and online, including cross-cultural and international-education contexts. [Placeholder: 1–2 sentences on a signature course or curriculum she designed.]
+**My contributions:** [• curriculum designed] [• notable student outcomes] [• …]
+**Evidence to add:** anonymized student work, a parent/student testimonial, syllabus excerpt.
+
+### 4. AsianHub — Community Translation
+**Role:** Volunteer Translator | **Dates:** 2018 – present | **Location:** South Korea
+Community translation and interpretation supporting immigrants, migrant women, and multicultural families in Korea. Michelle has [placeholder: translated documents? interpreted at programs? recorded/translated folktale materials? supported summer programs?].
+**My contributions:** [• …] [• …]
+**Evidence to add:** program photos, organization link, scope note (how many documents/sessions).
+
+### 5. LeadersTimes — Journalism
+**Role:** Youth Journalist → Intern | **Dates:** 2023 – present | **Location:** South Korea
+Reporting and writing on international issues and historical memory for Korean readers — [placeholder: her actual beats/pieces, e.g., war remembrance, UN Memorial Cemetery, Hiroshima coverage].
+**My contributions:** [• X articles published] [• …]
+**Evidence to add:** 3–5 article links with dates (these also populate the Writing section).
+
+### 6. MEDIAWATCH — Political & Legal Translation
+**Role:** Translator [/ Intern?] | **Dates:** 2024 – [present?] | **Location:** South Korea
+English translation of Korean political reporting on constitutional and press-freedom issues, making accountability journalism legible across the language line.
+**My contributions:** [• X articles/videos translated] [• …]
+**Evidence to add:** links to published translations.
+
+### 7. (CONDITIONAL) Jurio — Labor-Rights Access App
+Include **only if Michelle has a real role.** If yes:
+**Role:** [Content/translation/legal-research lead?] | **Dates:** [2026 – present] | **Location:** South Korea
+A bilingual Korean/English web app giving migrant workers accessible information about their labor rights. Michelle [placeholder: wrote/translated the rights content? researched statutes? designed the glossary?].
+> Note: Jurio is featured on alexjongholee.com as his project — Michelle's card must state her distinct contribution.
+
+### 8. (CONDITIONAL) Community & Memory
+A consolidated card for: Mission Migrant Center volunteering, UN Memorial Cemetery / Soldiers' Angels, Hiroshima Peace Memorial work, Peaceful Unification Advisory Council — **only** the ones where Michelle personally served, each as one bullet with her action verb.
+
+---
+
+## WRITING & RESEARCH (list rows)
+
+| Title | Venue | Date | Note |
+|---|---|---|---|
+| [Article title] | LeadersTimes | [date] | [one line] + link |
+| [Article title] | LeadersTimes | [date] | [one line] + link |
+| "The Second Great Game" | [class/journal/self?] | [date] | [needs citation + PDF/link, else hold] |
+| [Translation title] | MEDIAWATCH | [date] | EN translation of [topic] + link |
+| [Lumen book title] | Lumen Education | [2025?] | [her editorial/translation credit] |
+
+Section intro line: *Selected articles, translations, and research — on historical memory, migration, education, and the people policy forgets.*
+
+---
+
+## TEACHING & EDUCATION
+
+**Intro / philosophy (draft):**
+Michelle's teaching starts from the same place as her service: no student should be locked out of an idea because of the language it arrives in. Her classrooms — in person and online, in English and Korean — treat reading, writing, and debate as tools students use on their own lives, not subjects to survive. [Placeholder: 1–2 sentences in Michelle's own words about her philosophy — this section should sound most like her.]
+
+**Grid:**
+- **Subjects:** English · Social Studies · Reading & Writing · Debate · AP [which APs?] · [SAT? TOEFL?]
+- **Learners:** [elementary? middle? high school? adult?] · multicultural and international students
+- **Formats:** in-person · online · [1:1 / small group / classroom]
+- **Curriculum:** [courses or materials she designed]
+- **Cross-cultural:** Korean/English bilingual instruction · international-exchange student support (ISC Global)
+
+**Testimonial slot:** [1–2 short quotes from a student, parent, or colleague — with permission]
+
+---
+
+## TOWARD PUBLIC-INTEREST LAW (narrow prose section)
+
+Years of teaching, translating, and community work keep leading Michelle to the same observation: the people most affected by laws are often the last to be able to read them. A migrant worker's contract, a multicultural family's school paperwork, a child's route to a classroom — each is governed by rules written in a language, and a register, its subjects were never given.
+
+Her concentration in International Law and Diplomacy at Ewha, her current LL.B. study, and her translation of constitutional reporting have turned that observation into a direction: public-interest law, with particular attention to labor rights, migrant communities, children, and language access.
+
+She approaches law the way she approaches translation — with the belief that meaning belongs to the people it's about. *How do laws and policies look from the perspective of the people they are written about?* That is the question her legal education is built around, and the one she hopes to spend a career answering.
+
+---
+
+## JOURNEY / TIMELINE
+
+> Era titles kept from her current site; verify every year before publishing.
+
+**Languages & Exchange — 2018**
+Began community translation with AsianHub, supporting immigrants and multicultural families; served as an international student exchange coordinator with ISC Global (J-1/F-1 students).
+
+**[Year] — Ewha Womans University**
+Began B.A. in International Studies, concentration in International Law and Diplomacy. [start year?]
+
+**Educational Empowerment — 2021**
+Co-founded Angels for the Journey, providing long-term tuition and educational assistance to children in the Philippines, Cambodia, and Laos.
+
+**Abroad — Autumn 2023**
+Exchange term at the University of Exeter, U.K. [what she studied/took away — one clause]
+
+**Publishing & Journalism — 2023**
+Joined LeadersTimes as a youth journalist, later intern, covering international issues and historical memory.
+
+**Law, Policy & Memory — 2024**
+Began translating political and constitutional reporting at MEDIAWATCH; organized migrant-centered and remembrance events with [UN Memorial Cemetery / Soldiers' Angels — verify her exact role].
+
+**Lumen — 2025**
+Co-founded Lumen Education in Cambodia: multilingual children's books and community libraries. Graduated from Ewha [year?]; began LL.B. at Korea Cyber University [year?].
+
+**Toward the JD — 2026**
+Preparing for U.S. law school with a public-interest focus. [LSAT year / application cycle if she wants it public — probably not.]
+
+---
+
+## SKILLS & LANGUAGES
+
+- **Education & Teaching:** curriculum design · English & social studies instruction · debate coaching · AP instruction · online & in-person teaching · multicultural classrooms
+- **Writing & Journalism:** feature writing · reporting · editing · [interviewing]
+- **Translation & Language:** Korean ↔ English translation · community interpreting · children's-book translation/editing · [subtitling?]
+- **Research:** international law & diplomacy · [labor-rights research] · historical-memory research
+- **Community & NGO:** program coordination · volunteer organizing · fundraising [if true] · partner communication across cultures
+- **Legal / Public Interest (interests):** labor rights · migrant communities · children's rights · language access · human rights
+
+**Languages:** Korean — native · English — fluent · [others, honestly leveled]
+
+---
+
+## CONTACT
+
+**Heading:** Let's work together.
+**Body:** I'm glad to hear about collaborations in education, writing and journalism, translation, public-interest and nonprofit initiatives, or fellowship and law-related opportunities. Messages welcome in English or Korean — 한국어로 연락 주셔도 좋습니다.
+**Button:** Email Michelle → [confirm public email: michellelee337@gmail.com, or a new professional address?]
+**Optional links:** [LinkedIn?] [publication page?] — only what Michelle wants public.
+
+---
+---
+
+# ✅ CHECKLIST — what Michelle must provide before publishing
+
+**Identity & basics**
+1. Preferred public name order: "Michelle Lee (Minjung Lee)"? Include 이민정 in Korean?
+2. Public email — Gmail, or create a domain address? LinkedIn or other links to show?
+3. Based-in city to display (or omit)?
+
+**Numbers (only what's defensible)**
+4. First year of regular teaching → "X+ years teaching"
+5. Rough count of students taught (a floor like "200+" is fine)
+6. Count of published LeadersTimes articles + MEDIAWATCH translations + Lumen books
+7. Which countries count as real work (not travel)?
+
+**Roles & contributions (the shared-project question — most important)**
+8. Lumen: her exact title and what *she* does (editing? translation? curriculum? partnerships?)
+9. Angels for the Journey: her specific lane and 2–3 concrete things she did
+10. AsianHub: what the translation work actually consists of (documents? interpreting? programs?)
+11. Is she involved in **Jurio**? If yes — exact role. If no — the card gets deleted.
+12. UN Memorial / Soldiers' Angels / Hiroshima / Mission Migrant Center / Unification Council: which were *her* service, with her action in one sentence each?
+
+**Teaching**
+13. Where has she taught (names of academies/programs/schools, or how to describe them if they can't be named) + years?
+14. Which AP subjects? SAT/TOEFL too? Age groups? 1:1 vs classroom?
+15. Two sentences of teaching philosophy in her own words.
+16. Any testimonial she can get permission to use?
+
+**Writing**
+17. Links (or PDFs) to 3–5 best articles/translations with dates.
+18. "The Second Great Game" — what is it, where does it live, is there a citable version?
+
+**Timeline dates**
+19. Ewha start & graduation years; LL.B. start year; teaching start year; MEDIAWATCH end date if ended.
+
+**Images (8–12 needed)**
+20. One professional or warm portrait (hero — most important single asset)
+21. Field photos: Cambodia libraries/books, AFJ, classroom (faces of minors need permission/blurring)
+22. Book covers or interior spreads from Lumen publications
+23. Any photo of her teaching, presenting, or at community events
+
+**Decisions**
+24. Keep or drop the YouTube link — what's on it?
+25. Domain name choice (michelleminjunglee.com / minjunglee.com / other)
+26. Platform: publish the coded site as-is (free, fastest) or rebuild in Framer (self-editable)?
+
+</file>
+
+<file path="3-CONTENT-INVENTORY.md">
+# Content Inventory — Angels for the Journey & Lumen Education
+
+Curated July 2026 from angels-journey.squarespace.com and lumen-education.squarespace.com (content owned by Michelle's team — no copyright issues). Downloaded photo selects are in `images/`; all inspected candidates (including rejected ones) in `images/candidates/`.
+
+**Verified facts recovered in this pass:**
+- Michelle is **Director** of Angels for the Journey and **Co-founder & Director** of Lumen Education (named on both org sites; core team: Minjung Lee, Alex Lee, directors; Sangkyung Kim, former co-founder).
+- AFJ: founded **2021**; Philippines (Cavite), Cambodia, Laos; **187 student supports as of July 1, 2026**; Zoom academic support (incl. 1:1) and cultural-exchange workshops; documented, coordinator-verified delivery.
+- AFJ outcome: **Chanra Hun** (Kok Trach Village, Siem Reap) admitted to **Reed College, Class of 2030, with the Continental Scholarship** (letter dated Dec 15, 2025); CETUSA meeting (Exec. Dir. Kimberly Carter) re: J-1 scholarships, Feb 29, 2024.
+- Lumen: co-established by **Minjung (Michelle) Lee and Alex Lee**, Phnom Penh; books in **Khmer/English/Korean**; titles **Amok** and **Phnom Pros and Phnom Srei** ($10); **3 children's libraries in Siem Reap** (as of May 2026, with AFJ); **205 books donated to the National Library of Cambodia** (official thank-you letter, Director Hoin Channara); free Korean language & culture Zoom classes with the National Library; partners: National Library of Cambodia, Royal University of Phnom Penh, Sipar, Women's Resource Center, Hesed School, Tent of David; Cambodian youth co-authors (Mey Yean, Kun Thea, Villay, Sreynoch, Thaily, Rota).
+- **Michelle's essay "A Pagoda," Teachers & Writers Magazine (NY) — 2026 Bechtel Prize honorable mention.** Her published bio there: "Educator, writer, and translator… Co-founder of Angels for the Journey… currently based in Cambodia leading the Lumen Education Program."
+
+---
+
+## Inventory — Angels for the Journey
+
+| # | Page/Section | Type | What it shows | Why it matters for Michelle | Use? | Placement | Rewritten caption/copy | Privacy/sensitivity |
+|---|---|---|---|---|---|---|---|---|
+| A1 | Home | Text (tagline) | "A youth-driven network accompanying children and families beyond borders" | "Accompanying" = the anti-saviorism frame; keep this verb | **Yes** | Angels card + page | Use nearly verbatim | — |
+| A2 | Home | Statistic | 187 supports as of Jul 1 2026 | Concrete, dated, defensible | **Yes** | Impact strip, Angels page | "187 student supports delivered since 2021 (as of July 2026)" — attribute to the organization | Keep it team-framed |
+| A3 | Home | Story + letter image | Chanra Hun → Reed College, Continental Scholarship | The single best outcome story: long-term support → real result | **Yes (text)** / letter image **No** | Angels page "Outcomes" | See project copy §Outcomes | Letter shows her home address — never publish the image; text only. Confirm Chanra's consent (already public on org site) |
+| A4 | Home | Photo `angels-chanra-graduation.png` | Chanra in cap and gown | Dignified outcome moment, joy not hardship | **Maybe** | Angels page outcomes | "Chanra at her high-school graduation in Siem Reap, before beginning at Reed College." | Confirm her consent for Michelle's personal site |
+| A5 | Home | Photo `angels-cetusa-meeting.jpg` | Michelle & Alex in AFJ shirts with CETUSA Exec. Director | Shows Michelle personally, institutional partnership | **Yes** | Angels page | "With CETUSA's executive director, exploring J-1 scholarship pathways for supported students (2024)." | Adults, professional setting — fine |
+| A6 | Home | Photo `angels-workshop-watching.png` | Two girls (from behind) watching a volunteer workshop | Best ethical field photo: participation without exposing faces | **Yes** | Angels card image / gallery | "A community workshop in Cambodia. Angels' visits center joint activities with local schools and churches." | Faces not shown — model of respectful imagery |
+| A7 | Home | Poster/Zoom program | Free Zoom academic support (incl. 1:1) & cultural exchange | Michelle's teaching/language-access lane inside AFJ | **Yes (text)** | Teaching & Workshops section | See homepage copy | — |
+| A8 | Our Story | Story | Founder's origin: LeadersTimes youth-journalist trip to Cavite; critique of once-a-year charity; "accompany… step by step, year by year" | The humility/accountability narrative; core of the project page | **Yes — adapt** | Angels page "Origin" | See project copy | Origin "I" is not confirmed as Michelle — write it as the founding team's story until she confirms her part |
+| A9 | What We Do | Program text | Tuition/uniforms/exam fees/supplies; food & hygiene crisis aid ("specific families, times of crisis, clearly documented"); local coordinators confirm delivery | Anti-voluntourism proof: specificity + accountability | **Yes — condense** | Angels page "How it works" | See project copy | — |
+| A10 | What We Do | Program text | Youth visits to Phnom Penh/Siem Reap/Silang; evening reflection circles; post-trip debriefs on privilege & inequality | Rare: an org that teaches its volunteers humility — very fellowship-credible | **Yes** | Angels page "Ethics" | See project copy | — |
+| A11 | Gallery | ~130 photos (`angels-g1..g6`, `angels-collage.jpg`) | Children in homes holding whiteboards w/ donor names + envelopes | Transparency evidence for the org — but repetitive, private-home, hardship-adjacent | **No** (for personal site) | — (cite in text: "every support is photo-documented and confirmed with families") | — | Children in private homes with financial documents — do not republish on a personal brand site |
+| A12 | Get Involved | Contact text | Volunteer/partner invitation | Not needed on Michelle's site | No | — | — | — |
+| A13 | Home | Photo (staff, green shirts, "two women embracing") | Warmth/team | Generic without context | Maybe later | Gallery only if captioned | — | Confirm who is shown |
+
+## Inventory — Lumen Education Program
+
+| # | Page/Section | Type | What it shows | Why it matters | Use? | Placement | Rewritten caption/copy | Privacy/sensitivity |
+|---|---|---|---|---|---|---|---|---|
+| L1 | Home | Text | "Publication for Literacy & Cultural Preservation in Cambodia"; co-established by Minjung (Michelle) Lee and Alex Lee | Verified role, verbatim subtitle material | **Yes** | Lumen card + page | Used in project copy | — |
+| L2 | Home/About | Origin text | Tourist wealth vs. children with no age-appropriate books in their language; "a small, practical bridge" | Grounded, observational origin — no saviorism | **Yes** | Lumen page "Why" | See project copy | — |
+| L3 | About | Values | Books adapted "with permission, context, and input from those who live them"; youth as "co-authors and co-creators"; revenue reinvested into donations/libraries | Postcolonial sensitivity + business ethics — exactly the tone requested | **Yes** | Lumen page "Approach" | See project copy | — |
+| L4 | Programs | Program text | 3 initiatives: publication; libraries ("browse freely… stories that feel familiar"); workshops (read-aloud, vocabulary, children draw/retell variations) | Shows pedagogy embedded in publishing — Michelle's educator-writer fusion | **Yes** | Lumen page "Programs" | See project copy | — |
+| L5 | Book Store | Book: **Amok** (`book-amok.png`) | Srey Leak learns fish amok with her grandmother during Pchum Ben; Khmer/EN/KR; $10 | A publication credit with cultural depth | **Yes** | Writing & Books + Lumen page | "Amok (Khmer · English · Korean). Srey Leak learns to cook fish amok with her grandmother during Pchum Ben — a story about how a dish carries family memory and Khmer culture." | — |
+| L6 | Book Store | Book: **Phnom Pros and Phnom Srei** (`book-phnom-pros-srei.png`) | Khmer legend of Men's/Women's Hill; "wisdom can be stronger than strength" | Second publication credit; folk-tale adaptation | **Yes** | Writing & Books + Lumen page | "Phnom Pros and Phnom Srei (Khmer · English · Korean). A retelling of the Kampong Cham legend of Men's Hill and Women's Hill — where wisdom outbuilds strength." | — |
+| L7 | Home | Photo `lumen-library-children.png` | Children reading on green chairs by a stocked bookshelf, brick-walled room | The mission realized: books in hands, dignity, activity | **Yes** | Lumen card image / gallery | "One of three children's libraries in Siem Reap created with Angels for the Journey." | Children's faces — confirm guardians' consent (already public on org site) |
+| L8 | Home | Photo `lumen-reading-session.jpg` | Large floor reading session; Korean vocabulary pages visible | Scale + multilingual evidence in one image | **Yes** | Lumen page / gallery | "A community reading session in Siem Reap. Lumen's books pair Khmer and English, with Korean editions used in exchange programs." | Wide shot, mostly backs/tops of heads — good |
+| L9 | Team | Photo `michelle-portrait.png` | Michelle, warm outdoor portrait | **The hero photo for the whole personal site** | **Yes** | Homepage hero + About | — | Hers |
+| L10 | Team | Photo `lumen-team-library-desk.jpg` | Michelle & Alex with National Library librarian, stacks of donated books | Institutional partnership, Michelle present | **Yes** | Lumen page "Partners" | "Delivering books to the National Library of Cambodia with library staff (Phnom Penh)." | Adults, institutional — fine |
+| L11 | Team | Image `lumen-nlc-thankyou-letter.png` | Official National Library thank-you letter: 205 books, addressed to Ms. Minjung Lee & Mr. Alex Jong Ho Lee, signed by Director Hoin Channara | Third-party institutional verification with Michelle's name first — rare, powerful evidence | **Yes** | Lumen page "Recognition" (as a small framed figure) | "Letter of gratitude from the National Library of Cambodia acknowledging Lumen's donation of 205 books." | Public institutional letter — fine; contains staff contact numbers (already public) |
+| L12 | Home | Photo `lumen-national-library-donation.jpg` | Michelle + Cambodian partner holding *Amok* beside book stacks at the National Library | **Best single Lumen image**: Michelle, the book, the partner, the place | **Yes** | Lumen page hero / homepage gallery | "At the National Library of Cambodia with a partner librarian, presenting *Amok* among 205 donated titles." | Adults — fine |
+| L13 | Team | Photo `lumen-youth-workshop.png` | ~25 Cambodian youth + volunteers, group photo at a workshop | Youth co-authorship community | **Maybe** | Lumen page workshops / gallery | "Story-development workshop with Cambodian youth co-authors." | Group shot at org event; crop is awkward (banner-shaped) — use if a better version exists |
+| L14 | Team | Photo (Alex ID headshot `lumen-team-a.jpg`) | Alex's portrait | Not for Michelle's site | No | — | — | — |
+| L15 | Team | Text | Directors "organize and co-author multilingual children's books… coordinate editing and design… arrange initial funding… mentor American, Korean, and Cambodian youths" | The verified description of Michelle's actual work | **Yes** | Lumen page "My role" | Adapted in project copy | Shared with Alex — copy says "with co-founder Alex Lee" |
+| L16 | Team | Names | Youth collaborators: Mey Yean, Kun Thea, Villay, Sreynoch, Thaily, Rota | Crediting co-authors = the respect the tone demands | **Yes** | Lumen page | "Stories developed with youth co-authors including Mey Yean, Kun Thea, Villay, Sreynoch, Thaily, and Rota." | First names already public on org site |
+| L17 | Home | Press | *Teachers & Writers Magazine*: "A Pagoda" by Minjung (Michelle) Lee — 2026 Bechtel Prize honorable mention | **Her strongest writing credential.** National literary-education magazine + prize recognition | **Yes — featured** | Writing section (top) + About + Lumen page | "A Pagoda — Teachers & Writers Magazine (New York), 2026. Personal essay on teaching English composition in a Cambodian classroom. Bechtel Prize honorable mention." | — |
+| L18 | Home | Photos (Unsplash stock ×2) | Generic stock | Never use stock on a personal site | **No** | — | — | — |
+| L19 | Contact | Address/phone | Phnom Penh office | Org detail, not personal | No (link to org site instead) | — | — | — |
+
+---
+
+## Photo rules applied (summary)
+
+**Selected (12 files in `images/`):** portrait; 2 library reading scenes; 2 book covers; National Library donation photo, team-at-desk photo, thank-you letter; youth workshop group; CETUSA meeting; workshop-watching (backs turned); Chanra graduation (pending consent).
+
+**Rejected and why:**
+- All whiteboard/envelope delivery photos + 130-photo collage — private homes, financial documents, repetitive; transparency belongs to the org site, one text line on Michelle's.
+- Reed admission letter image — home address visible; reference in text only.
+- Alex's ID headshot; Unsplash stock; empty library room shot (`lumen-workshop-2`) — weak or off-brand.
+
+**Consent to confirm before launch (checklist):** children's faces in L7/L8, Chanra's graduation photo (A4), youth group (L13).
+
+---
+
+## Missing information Michelle should provide
+
+1. **Division of labor**: which parts of Lumen's editing/translation/design/funding/mentoring are primarily Michelle's? (Site credits directors jointly; her card should name her lane — e.g., "led the Korean translations and reading-workshop curriculum" — only if true.)
+2. Whether the AFJ origin trip to Cavite (the "I" in Our Story) includes her or is Alex's story — determines voice of the origin section.
+3. Chanra story: permission to name her and show the graduation photo on a personal site.
+4. AFJ dates for Michelle: director since when? Co-founder title (her portfolio says co-founded 2021) vs. current site listing "director" — which wording does she want?
+5. Any AFJ Zoom workshops Michelle personally taught (topics, dates) for the Teaching section.
+6. Lumen: number of copies printed/donated overall (beyond the 205 to the National Library), if she wants a bigger stat.
+7. Higher-resolution originals of the selected photos (I pulled 750–1000px CDN versions; print/retina wants 2000px+).
+8. Her preferred "based in" (Teachers & Writers bio says Cambodia; AFJ address is Seoul).
+
+</file>
+
+<file path="4-PROJECT-PAGE-ANGELS.md">
+# Project Page Copy — Angels for the Journey
+
+**Title:** Angels for the Journey
+**Subtitle:** Long-term educational support for vulnerable youth, built on accompaniment rather than charity
+**Michelle's role:** Co-founder & Director *(confirm preferred wording — org site lists "Director"; her portfolio says co-founded 2021)*
+**Dates:** 2021 – present · **Where:** Philippines (Cavite) · Cambodia · Laos
+
+---
+
+## Overview
+
+Angels for the Journey is a youth-driven network that helps children in the Philippines, Cambodia, and Laos stay in school. Since 2021, it has delivered 187 individual supports — tuition, uniforms, exam fees, school supplies, and emergency family aid — working through local coordinators who identify needs and confirm every delivery. The organizing idea is in the name: not rescue, but accompaniment — staying with the same children and families, step by step, year by year.
+
+## Origin
+
+The project began with a question about how charity usually works. Visiting homes, churches, and schools in the rural Cavite region of the Philippines while reporting for a youth newspaper, the founding team kept seeing the same pattern: a group would arrive once a year, hand out gifts, take photos, and leave. Angels for the Journey was built as the opposite of that pattern — a network of young volunteers committed to the unglamorous middle of a child's education: the school fees that accumulate, the uniform that wears out, the family crisis that would otherwise end a school year.
+
+*(Voice note: written as the founding team's story. If Michelle was on the Cavite trips, shift to first-person plural with her present; confirm before publishing.)*
+
+## What the project does
+
+- **Keeps children in school** — tuition, uniforms, exam fees, and supplies, with needs identified by local coordinators and every delivery documented and confirmed with families.
+- **Steadies families in crisis** — short-term, specific aid (food staples, hygiene essentials) for particular families at particular moments, clearly documented rather than open-ended.
+- **Opens doors after graduation** — U.S. college application guidance for older students, including scholarship pathways explored with partners such as CETUSA.
+- **Builds youth-to-youth connection** — free Zoom academic support (including 1:1 sessions) and cultural-exchange workshops connecting volunteers and students across countries; letters and language exchange in between.
+
+## Michelle's contributions
+
+*(To finalize with Michelle — verified frame: she is a director of the organization. Candidate bullets, keep only what is true:)*
+- [Co-founded the network in 2021 and has served as director since ____]
+- [Organizes/teaches Zoom academic support and cultural-exchange workshops]
+- [Coordinates with local coordinators in ____ / manages student records and follow-up]
+- [Led fundraising campaigns / donor communication]
+- [Guided students through U.S. college applications]
+
+## Outcomes
+
+As of July 2026, the network has delivered **187 student supports** across three countries. Its longest-running relationships now reach past high school: in December 2025, **Chanra Hun** of Kok Trach Village, Siem Reap — supported through her secondary education — was admitted to **Reed College** (Portland, Oregon, Class of 2030) with the college's Continental Scholarship, and plans to study psychology and mathematics. *(Confirm Chanra's consent to be named/shown; her story is already public on the organization's site.)*
+
+## How the work stays honest
+
+The organization's practices are deliberately unromantic:
+- Local coordinators — not visiting volunteers — identify who needs what.
+- Every support is documented and photo-confirmed with the family.
+- Volunteer field visits are structured around joint activities with local schools, with evening reflection circles and post-trip debriefs on privilege and inequality — volunteers are asked to learn, not just to give.
+
+## What this project shows about Michelle
+
+Five years of staying. The project's value as evidence is not its size but its duration and its discipline: a commitment made at 2021 prices and still being paid in 2026, with paperwork to show for it. It is also where Michelle's later work begins — the tutoring became curriculum, the letters became translation, and the question "what keeps a child out of school?" became a question about systems, which is now taking her into law.
+
+## Photos & captions (from `images/`)
+
+| File | Caption | Note |
+|---|---|---|
+| `angels-workshop-watching.png` | A community workshop in Cambodia. Field visits center joint activities with local schools and churches. | Lead image — faces respectfully not shown |
+| `angels-cetusa-meeting.jpg` | With CETUSA's executive director, exploring J-1 scholarship pathways for supported students (2024). | Michelle pictured |
+| `angels-chanra-graduation.png` | Chanra at her graduation in Siem Reap, before beginning at Reed College. | Pending consent |
+| *(text line, no image)* | "Every support is photo-documented and confirmed with families." | Replaces delivery-photo gallery |
+
+</file>
+
+<file path="5-PROJECT-PAGE-LUMEN.md">
+# Project Page Copy — Lumen Education Program
+
+**Title:** Lumen Education Program
+**Subtitle:** Multilingual children's books for literacy and cultural preservation in Cambodia
+**Michelle's role:** Co-founder & Director *(verified on org site)*
+**Dates:** 2025 – present · **Where:** Phnom Penh & Siem Reap, Cambodia
+
+---
+
+## Overview
+
+Lumen Education Program is a publication-centered social venture based in Phnom Penh, co-founded by Minjung (Michelle) Lee with Alex Lee. Working with Cambodian youth and educators, Lumen adapts local folktales and everyday experiences into illustrated children's books in Khmer, English, and Korean, then places those books in libraries and classrooms in communities where age-appropriate books in a child's own language are hard to find. Proceeds from book sales are reinvested in further donations and new reading spaces.
+
+## Why it started
+
+In Phnom Penh and Siem Reap, the contrast is hard to miss: tourists, hotels, and souvenir shops on one side; children with almost no access to age-appropriate books in their own language on the other. After consulting teachers, parents, and young people, Michelle and her co-founder built Lumen as a small, practical bridge — a Cambodian publication turning local oral stories into books children can actually hold.
+
+## The approach
+
+Four commitments shape the work:
+1. **Well-made and culturally familiar** — children deserve books where the settings, foods, and families look like their own.
+2. **Adaptation with permission** — folktales are retold with context and input from the people who live them.
+3. **Youth as co-authors** — Cambodian young people are credited co-creators, not sources; stories have been developed with co-authors including Mey Yean, Kun Thea, Villay, Sreynoch, Thaily, and Rota.
+4. **Revenue returns to readers** — sales fund further donations and library creation.
+
+## Publications
+
+- ***Amok*** (Khmer · English · Korean) — Srey Leak learns to cook fish amok with her grandmother during Pchum Ben: a story about how a single dish carries family memory, gratitude, and Khmer culture.
+- ***Phnom Pros and Phnom Srei*** (Khmer · English · Korean) — a retelling of the Kampong Cham legend of Men's Hill and Women's Hill, where wisdom outbuilds strength.
+- Additional original stories in development with youth co-authors. *(Confirm current list.)*
+
+## Libraries & reading spaces
+
+Lumen's books helped create **three children's libraries in Siem Reap** (with Angels for the Journey), where children can browse freely and read alone, with friends, or with teachers — practicing reading in both Khmer and English. In Phnom Penh, Lumen donated **205 books to the National Library of Cambodia**, acknowledged in a letter of gratitude from the Library's director.
+
+## Workshops & partnerships
+
+With partners including the National Library of Cambodia, Royal University of Phnom Penh, Sipar, the Women's Resource Center, Hesed School, and Tent of David sites, Lumen runs book workshops — read-alouds, vocabulary games, children drawing scenes or retelling tales in their own variations — and free **Korean language and cultural-exchange Zoom classes** for Cambodian youth, librarians, and adult learners.
+
+## Michelle's contributions
+
+*(Org site credits the directors jointly with: organizing and co-authoring the books; coordinating editing, design, and illustration guidelines; arranging initial funding; managing printer/distributor relationships in Cambodia and Korea; mentoring American, Korean, and Cambodian youth. Michelle should mark which are primarily hers — candidate bullets:)*
+- [Co-authored and edited *Amok* and *Phnom Pros and Phnom Srei*]
+- [Led the Korean translations / trilingual editorial process]
+- [Designed and taught the reading-workshop curriculum]
+- [Coordinated the National Library partnership and donation]
+- [Mentors youth co-authors through story-development workshops]
+
+## Recognition & press
+
+- **"A Pagoda"** — Michelle's essay in *Teachers & Writers Magazine* (New York) about teaching English composition in a Cambodian classroom; **2026 Bechtel Prize honorable mention**.
+- Letter of gratitude from the **National Library of Cambodia** (Director Hoin Channara) for the donation of 205 books.
+
+## What this project shows about Michelle
+
+Lumen is where all of Michelle's skills operate at once: she is the educator designing how a book gets read, the writer and translator shaping how it speaks in three languages, and the organizer making sure it exists and reaches shelves. It is also the clearest statement of how she works across cultures — with permission, with co-authors, and with revenue flowing back to readers.
+
+## Photos & captions (from `images/`)
+
+| File | Caption | Note |
+|---|---|---|
+| `lumen-national-library-donation.jpg` | At the National Library of Cambodia with a partner librarian, presenting *Amok* among 205 donated titles. | **Page hero** — Michelle pictured with the book |
+| `lumen-library-children.png` | One of three children's libraries in Siem Reap, created with Angels for the Journey. | Confirm guardians' consent (already public) |
+| `lumen-reading-session.jpg` | A community reading session in Siem Reap; Lumen's books pair Khmer and English, with Korean editions used in exchange programs. | Wide shot — good ethics |
+| `book-amok.png` / `book-phnom-pros-srei.png` | Covers, captions as in Publications. | Also used in Writing section |
+| `lumen-team-library-desk.jpg` | Delivering books to the National Library of Cambodia with library staff (Phnom Penh). | Michelle pictured |
+| `lumen-nlc-thankyou-letter.png` | Letter of gratitude from the National Library of Cambodia. | Small framed figure, not a gallery image |
+| `lumen-youth-workshop.png` | Story-development workshop with Cambodian youth co-authors. | Awkward crop — replace if better original exists |
+
+</file>
+
+<file path="6-UPDATE-STRATEGY.md">
+# Update Strategy — Legal Studies, Labor Research, Jurio, Civic Service
+
+July 2026. Integrates Michelle's newer law/labor/technology direction into the existing site without scattering it. Source material: her revised research proposal (`3 수정·보완된 연구계획안.docx`), interview questions (`인터뷰 질문.docx`), the live Jurio app (jurio-gamma.vercel.app), and the user's brief.
+
+---
+
+## 1. The one-story arc (how it stays coherent)
+
+Three acts, one theme (access):
+
+1. **Education & language** (2018–) — teaching, translation, AFJ, Lumen: helping people reach learning and stories in their own language.
+2. **The turn to law** (2023–) — Int'l Law & Diplomacy concentration, LL.B. at Korea Cyber University, migrant-community engagement: realizing the barriers she kept meeting were legal ones.
+3. **Law + technology in practice** (2025–) — labor-rights & automation research (interviews with certified labor attorneys), Jurio legal-information app: applying research, writing, and technology to make labor law legible to the people it governs.
+
+Connective sentence used across the site:
+> *Michelle works at the intersection of education, language, community, and law — using writing, translation, teaching, research, and technology to support people whose voices are often overlooked.*
+
+The bridge (used verbatim in About + research page — improved from the brief):
+> Michelle's interest in labor protection grew out of her engagement with migrant communities — including concern for Sri Lankan migrant workers whose employment prospects can be narrowed by industrial robots, automation, and shifting labor demand. Watching technological change arrive faster than the protections around it shaped the question that now drives her research: when machines change the terms of work, what does the law actually do for the workers affected?
+
+*(Wording rules respected: "engagement," "concern," "shaped" — no claims of legal advice or representation.)*
+
+## 2. Key facts established from the uploaded documents
+
+**Research project (from the revised proposal):**
+- Final Korean title: 산업로봇 도입과 한국 제조업 노동자 보호: 안전·참여·전환 보호에 대한 노무사 인식을 중심으로
+- English rendering used on site: *Industrial Robots and the Protection of Korean Manufacturing Workers: How Certified Labor Attorneys Assess Safety, Participation, and Transition Protection*
+- Research question: how far Korean labor law protects manufacturing workers' **safety, procedural participation, and job transition** during robot adoption — and how 노무사 perceive the current system's limits.
+- Stance: not "should robots be stopped," but "what protection do workers actually get when adoption is already under way." Korea has among the world's highest manufacturing robot densities — a present-tense issue, not futurism.
+- Legal analysis spans five areas: Occupational Safety and Health Act; Act on the Promotion of Workers' Participation and Cooperation (labor-management councils); Trade Union Act (bargaining over adoption vs. its effects); Labor Standards Act (redeployment, restructuring, dismissal); vocational training / transition-support institutions.
+- Analytical frame: Lina Khan's Amazon critique + OSHA ergonomics cases — efficiency's hidden costs borne by workers (pace, monitoring, musculoskeletal risk, bargaining power).
+- Method: literature review → statutory analysis → U.S. comparison → short semi-structured interviews with certified labor attorneys (proposal planned 20–30; **user reports 39 completed — flagged for confirmation**), 5 core questions, anonymized, thematic coding, frequency analysis, employer-side vs. worker-side comparison.
+- Terminology: 노무사 = **certified labor attorney (공인노무사)** — a licensed Korean professional specializing in labor law, workplace compliance, and labor-management relations. Site always explains this once; never plain "lawyers."
+
+**Jurio (verified from the deployed app bundle):**
+- Bilingual KR/EN app ("Jurio 주리오"), Expo/React Native web, early stage.
+- Real features: plain-language issue guides ("임금을 못 받았어요" / "일하다 다쳤어요(산재)" / 계약만료); statute cards citing article numbers (LSA arts. 15, 23, 26, 27, 49; Minimum Wage Act art. 6; Foreign Workers Employment Act art. 25) linked to law.go.kr; six-statute reference set incl. Industrial Accident Insurance Act, Retirement Benefits Act; a regional directory of certified labor attorneys and labor-law firms; resource navigation with hotlines incl. multilingual migrant-worker lines (다누리 1577-1366 — 13 languages; 외국인력상담 1644-0644 — 18 languages; 1345); wage-arrears documentation guidance (체불 확인서); a disclaimer field exists in the data model.
+- Positioning language: **legal information / legal-literacy tool / early-stage prototype** — never "legal advice." Disclaimer shown on the project page.
+- Roles: Michelle = co-planner, legal-content strategist, UX feedback (per user brief); Alex Lee = developer/builder. (His site claims "Builder" — consistent, no conflict if her card is content/planning-side.)
+
+## 3. Positioning statements (5 versions)
+
+**A. Law-school / formal:**
+"Michelle Lee is an educator, writer, and translator completing a Bachelor of Laws at Korea Cyber University. Her work connects language access, children's literacy, migrant communities, and labor rights: she has co-founded a multilingual children's publisher in Cambodia and a youth education network in Southeast Asia, and now conducts interview-based research on how Korean labor law protects manufacturing workers in the age of industrial robots, while helping build Jurio, a legal-information app for labor-rights issues."
+
+**B. Warm personal-website version (used in hero/About):**
+"I teach, write, and translate across Korea and Southeast Asia — and study law to understand the barriers I kept meeting. From children's books in Khmer to labor-law questions raised by industrial robots, my work asks one question: how do we make systems legible to the people inside them?"
+
+**C. Short homepage line:**
+"Educator · Writer · Translator — working toward public-interest law through research, publishing, and legal technology."
+
+**D. LinkedIn bio:**
+"Educator, writer & translator | LL.B. candidate (Korea Cyber Univ.) | Co-founder, Lumen Education (multilingual children's books, Cambodia) & Angels for the Journey | Researching labor rights & automation (interviews with certified labor attorneys) | Building Jurio, a labor-law legal-literacy app | Bechtel Prize honorable mention, Teachers & Writers Magazine | EN·KR"
+
+**E. Fellowship version:**
+"Michelle Lee works at the intersection of education, language, and law. After co-founding literacy and education projects for children in Cambodia, the Philippines, and Laos, she turned to legal studies to address the barriers her communities faced — completing an LL.B. while researching how automation reshapes worker protection in Korean manufacturing and co-developing a plain-language legal-information app used to navigate labor-rights issues. Her essay on teaching writing in a Cambodian classroom received a Bechtel Prize honorable mention from Teachers & Writers Magazine."
+
+## 4. Navigation (recommended)
+
+`About · Projects · Research · Legal Studies · Teaching · Contact`
+- "Research" anchors to Research & Writing (merged section — research rows sit above writing rows).
+- Journey/Gallery remain on-page, reached by scrolling; keeping nav ≤6 preserves the clean top bar.
+- Project pages: `lumen.html`, `angels.html`, `research.html`, `jurio.html`.
+
+## 5. Homepage structure (updated)
+
+1. Hero (unchanged identity + updated intro sentence)
+2. Stats strip (unchanged — 39-interview stat joins **after** confirmation)
+3. **NEW: "Current focus" band** — one sentence + three chips (LL.B. · labor-rights & automation research · Jurio legal-information app)
+4. About (bio gains act-three paragraph)
+5. Featured Projects — **4 major cards** (Lumen, Angels, Research, Jurio) in a 2×2 grid, then 4 smaller cards (Teaching, AsianHub, LeadersTimes, MEDIAWATCH)
+6. Research & Writing (research row added on top, "in progress" label)
+7. Legal Studies (NEW): LL.B. presentation + coursework placeholders + research interests
+8. Teaching & Workshops (unchanged)
+9. **Civic Service & Remembrance** (NEW, compact): UN Memorial Cemetery + Soldiers' Angels letter writing — deliberately modest, below major projects
+10. Toward Public-Interest Law (updated to land on research/Jurio as the direction already in motion)
+11. Journey (timeline gains: LL.B. start [year], migrant-center engagement, Soldiers' Angels, 2026 research + Jurio)
+12. Skills (gains Legal Research & Technology category)
+13. Gallery · Contact · Footer
+
+## 6. Civic service wording (final)
+
+> After reporting on and volunteering around the UN Memorial Cemetery in Busan — the only United Nations cemetery in the world — Michelle wanted a way to continue that gesture of cross-border gratitude in the present tense. Through Soldiers' Angels' virtual letter-writing program, she writes letters of appreciation to deployed service members: a small, regular practice of remembrance that connects her interest in how nations honor those who serve with the individuals doing so now.
+
+*(Kept modest: an extension of an interest, not a leadership project. Placed in a compact band, not a featured card.)*
+
+## 7. Tone guardrails applied
+
+- Research: "ongoing," "in progress," "working research project" — never "published/proved."
+- Jurio: "early-stage," "legal information," "legal-literacy," + explicit disclaimer.
+- 39 interviews: shown with a confirm-flag until the user verifies final count and interviewee identity.
+- Migrant communities: "engagement," "concern," "shaped her research interest" — no representation claims.
+- LL.B.: "completing a Bachelor of Laws… growing academic foundation" — no bar/qualification implications.
+
+## 8. Missing-information checklist (new items)
+
+**Legal studies:** exact English degree/major name; expected completion date (or omit); 5 key courses; honors only if wanted.
+**Research:** confirm 39 completed (proposal said 20–30 planned); interviewees all 공인노무사 or mixed; anonymity (proposal says anonymized — confirm); venue (independent / class / journal / supports Jurio?); shareable interim findings?; current stage (interviews done → coding? writing?).
+**Jurio:** Michelle's exact role wording; Alex's role wording; which features are live vs. planned; target users (migrant workers confirmed as audience?); multilingual roadmap; is the in-app disclaimer text finalized?; 2–3 screenshots for the project page.
+**Soldiers' Angels:** participation period; letters count (only if she wants it); her UN Memorial Cemetery activity precisely (visit? volunteering? journalism?) and date.
+**Migrant center:** center name public? role + dates; Sri Lankan workers example publishable? photos/anonymization needs.
+
+</file>
+
+<file path="7-PROJECT-PAGE-RESEARCH.md">
+# Project Page Copy — Labor Rights & Automation Research
+
+**Title:** Labor Rights in the Age of Industrial Robots
+**Subtitle:** Interview-based research on safety, participation, and transition protection in Korean manufacturing
+**Working title (from the revised proposal):** *Industrial Robots and the Protection of Korean Manufacturing Workers: How Certified Labor Attorneys Assess Safety, Participation, and Transition Protection* (산업로봇 도입과 한국 제조업 노동자 보호: 안전·참여·전환 보호에 대한 노무사 인식을 중심으로)
+**Michelle's role:** Researcher — study design, statutory analysis, interviews, thematic coding, writing
+**Status:** Research in progress (2026) — do not present as completed or published
+
+---
+
+## The question
+
+South Korea has one of the highest industrial-robot densities in the world. Automation there is not a forecast; it is the current condition of manufacturing work. This ongoing research project asks a deliberately practical question: **when industrial robots arrive on a factory floor, what protection does Korean labor law actually give the workers affected — and where do the professionals who handle these cases see it falling short?**
+
+The study does not ask whether robots should be stopped. It asks what happens to the people working next to them.
+
+## Three kinds of protection
+
+The research breaks "worker protection" into three concrete dimensions:
+
+1. **Safety** — collision, entrapment, and maintenance accidents; but also the less visible risks: increased work pace, musculoskeletal strain, and data-driven monitoring of performance.
+2. **Participation** — whether workers, unions, and labor-management councils receive information and a genuine chance to consult *before* robots are introduced, not after.
+3. **Transition** — what actually happens to redeployment, retraining, wages, and job security once automation changes what a job is.
+
+## Why it matters
+
+Industrial robots rarely eliminate a workforce overnight. Instead they quietly rewrite the terms of work — the pace, the required skills, the safety envelope, the way performance is measured. The costs of that rewriting fall unevenly: older workers, mid-skill production workers, subcontracted and non-regular workers, and migrant workers are least positioned to absorb it. Michelle's concern for this last group is not abstract — her engagement with migrant communities, including concern for Sri Lankan migrant workers whose employment prospects can be narrowed by automation and shifting labor demand, is part of what shaped the research question. *(Careful wording — no representation claims.)*
+
+## The analytical frame
+
+The project borrows a lens from U.S. debates: Lina Khan's critique of Amazon argued that if you measure only consumer benefit, the costs borne by workers and suppliers become invisible. Amazon's warehouses — where automation raised productivity alongside injury rates, pace pressure, and algorithmic monitoring, drawing OSHA scrutiny — serve as a comparison point, not a subject. The Korean question becomes: **when automation makes firms and consumers better off, what costs does it shift onto workers — and can current law see them?**
+
+## The legal terrain analyzed
+
+- **Occupational Safety and Health Act (산업안전보건법)** — how well robot-specific safety rules cover physical risks, and whether pace, strain, and psychosocial risks are addressed at all.
+- **Workers' Participation and Cooperation Act (근로자참여법)** — whether labor-management councils treat technology adoption as a real agenda item or a formality.
+- **Trade Union Act (노동조합법)** — the crucial practical line between bargaining over *whether* robots are introduced (likely managerial prerogative) and bargaining over the *effects* of introduction (working conditions — arguably negotiable).
+- **Labor Standards Act (근로기준법)** — redeployment, restructuring, and dismissal law when automation is the stated reason.
+- **Vocational training and transition-support institutions** — whether retraining exists in practice or mostly on paper.
+
+## Method
+
+Literature review → Korean statutory analysis → U.S. comparison → short semi-structured interviews (10–15 minutes, five core questions) with **certified labor attorneys (공인노무사)** — licensed Korean professionals who specialize in labor law, workplace compliance, and labor-management relations, working across employer-side advisory, worker- and union-side cases, manufacturing workplaces, industrial-accident cases, and restructuring practice. Responses are anonymized, thematically coded, and compared across employer-side and worker-side practice backgrounds; no client, company, or case identities are recorded.
+
+**Interviews conducted: 39 certified labor attorneys** <span class="ph">[CONFIRM — the proposal planned 20–30; use 39 only if final]</span>
+
+The five interview questions probe: the most important legal issue raised by robot adoption; whether current labor and safety law responds adequately; which information-sharing and consultation procedures matter in practice; what legal issues arise when automated equipment and data-based management affect pace, safety, or evaluation; and which protection area Korean labor law should examine first as robots spread.
+
+## Current status & direction
+
+The project is in progress. Interim expectations from the proposal — to be tested, not asserted: that existing law handles physical safety better than it handles consultation, transition, or data-driven management; that disputes cluster around redeployment and evaluation rather than dismissal; and that consultation bodies work only as well as workplace structures allow. Findings will be reported as the perceptions of practitioners, presented with frequency analysis and anonymized quotations — a deliberately modest evidentiary claim.
+
+## What this project shows about Michelle
+
+The same instinct as her literacy work, aimed at a statute book: find the people the system talks *about* but rarely *to*, and ask what the rules look like from where they stand. It is her clearest step from education and translation into public-interest legal research — the work her law-school direction is built on.
+
+</file>
+
+<file path="8-PROJECT-PAGE-JURIO.md">
+# Project Page Copy — Jurio
+
+**Title:** Jurio 주리오
+**Subtitle:** An early-stage legal-literacy app for Korean labor-rights issues
+**Michelle's role:** Co-planner · legal-content strategist · UX feedback — with developer Alex Lee
+**Status:** Early-stage prototype, in active development · [jurio-gamma.vercel.app](https://jurio-gamma.vercel.app/)
+**Rule:** always "legal information," never "legal advice." Disclaimer required on page and in app.
+
+---
+
+## The problem
+
+Korean labor law protects workers who often cannot read it. A worker facing unpaid wages, a sudden contract non-renewal, or an injury on the job has to translate their situation into legal vocabulary — 체불, 산재, 부당해고 — before they can even search for help. For migrant workers navigating this in a second or third language, the distance between "something is wrong" and "I know what this is called and who to ask" can decide whether they get protection at all.
+
+## What Jurio does
+
+Jurio is a bilingual (Korean/English) legal-information app that starts from the worker's situation, not the statute:
+
+- **Plain-language issue guides** — entries like "I didn't get paid" (임금을 못 받았어요), "I was hurt at work" (일하다 다쳤어요), and contract expiration walk users from a real situation toward the relevant legal concepts.
+- **Statute cards with real citations** — key provisions of the Labor Standards Act (e.g., restrictions on dismissal, written notice of grounds, wage-claim limitation periods), the Minimum Wage Act, and the Foreign Workers Employment Act (workplace-change rules), each linked to the official statute database (law.go.kr).
+- **A glossary of labor-law terminology** explained in plain language.
+- **A directory of certified labor attorneys (공인노무사)** and labor-law offices, organized by region — connecting information to actual professional help.
+- **Resource navigation for migrant workers** — multilingual hotlines including Danuri (1577-1366, 13 languages), the foreign-workforce counseling line (1644-0644, 18 languages), and the 1345 immigration information center.
+- **Practical documentation guidance** — e.g., wage-arrears confirmation documents (체불 확인서).
+
+*(Feature list verified against the deployed prototype, July 2026. Mark anything not yet live as "planned" before publishing.)*
+
+## Michelle's contributions
+
+*(Confirm each — candidate list per brief:)*
+- Helped define the app's purpose and its issue-first (rather than statute-first) structure
+- Identifies and organizes the key labor-rights issues the app covers
+- Reviews legal content and terminology explanations for accuracy and plain-language clarity
+- Suggests glossary improvements and connects entries to real worker situations
+- Gives continuous feedback on user flow and comprehension
+- Shapes future features — <span class="ph">[multilingual expansion? guided intake? confirm roadmap]</span>
+- Works with developer Alex Lee on overall direction
+
+## Why it belongs in her story
+
+Jurio is Michelle's translation work in a third form. First she translated between Korean and English; then between oral folktale and children's book; now between statute and plain language. Her labor-rights research and the app inform each other — the same three questions (Is it safe? Was I consulted? What happens to my job?) run through both.
+
+## Current status
+
+An early-stage prototype is deployed and evolving. <span class="ph">[One sentence on what's next — user testing? content expansion? multilingual versions?]</span>
+
+## Disclaimer (must appear on the page)
+
+> Jurio provides legal information and educational content only. It is not a substitute for professional legal advice; for advice on a specific situation, users are directed to the certified labor attorneys and public counseling services listed in the app.
+
+## What this project shows about Michelle
+
+That her public-interest direction is already practical. She is not waiting for a J.D. to work on access to justice — she is building the on-ramp now, with the tools she already has: writing, translation, teaching, and an educator's sense of where understanding breaks down.
+
+</file>
+
+<file path="9-RESUME-THESIS-UPDATE.md">
+# Resume & Thesis Update — Strategy, Copy, Timeline
+
+July 2026. Sources: Michelle's long resume (docx) and undergraduate thesis PDF ("The Second Great Game," presented November 2024, advisor Prof. Jean S. Kang, Ewha).
+
+**Privacy rule applied:** the resume's Phnom Penh street address and both phone numbers are excluded from the site entirely. Email shown only pending Michelle's approval (michellelee337@gmail.com is on the resume; confirm it's the public one).
+
+---
+
+## 1. What the resume verified (and fixed)
+
+| Item | Resolution |
+|---|---|
+| Teaching card `[Program name]` | **Welltain Christian International School**, Incheon — Supplemental Instructor, English & Social Science (English composition, AP World History), Sept 2024 – June 2025 |
+| Languages `[others?]` | **Korean (native) · English (native) · French (advanced)** — English upgraded from "fluent" |
+| AFJ title `[confirm]` | **Co-Founder & Director** (resume) — placeholder removed |
+| Lumen title | **Co-Founder & Publication Director** (stronger, more specific — updated everywhere) |
+| MEDIAWATCH end date | **June 2024 – December 2025** (ended — "present?" removed) |
+| AsianHub start | **August 2019** (old portfolio said 2018 — resume is authoritative; timeline fixed: 2018 = ISC Global, 2019 = AsianHub) |
+| Exeter | **Sept 2023 – Jan 2024, as Seoul Scholarship Foundation Scholar** (a named scholarship — now stated) |
+| Ewha completion | **February 2025**; thesis presented **November 2024** |
+| LL.B. | **Expected December 2026**, Korea Cyber University |
+| Early education | **Thomas Jefferson School**, St. Louis — liberal-arts boarding middle & high school, completed May 2020 (this makes "grew up between languages and countries" concrete) |
+| AsianHub depth | **ITT Level 2 certificate**; in-person interpretation for **female migrants at clinics and hospitals**; editing books from Myanmar, Vietnam, Mongolia; English audiobook recording |
+| UNMCK role | **Fundraising Project Manager** (June 2024–): "Freedom Isn't Free" T-shirts funding floral tributes on **45 individual graves**; recruits students from Korea (Daegu, Seoul) and U.S. (St. Louis, Salt Lake City) |
+| ISC Global | International Student Exchange Coordinator (formerly youth volunteer), Oct 2018– ; CSIET conference rep (2018); organized **North Korean defector cultural-exchange visits to U.S. schools (May 2019)** |
+| LeadersTimes depth | **Led a youth press trip to the Hiroshima Peace Memorial Ceremony**; published in-depth interview with North Korean defector painter **An Chung Guk**; Certificate of Meritorious Participation (June 2024) |
+| Mission Center for Migrants | Volunteer, Daegu, June 2024– : co-produced short documentaries **reframing language barriers as an accessibility issue**; KR/EN interpretation at Full Moon Festa; Sri Lanka connection confirmed |
+| Campus leadership | **LAWGIC** elected council member (2021–23, workshops on judicial opinions/case summaries, content on UN High Seas Treaty & antitrust); **A.C.E. president** (2021–23, Economist-based presentations); **Research Fellow with Prof. Jean S. Kang** (Mar–Aug 2023, course materials for Intro to International & Global Studies) — Kang later advised her thesis |
+| Photography | Recognized: Peaceful Unification Advisory Council Photo Contest (Aug 2024); National Student Smartphone Photography Contest (Jul 2024) — themes: division, unification, remembrance, Donggung Palace & Wolji Pond |
+
+**⚠️ Conflicts flagged (Michelle must resolve):**
+1. **Libraries: 3 or 4?** Resume: "four children's libraries in Siem Reap (Sept 2025)". Lumen's public site: "three… as of May 2026". The site keeps **3** (matches the public org site a reader can check) until she confirms.
+2. AsianHub 2018 vs 2019 → resolved to 2019 per resume, but confirm.
+3. Resume line "노무사 앱, research, internship — Incheon" is an unfinished placeholder → covered by the Jurio/research sections; confirm if there's also an *internship* to add.
+
+## 2. Positioning (5 versions)
+
+**A. Formal website bio (About page):**
+Minjung (Michelle) Lee is an educator, writer, translator, and legal-studies student whose work connects international education, language access, community-based literacy, and public-interest law. She earned a B.A. in International Studies with a concentration in International Law & Diplomacy from Ewha Womans University, where her thesis examined U.S.–China rivalry in the Indo-Pacific through a historical-comparative lens, and studied at the University of Exeter as a Seoul Scholarship Foundation Scholar. She is completing an LL.B. at Korea Cyber University (expected December 2026) while directing publications at Lumen Education in Cambodia, supporting vulnerable youth through Angels for the Journey, researching how automation reshapes worker protection in Korean manufacturing, and co-planning Jurio, a plain-language legal-information app.
+
+**B. Short homepage tagline:**
+Educator · Writer · Translator — working toward public-interest law.
+*(Kept from current site; runner-up: "Educator · Writer · Translator · LL.B. candidate — making systems legible to the people inside them.")*
+
+**C. Law-school / fellowship version:**
+Michelle Lee's path to law runs through classrooms and translation desks. As an educator she taught English and AP World History; as a translator she carried school notices, clinic visits, and constitutional reporting across the Korean–English line; as a co-founder she built a children's publisher in Cambodia and a youth education network across Southeast Asia. Her International Studies thesis analyzed great-power competition in the Indo-Pacific; her current research asks how Korean labor law protects manufacturing workers in the age of industrial robots, based on interviews with certified labor attorneys. She is completing an LL.B. before pursuing a J.D. focused on labor rights, migrant communities, and language access.
+
+**D. LinkedIn version:**
+Educator, writer & translator | LL.B. candidate, Korea Cyber Univ. (exp. Dec 2026) | B.A. Int'l Studies (Int'l Law & Diplomacy), Ewha | Co-Founder & Publication Director, Lumen Education (multilingual children's books, Cambodia) | Co-Founder & Director, Angels for the Journey | Labor-rights & automation research (interviews w/ certified labor attorneys) | Co-planner, Jurio legal-literacy app | Bechtel Prize honorable mention, Teachers & Writers Magazine | KR·EN native, FR advanced
+
+**E. Warm personal introduction:**
+I grew up between St. Louis and Seoul, between English and Korean — and I've spent the years since carrying things across that line: school forms for migrant mothers, folktales for children in Siem Reap, investigative reporting for international readers, and now, labor law for the workers it's written about. I teach, I write, I translate, and I'm studying law, because the people most affected by systems deserve to be able to read them.
+
+## 3. Education section copy (site-ready)
+
+**Ewha Womans University** — B.A. in International Studies, concentration in International Law & Diplomacy (February 2025). Thesis: *"The Second Great Game: the U.S. and China in the Indo-Pacific"* (advisor: Prof. Jean S. Kang). Coursework: Foundations of International Law · International Business Law · International Trade Law · Public International Law · International Society and Public Diplomacy · International Political Economy.
+**University of Exeter** — Study-abroad semester as a Seoul Scholarship Foundation Scholar (Sept 2023 – Jan 2024). Coursework: Business & Human Rights Law · Great Power Politics · Changing Character of Warfare · International Business Context.
+**Korea Cyber University** — Bachelor of Laws (LL.B.), expected December 2026. [Coursework — 5 key courses to provide.]
+**Thomas Jefferson School** (St. Louis, U.S.) — liberal-arts boarding school, middle and high school (2020).
+*(GPA omitted everywhere pending Michelle's choice.)*
+
+## 4. Thesis — card copy (final)
+
+> **"The Second Great Game: the U.S. and China in the Indo-Pacific"** — Undergraduate thesis, Ewha Womans University (Nov 2024). What does the 21st century's defining rivalry look like when set beside the 19th century's? Michelle's thesis reads the U.S.–China contest in the Indo-Pacific — the Belt and Road Initiative, Gwadar and Hambantota ports, South China Sea island-building, FOIP, the Quad, and AUKUS — against the Great Game between Britain and Russia. Its comparative finding: the instruments of power have shifted from territorial conquest to economic diplomacy, infrastructure, and alliance-building, but the underlying motives — control of strategic regions, with smaller states caught in between — remain strikingly constant.
+
+Full page: `thesis.html` / research range on site now spans **geopolitics → labor law → legal technology**, presented in the Research & Writing section in that order of development.
+
+## 5. Timeline (verified dates — as implemented)
+
+2018 ISC Global (Oct) → 2019 AsianHub (Aug) → 2020 TJS (May) → 2021 AFJ + LAWGIC + A.C.E. (Mar) → 2023 Research fellowship (Mar–Aug), LeadersTimes (Jul), Exeter (Sept) → 2024 Philippines exchange (Feb); UNMCK + Mission Center + MEDIAWATCH (Jun); Soldiers' Angels (Jul); Welltain (Sept); thesis (Nov) → 2025 B.A. (Feb); Cambodia exchange (Jun); Lumen + Siem Reap libraries (Sept); MEDIAWATCH ends (Dec) → 2026 Bechtel HM, labor research, Jurio; LL.B. expected (Dec).
+*No date conflicts found beyond the two flagged above.*
+
+## 6. Questions for Michelle (consolidated — answers unlock final copy)
+
+1. Primary name: Michelle Lee, Minjung Lee, or Minjung "Michelle" Lee? Keep 이민정?
+2. Public email: michellelee337@gmail.com, or create a domain address? (Phones/address: omitted — confirmed.)
+3. Thesis PDF downloadable on the site? (Page is built with a download slot.)
+4. Full resume downloadable as PDF?
+5. GPA: include or omit? (Currently omitted.)
+6. Photo approvals: children's faces (Lumen libraries), Chanra, UNMCK/Mission Center photos if any exist.
+7. MEDIAWATCH: prominent, brief, or omitted? (Currently: brief card, neutral factual wording.)
+8. Jurio: exact role title to print.
+9. Labor research status: ongoing / draft / article-in-progress? And the 39 interviews — completed, ongoing, or planned?
+10. KCU coursework: 5 key courses.
+11. Libraries: three or four? (See conflict above.)
+12. AsianHub start: 2019 (resume) or 2018 (old portfolio)?
+13. Was there an internship behind the resume's "노무사 앱, research, internship" line?
+14. Photography: dedicated mini-gallery page, or keep as one line under Skills & Interests? (If gallery: send the 2–4 recognized photos.)
+15. Site emphasis check: law-school applications, public-interest work, and education work are currently weighted equally with law as the *direction* — confirm this balance.
+
+</file>
+
+<file path="angels.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angels for the Journey | Michelle Lee</title>
+<meta name="description" content="Angels for the Journey: a youth-driven network accompanying children and families in the Philippines, Cambodia, and Laos, 187 student supports since 2021. Michelle Lee, Co-founder & Director.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <ul class="nav-links" style="display:flex">
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#projects">← All projects</a>
+    <p class="eyebrow">Featured Project</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Angels for the Journey</h1>
+    <p style="font-family:var(--serif);font-style:italic;font-size:20px;color:var(--terra)">Long-term educational support for vulnerable youth, built on accompaniment rather than charity</p>
+    <p class="meta-line"><strong>Co-Founder &amp; Director</strong>, March 2021-present, Philippines, Cambodia, Laos, U.S. &amp; Korea · <a href="https://angels-journey.squarespace.com/">organization site ↗</a></p>
+    <p class="lede">A youth-driven network that helps children stay in school, tuition, uniforms, exam fees, supplies, and emergency family aid, delivered through local coordinators and documented support. The organizing idea is in the name: not rescue, but accompaniment. The same children and families, step by step, year by year.</p>
+  </div>
+</header>
+
+<div class="proj-section">
+  <div class="wrap">
+    <figure class="photo"><img loading="lazy" decoding="async" src="images/angels-workshop-watching.png" alt="Two children, seen from behind, watching a community workshop in Cambodia"><figcaption>A community workshop in Cambodia. Field visits center joint activities with local schools and churches.</figcaption></figure>
+
+    <h2>Origin</h2>
+    <p>The project began with a question about how charity usually works. Visiting homes, churches, and schools in the rural Cavite region of the Philippines while reporting for a youth newspaper, the founding team kept seeing the same pattern: a group would arrive once a year, hand out gifts, take photos, and leave.</p>
+    <p>Angels for the Journey was built as the opposite of that pattern, a network of young volunteers committed to the unglamorous middle of a child's education: the school fees that accumulate, the uniform that wears out, the family crisis that would otherwise end a school year.</p>
+    <p class="note"><span class="ph">[Voice check: if Michelle was on the Cavite trips, this section shifts to include her firsthand; confirm before publishing.]</span></p>
+
+    <h2 style="margin-top:40px">What the project does</h2>
+    <ul>
+      <li><strong>Keeps children in school</strong>: tuition, uniforms, exam fees, and supplies, with needs identified by local coordinators and every delivery documented and confirmed with families.</li>
+      <li><strong>Steadies families in crisis</strong>: short-term, specific aid (food staples, hygiene essentials) for particular families at particular moments, clearly documented rather than open-ended.</li>
+      <li><strong>Opens doors after graduation</strong>: U.S. college application guidance for older students, including scholarship pathways explored with partners such as CETUSA.</li>
+      <li><strong>Builds youth-to-youth connection</strong>: free Zoom academic support (including 1:1 sessions) and cultural-exchange workshops; letters and language exchange in between.</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Michelle's contributions</h2>
+    <ul>
+      <li class="ph">[Co-founded the network in 2021 and has served as director since ____]</li>
+      <li class="ph">[Organizes/teaches Zoom academic support and cultural-exchange workshops]</li>
+      <li class="ph">[Coordinates with local coordinators / manages student records and follow-up]</li>
+      <li class="ph">[Led fundraising campaigns / U.S. college application guidance]</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Outcomes</h2>
+    <p>As of July 2026, the network has delivered <strong>187 student supports</strong> across three countries. Its longest-running relationships now reach past high school: in December 2025, <strong>Chanra Hun</strong> of Kok Trach Village, Siem Reap, supported through her secondary education, was admitted to <strong>Reed College</strong> (Portland, Oregon, Class of 2030) with the college's Continental Scholarship, and plans to study psychology and mathematics.</p>
+    <div class="photo-pair">
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/angels-chanra-graduation.png" alt="Chanra Hun in cap and gown at her graduation"><figcaption>Chanra at her graduation in Siem Reap, before beginning at Reed College. <span class="ph">[pending consent]</span></figcaption></figure>
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/angels-cetusa-meeting.jpg" alt="Michelle and Alex in Angels for the Journey shirts with CETUSA's executive director"><figcaption>With CETUSA's executive director, exploring J-1 scholarship pathways for supported students (2024).</figcaption></figure>
+    </div>
+
+    <h2 style="margin-top:40px">How the work stays honest</h2>
+    <p>The organization's practices are deliberately unromantic. Local coordinators, not visiting volunteers, identify who needs what. Every support is documented and photo-confirmed with the family. And field visits are structured around joint activities with local schools, with evening reflection circles and post-trip debriefs on privilege and inequality: volunteers are asked to learn, not just to give.</p>
+
+    <h2 style="margin-top:40px">What this project shows</h2>
+    <p>Five years of staying. The project's value as evidence is not its size but its duration and its discipline, a commitment made in 2021 and still being kept in 2026, with paperwork to show for it. It is also where Michelle's later work begins: the tutoring became curriculum, the letters became translation, and the question "what keeps a child out of school?" became a question about systems, which is now taking her into law.</p>
+
+    <p style="margin-top:40px"><a class="btn primary" href="lumen.html">Next project: Lumen Education →</a></p>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Michelle Lee · 이민정 Minjung Lee</strong></p>
+    <p>© 2026 Michelle Lee</p>
+  </div>
+</footer>
+</body>
+</html>
+
+</file>
+
+<file path="index.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michelle Lee (Minjung Lee) | Educator, Writer &amp; Translator | Education, Language Access &amp; Public-Interest Law</title>
+<meta name="description" content="Michelle Lee (Minjung Lee) is an educator, writer, and translator working across Korea and Southeast Asia, multilingual children's books, labor-rights research, legal-information technology, and a path toward public-interest law.">
+<meta property="og:title" content="Michelle Lee, Educator · Writer · Translator">
+<meta property="og:description" content="Working at the intersection of education, language, community, and law.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/og-image.png"><!-- replace with absolute URL at deploy, e.g. https://domain/images/og-image.png -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="#home">Michelle Lee</a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#writing">Research</a></li>
+      <li><a href="#legal">Education &amp; Law</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Michelle Lee · 이민정 Minjung Lee</p>
+      <h1>Educator · Writer · Translator<span class="sub">working toward public-interest law</span></h1>
+      <p class="mission">Who gets to learn? Who is remembered? Whose stories are heard?</p>
+      <div class="btn-row">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#writing">Read Writing</a>
+      </div>
+    </div>
+    <div class="hero-photo"><img fetchpriority="high" decoding="async" src="images/michelle-portrait.png" alt="Portrait of Michelle Lee"></div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="wrap stats-grid">
+    <div class="stat reveal"><div class="num ph">[X]+</div><div class="label">Years teaching</div></div>
+    <div class="stat reveal"><div class="num">187</div><div class="label">Student supports by Angels for the Journey since 2021</div></div>
+    <div class="stat reveal"><div class="num">3</div><div class="label">Children's libraries created in Siem Reap <span class="ph">[resume says 4, confirm]</span></div></div>
+    <div class="stat reveal"><div class="num">2</div><div class="label">Multilingual picture books published in 3 languages</div></div>
+    <div class="stat reveal"><div class="num">205</div><div class="label">Books donated to the National Library of Cambodia</div></div>
+  </div>
+</div>
+
+<div class="focus">
+  <div class="wrap focus-inner">
+    <p><strong>Current focus:</strong> Michelle's current work connects legal studies, labor-rights research, and public-interest technology.</p>
+    <div class="focus-chips">
+      <a class="focus-chip" href="#legal">LL.B. · Korea Cyber University</a>
+      <a class="focus-chip" href="research.html">Labor rights &amp; automation research</a>
+      <a class="focus-chip" href="jurio.html">Jurio legal-information app</a>
+    </div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <h2 class="sec-title">One thread: access.</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <p>Minjung (Michelle) Lee is an educator, writer, translator, and legal-studies student whose work begins with a simple conviction that access is everything: access to learning, to language, and to the law.</p>
+        <p>She grew up between St. Louis and Seoul, boarding school at Thomas Jefferson School in Missouri, then a B.A. in International Studies with a concentration in International Law and Diplomacy at Ewha Womans University (February 2025), including a semester at the University of Exeter as a Seoul Scholarship Foundation Scholar. Her thesis, <a href="thesis.html">“The Second Great Game,”</a> examined U.S.-China rivalry in the Indo-Pacific through a historical-comparative lens. That early life of carrying meaning across a border, between languages, school systems, and countries, became the through-line of everything since. She is now completing an LL.B. at Korea Cyber University (expected December 2026) as she prepares for U.S. law school.</p>
+        <p>In the classroom, Michelle has taught English composition, AP World History, social studies, reading, writing, and debate, in person and online, most recently as a supplemental instructor at Welltain Christian International School in Incheon. Teaching showed her how unevenly opportunity is distributed, and pushed her work beyond the classroom: co-founding <a href="angels.html">Angels for the Journey</a> in 2021 to support vulnerable children in Southeast Asia, and <a href="lumen.html">Lumen Education</a> in Cambodia in 2025, where as publication director she co-authors multilingual children's books and leads reading workshops. Her essay <a href="pagoda.html">“A Pagoda”</a>, a 2026 Bechtel Prize honorable mention in <em>Teachers &amp; Writers Magazine</em>, sets out the approach that runs through all of it: education begins with listening, language works best as a bridge rather than a replacement, and students' own families, memories, and cultures are the rightful foundation of their writing.</p>
+        <p>The same work kept leading her to legal questions. Community translation with AsianHub, including certified in-person interpretation for migrant women at clinics and hospitals, journalism on historical memory at LeadersTimes, translation of investigative political reporting for MEDIAWATCH, and documentary and interpretation work with the Mission Center for Migrants in Daegu all pointed to the same gap between the people laws govern and the language laws speak. Today she is answering it directly: through her LL.B. studies, an <a href="research.html">interview-based research project</a> on how industrial robots reshape worker protection in Korean manufacturing, and <a href="jurio.html">Jurio</a>, an early-stage legal-information app she is planning with developer Alex Lee.</p>
+      </div>
+      <aside class="facts reveal">
+        <h3>At a glance</h3>
+        <dl>
+          <div><dt>Education</dt><dd>LL.B. candidate, Korea Cyber University (exp. Dec 2026) · B.A. International Studies (Int'l Law &amp; Diplomacy), Ewha Womans University (2025) · University of Exeter, Seoul Scholarship Foundation Scholar · Thomas Jefferson School (U.S.)</dd></div>
+          <div><dt>Languages</dt><dd>Korean (native) · English (native) · French (advanced)</dd></div>
+          <div><dt>Based in</dt><dd>Phnom Penh, Cambodia &amp; Seoul, Korea <span class="ph">[confirm public wording]</span></dd></div>
+          <div><dt>Recognition</dt><dd>Bechtel Prize honorable mention, <em>Teachers &amp; Writers Magazine</em> (2026) · ITT Level 2 (interpretation &amp; translation) · LeadersTimes Certificate of Meritorious Participation (2024)</dd></div>
+          <div><dt>Current</dt><dd>Labor rights &amp; automation research · Jurio legal-information app · LL.B. studies</dd></div>
+          <div><dt>Focus</dt><dd>Education access · language access · labor rights · migrant communities · children &amp; youth · historical memory</dd></div>
+          <div><dt>CV</dt><dd><span class="ph">[Download PDF, confirm]</span></dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section-alt">
+  <div class="wrap">
+    <p class="eyebrow">Featured Projects</p>
+    <h2 class="sec-title">Work in the field</h2>
+    <p class="sec-intro">Michelle's work spans children's literacy, long-term education support, labor-rights research, and legal technology, four projects, one question: how do people reach the systems meant to serve them? Each card describes her own role within a team effort.</p>
+    <div class="cards two">
+
+      <article class="card reveal">
+        <div class="card-img"><img loading="lazy" decoding="async" src="images/lumen-national-library-donation.jpg" alt="Michelle Lee and a partner librarian at the National Library of Cambodia, holding the picture book Amok beside stacks of donated books"></div>
+        <div class="card-body">
+          <span class="tag">Education · Publishing</span>
+          <h3>Lumen Education Program</h3>
+          <p class="meta">Co-Founder &amp; Publication Director, Sept 2025-present · Siem Reap &amp; Phnom Penh, Cambodia</p>
+          <p>An education-focused social company addressing educational inequity in Cambodia: multilingual children's books (<em>Amok</em>, <em>Phnom Pros and Phnom Srei</em>) co-authored with local youth in Khmer, English, and Korean, placed in libraries and classrooms where books are scarce, with earnings reinvested in free distribution.</p>
+          <ul class="contrib">
+            <li>Co-authors and edits the books; arranged and initially funded publication</li>
+            <li>Designs original characters, worksheets, and story-based learning materials for English and Khmer literacy</li>
+            <li>Leads reading sessions and workshops in Cambodian schools, safe educational alternatives for vulnerable youth</li>
+          </ul>
+          <p class="impact-line">2 books, 3 libraries, 205 books to the National Library &nbsp;<a class="chip" href="lumen.html">Full project →</a></p>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-img"><img loading="lazy" decoding="async" src="images/angels-workshop-watching.png" alt="Two children watching a community workshop in Cambodia, seen from behind"></div>
+        <div class="card-body">
+          <span class="tag">Children · Education Access</span>
+          <h3>Angels for the Journey</h3>
+          <p class="meta">Co-Founder &amp; Director, Mar 2021-present · Philippines, Cambodia, Laos, U.S. &amp; Korea</p>
+          <p>A youth-driven network accompanying Korean Filipino children and vulnerable youth: biweekly tuition support and necessities for children in single-parent and low-income households, delivered through long-term relationships with local coordinators, plus student fundraising, cultural-exchange visits, and free Zoom academic help.</p>
+          <ul class="contrib">
+            <li>Recruits and mentors high-school members running fundraisers at U.S. schools</li>
+            <li>Led student cultural-exchange visits to the Philippines (2024) and Cambodia (2025)</li>
+            <li>Oversaw book, device, and materials shipments that established children's libraries in Siem Reap</li>
+          </ul>
+          <p class="impact-line">187 student supports since 2021 &nbsp;<a class="chip" href="angels.html">Full project →</a></p>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-body" style="padding-top:24px">
+          <span class="status-badge">Research in progress</span>
+          <span class="tag">Labor Rights · Law</span>
+          <h3>Labor Rights in the Age of Industrial Robots</h3>
+          <p class="meta">Researcher, 2026 · South Korea</p>
+          <p>An interview-based study of how industrial robots and automation affect worker protection in Korean manufacturing. Drawing on interviews with certified labor attorneys (공인노무사), it examines whether current Korean labor law adequately protects workers in three areas: workplace safety, participation in technology-related decisions, and transition support when jobs or duties change.</p>
+          <ul class="contrib">
+            <li>Statutory analysis across five areas of Korean labor law; U.S. comparison via the Amazon/OSHA debate</li>
+            <li>Interviews with <strong>39</strong> certified labor attorneys <span class="ph">[confirm final count]</span>, anonymized and thematically coded</li>
+            <li>Research interest shaped by engagement with migrant communities affected by automation</li>
+          </ul>
+          <p class="impact-line">Safety, participation, transition &nbsp;<a class="chip" href="research.html">Full project →</a></p>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-body" style="padding-top:24px">
+          <span class="status-badge">Early-stage prototype</span>
+          <span class="tag">Legal Technology · Access to Justice</span>
+          <h3>Jurio 주리오</h3>
+          <p class="meta">Co-planner &amp; Legal-content strategist, with developer Alex Lee · 2026-present</p>
+          <p>A bilingual (Korean/English) legal-information app that makes labor-rights concepts easier to understand, starting from the worker's situation ("I didn't get paid," "I was hurt at work") rather than the statute, with plain-language guides, real law citations, a glossary, and a directory of certified labor attorneys.</p>
+          <ul class="contrib">
+            <li>Defines the app's purpose and issue-first structure; organizes its labor-law content</li>
+            <li>Reviews terminology and glossary entries for plain-language clarity</li>
+            <li>Gives continuous feedback on user flow, legal information, never legal advice</li>
+          </ul>
+          <p class="impact-line">Legal literacy for workers &amp; migrants &nbsp;<a class="chip" href="jurio.html">Full project →</a></p>
+        </div>
+      </article>
+
+    </div>
+
+    <h3 class="more-title">More work</h3>
+    <div class="mini-grid">
+      <article class="mini reveal">
+        <h3>Welltain Christian International School</h3>
+        <p class="meta">Supplemental Instructor, English &amp; Social Science, Sept 2024-June 2025 · Incheon, Korea</p>
+        <p>English composition, AP World History, and humanities in small-group sessions, with personalized study guides and detailed writing feedback. <a href="#teaching" class="chip">More on teaching ↓</a></p>
+      </article>
+      <article class="mini reveal">
+        <h3>AsianHub, Community Translation</h3>
+        <p class="meta">Translation Volunteer, Aug 2019-present · Seoul, Korea</p>
+        <p>Korean→English translation for multicultural families; ITT Level 2-certified in-person interpretation for migrant women at clinics and hospitals; editing books from Myanmar, Vietnam, and Mongolia; English audiobooks for community reading programs.</p>
+      </article>
+      <article class="mini reveal">
+        <h3>Mission Center for Migrants</h3>
+        <p class="meta">Volunteer, June 2024-present · Daegu, Korea</p>
+        <p>Co-produced short documentaries reframing language barriers as an accessibility issue; Korean/English interpretation at the Full Moon Festa and community events with migrant workers, including Sri Lankan communities. <a href="research.html" class="chip">Connects to labor research →</a></p>
+      </article>
+      <article class="mini reveal">
+        <h3>LeadersTimes</h3>
+        <p class="meta">Intern (formerly Student Journalist), July 2023-present · Seoul &amp; Daegu, Korea</p>
+        <p>Reporting on Korea and international society. Led a youth press trip to the Hiroshima Peace Memorial Ceremony; published an in-depth interview with North Korean defector and painter An Chung Guk. Certificate of Meritorious Participation (2024). <a href="#writing" class="chip">Read the writing ↓</a></p>
+      </article>
+      <article class="mini reveal">
+        <h3>ISC Global</h3>
+        <p class="meta">Int'l Student Exchange Coordinator, Oct 2018-present · Michigan &amp; Missouri, U.S. (hybrid)</p>
+        <p>Pre-departure orientations, post-arrival check-ins, and year-round school coordination for exchange students; organized cultural-exchange visits by North Korean defectors to U.S. schools (2019); represented the organization at the CSIET annual conference.</p>
+      </article>
+      <article class="mini reveal">
+        <h3>MEDIAWATCH</h3>
+        <p class="meta">Translation Assistant, June 2024-Dec 2025 · Seoul, Korea</p>
+        <p>Transcribed, translated, and edited investigative articles and interview scripts concerning the 2024 martial-law events for English publication and video. <span class="ph">[confirm prominence/wording]</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="writing">
+  <div class="wrap">
+    <h2 class="sec-title">Research, stories, books, translations</h2>
+    <p class="sec-intro">From geopolitics to labor law to legal technology, selected research, essays, books, and translations on power, literacy, memory, migration, and the people policy forgets.</p>
+    <div class="rows">
+      <div class="row reveal">
+        <h3>Industrial Robots and the Protection of Korean Manufacturing Workers <span class="award">In progress</span></h3>
+        <a class="chip" href="research.html">Details →</a>
+        <span class="desc"><span class="venue">Independent research <span class="ph">[confirm venue]</span> · 2026</span>, Interview-based study with certified labor attorneys (공인노무사) on safety, participation, and transition protection in the age of industrial robots.</span>
+      </div>
+      <div class="row reveal">
+        <h3>“The Second Great Game: the U.S. and China in the Indo-Pacific”</h3>
+        <a class="chip" href="thesis.html">Details →</a>
+        <span class="desc"><span class="venue">B.A. thesis, Ewha Womans University · November 2024</span>, A historical-comparative study reading the U.S.-China rivalry, Belt and Road, the South China Sea, FOIP, the Quad, AUKUS, against the 19th-century Great Game between Britain and Russia.</span>
+      </div>
+      <div class="row reveal">
+        <h3>“A Pagoda” <span class="award">Bechtel Prize honorable mention</span></h3>
+        <a class="chip" href="pagoda.html">Details →</a>
+        <span class="desc"><span class="venue">Teachers &amp; Writers Magazine (New York) · April 2026</span>, A reflective essay on teaching creative writing in Cambodia: feelings-and-needs vocabulary, identity trees, letters to mothers, and Khmer-English folktale transcription, listening first, and helping young writers see their own families and cultures as sources of literature. <a class="chip" href="https://teachersandwritersmagazine.org/a-pagoda/">Read the essay ↗</a></span>
+      </div>
+      <div class="row reveal">
+        <h3><em>Amok</em></h3>
+        <a class="chip" href="lumen.html">About →</a>
+        <span class="desc"><span class="venue">Lumen Education · Khmer / English / Korean · 2025</span>, Picture book: Srey Leak learns to cook fish amok with her grandmother during Pchum Ben, how a single dish carries family memory and Khmer culture. Co-authored and edited as publication director.</span>
+      </div>
+      <div class="row reveal">
+        <h3><em>Phnom Pros and Phnom Srei</em></h3>
+        <a class="chip" href="lumen.html">About →</a>
+        <span class="desc"><span class="venue">Lumen Education · Khmer / English / Korean · 2025</span>, Picture book retelling the Kampong Cham legend of Men's Hill and Women's Hill, where wisdom outbuilds strength. Co-authored and edited as publication director.</span>
+      </div>
+      <div class="row reveal">
+        <h3>Interview: North Korean defector and painter An Chung Guk <span class="ph">[exact title]</span></h3>
+        <a class="chip ph" href="#">Read →</a>
+        <span class="desc"><span class="venue">LeadersTimes · <span class="ph">[date]</span></span>, In-depth interview highlighting discrimination and social-integration challenges. <span class="ph">[link]</span></span>
+      </div>
+      <div class="row reveal">
+        <h3>Hiroshima Peace Memorial Ceremony coverage <span class="ph">[exact title]</span></h3>
+        <a class="chip ph" href="#">Read →</a>
+        <span class="desc"><span class="venue">LeadersTimes · <span class="ph">[date]</span></span>, Reporting from a youth press trip: interviews on memory, war responsibility, and victim consciousness (higaisha ishiki). <span class="ph">[link]</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="legal" class="section-alt">
+  <div class="wrap">
+    <h2 class="sec-title">The academic foundation</h2>
+    <div class="legal-grid">
+      <div class="reveal">
+        <p><strong>Korea Cyber University, Bachelor of Laws (LL.B.), expected December 2026.</strong> Michelle is completing an LL.B. alongside her fieldwork, building an academic grounding in Korean law and legal systems. She came to legal study the long way, through classrooms, translation desks, and migrant-community engagement, and treats law the way she treats language: something to be learned rigorously precisely so it can be explained simply.</p>
+        <p style="margin-top:16px"><strong>Ewha Womans University, B.A. in International Studies</strong>, concentration in International Law &amp; Diplomacy (February 2025). Coursework: Foundations of International Law · International Business Law · International Trade Law · Public International Law · International Society and Public Diplomacy · International Political Economy. Thesis: <a href="thesis.html">“The Second Great Game: the U.S. and China in the Indo-Pacific.”</a></p>
+        <p style="margin-top:16px"><strong>University of Exeter</strong>, study-abroad semester as a <strong>Seoul Scholarship Foundation Scholar</strong> (Sept 2023-Jan 2024). Coursework: Business &amp; Human Rights Law · Great Power Politics · Changing Character of Warfare · International Business Context.</p>
+        <p style="margin-top:16px"><strong>Thomas Jefferson School</strong> (St. Louis, U.S.), liberal-arts boarding school, middle and high school (2020).</p>
+        <p style="margin-top:16px">Her legal research interests follow directly from her projects: labor law and worker protection in technological change, the legal position of migrant workers, children's rights and education access, and how legal information reaches, or fails to reach, the people it governs. Continuing toward a U.S. J.D. with a public-interest focus.</p>
+      </div>
+      <div class="reveal">
+        <h3 style="font-size:17px;margin-bottom:14px">LL.B. coursework <span class="ph">[provide exact course names]</span></h3>
+        <ul class="course-list">
+          <li class="ph">[Course 1, e.g., Labor Law]</li>
+          <li class="ph">[Course 2, e.g., Civil Law]</li>
+          <li class="ph">[Course 3, e.g., Constitutional Law]</li>
+          <li class="ph">[Course 4, e.g., Administrative Law]</li>
+          <li class="ph">[Course 5, e.g., Legal Theory / Public-Interest Law]</li>
+        </ul>
+        <h3 style="font-size:17px;margin:24px 0 14px">Campus leadership &amp; research</h3>
+        <ul class="course-list">
+          <li><strong>LAWGIC</strong>: elected council member (2021-23): workshops on reading judicial opinions and case summaries; accessible content on the UN High Seas Treaty and antitrust law; court and legal-institution field trips</li>
+          <li><strong>Academic Consortium for Economics</strong>: president (2021-23): biweekly <em>Economist</em>-based presentations on global finance and policy; mentored junior members</li>
+          <li><strong>Research Fellow, Prof. Jean S. Kang</strong> (2023): course materials for “Introduction to International &amp; Global Studies”, Prof. Kang later advised her thesis</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="teaching">
+  <div class="wrap">
+    <h2 class="sec-title">The classroom is where it starts</h2>
+    <div class="teach-grid">
+      <div class="reveal">
+        <h3 style="font-size:19px;margin-bottom:12px">Teaching through story</h3>
+        <p>Michelle's teaching begins with listening. The creative-writing classroom she describes in <a href="pagoda.html">“A Pagoda”</a>, her Bechtel Prize-recognized essay for <em>Teachers &amp; Writers Magazine</em>, starts not with grammar but with a feelings-and-needs vocabulary, identity trees, and letters to mothers, because students must first believe they have a voice worth writing with. English, in her classroom, does not replace Khmer; it works as a bridge, another tool for naming emotions, preserving memory, and telling stories rooted in family and community. Writing is treated as construction, word by word, like stones fitted into a pagoda, and the classroom as a safe place to build.</p>
+        <blockquote style="margin-top:20px"><span class="ph">“English would not replace Khmer. This lingua franca would become a bridge.”</span> <span style="font-size:14px;font-style:normal"><a href="pagoda.html">“A Pagoda”</a> <span class="ph">[verify quote verbatim]</span></span></blockquote>
+        <p style="margin-top:20px">The same philosophy runs through her formal teaching, most recently English composition and AP World History at Welltain Christian International School in Incheon, in small-group sessions with personalized study guides and detailed writing feedback, and through her fieldwork: Lumen's book workshops invite children to draw scenes and retell folktales in their own variations; its free Korean language and culture Zoom classes, run with the National Library of Cambodia, are open to youth, librarians, and adult learners; and through Angels for the Journey she offers free Zoom academic support and cultural-exchange workshops connecting students across countries.</p>
+        <blockquote class="ph" style="margin-top:20px">[Testimonial from a student, parent, or colleague, with permission.]</blockquote>
+      </div>
+      <div class="teach-facts reveal">
+        <div class="tf"><h4>Subjects</h4><p>English composition · AP World History · Social Studies · Reading &amp; Writing · Debate <span class="ph">[other AP/SAT/TOEFL?]</span></p></div>
+        <div class="tf"><h4>Learners</h4><p>Middle &amp; high school <span class="ph">[confirm range]</span> · multicultural &amp; international students · Cambodian youth &amp; adult learners</p></div>
+        <div class="tf"><h4>Formats</h4><p>In-person · online · small-group · 1:1 and group Zoom workshops</p></div>
+        <div class="tf"><h4>Workshops</h4><p>Korean language &amp; culture classes (with the National Library of Cambodia) · reading &amp; storytelling workshops (Lumen) · academic support &amp; cultural exchange (Angels for the Journey)</p></div>
+        <div class="tf"><h4>Cross-cultural</h4><p>Korean/English bilingual instruction · exchange-student orientation &amp; year-round support (ISC Global)</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="civic" id="civic">
+  <div class="wrap">
+    <div class="civic-card reveal">
+        <h3>UN Memorial Cemetery in Korea &amp; Soldiers' Angels</h3>
+      <p>As fundraising project manager for remembrance work at the UN Memorial Cemetery in Korea (Busan), the only United Nations cemetery in the world, Michelle recruits student participants from Korean and U.S. cities for the annual UN Memorial Ceremony, and designed the "Freedom Isn't Free" T-shirt campaign that funds floral tributes on 45 individual graves of Korean War soldiers. She also prepares presentation materials U.S. students use to share the story of UN sacrifices with their schools. Wanting to continue that gesture of cross-border gratitude in the present tense, she joined <a href="https://soldiersangels.org/show-your-appreciation-to-deployed-soldiers-through-letter-writing/">Soldiers' Angels' letter-writing team</a> in 2024, writing weekly letters of appreciation to deployed service members, a small, regular practice connecting how nations honor those who served with the individuals serving now.</p>
+    </div>
+  </div>
+</section>
+
+<section id="law" class="law">
+  <div class="wrap">
+    <p class="eyebrow">Direction</p>
+    <h2 class="sec-title">Toward public-interest law</h2>
+    <div class="prose reveal">
+      <p>Years of teaching, translating, and community work keep leading Michelle to the same observation: the people most affected by laws are often the last to be able to read them. A migrant worker's contract, a multicultural family's school paperwork, a child's route to a classroom, each is governed by rules written in a language, and a register, that its subjects were never given.</p>
+      <p>Her concentration in International Law and Diplomacy at Ewha, her LL.B. study, and her translation of investigative reporting turned that observation into a direction, and her current work has turned the direction into practice: research on how labor law protects workers in the age of industrial robots, and a legal-information app that starts from a worker's situation instead of a statute.</p>
+      <p class="pull">“How do laws and policies look from the perspective of the people they are written about?”</p>
+      <p>That is the question her legal education is built around, and the one she hopes to spend a career answering.</p>
+    </div>
+  </div>
+</section>
+
+<section id="journey">
+  <div class="wrap">
+    <h2 class="sec-title" style="text-align:center">How the work developed</h2>
+    <div class="timeline" style="margin-top:56px">
+      <div class="tl-item reveal"><span class="year">2018 · Exchange</span><h3>ISC Global</h3><p>Began supporting international student exchange as a youth volunteer, later coordinator, orientations, school communication, and cultural-exchange visits, including North Korean defectors' visits to U.S. schools (2019).</p></div>
+      <div class="tl-item reveal"><span class="year">2019 · Language Access</span><h3>AsianHub</h3><p>Began community translation for immigrants and multicultural families in Korea, later earning ITT Level 2 certification to interpret in person for migrant women at clinics and hospitals.</p></div>
+      <div class="tl-item reveal"><span class="year">2020-21 · Foundations</span><h3>Thomas Jefferson School → Ewha; Angels for the Journey</h3><p>Completed boarding school in St. Louis (2020); began International Studies at Ewha. Co-founded Angels for the Journey (March 2021) supporting Korean Filipino children and vulnerable youth; elected to LAWGIC's council and led the Academic Consortium for Economics.</p></div>
+      <div class="tl-item reveal"><span class="year">2023 · Research &amp; Reporting</span><h3>Research fellowship, LeadersTimes &amp; Exeter</h3><p>Research fellow with Prof. Jean S. Kang; joined LeadersTimes (July); studied at the University of Exeter as a Seoul Scholarship Foundation Scholar (Sept 2023-Jan 2024), Business &amp; Human Rights Law, Great Power Politics.</p></div>
+      <div class="tl-item reveal"><span class="year">2024 · Law, Policy &amp; Memory</span><h3>Fieldwork year, and the thesis</h3><p>Led Angels' cultural-exchange visit to the Philippines (Feb); began UNMCK fundraising project, Mission Center for Migrants volunteering, and MEDIAWATCH translation (June); joined Soldiers' Angels (July); began teaching at Welltain (Sept); presented her thesis, <a href="thesis.html">“The Second Great Game”</a> (Nov).</p></div>
+      <div class="tl-item reveal"><span class="year">2025 · Graduation &amp; Lumen</span><h3>B.A. completed; Lumen Education founded</h3><p>Graduated from Ewha (Feb). Led Angels' cultural-exchange visit to Cambodia (June). Co-founded Lumen Education as publication director (Sept), publishing <em>Amok</em> and <em>Phnom Pros and Phnom Srei</em> and establishing children's libraries in Siem Reap.</p></div>
+      <div class="tl-item reveal"><span class="year">2026 · Law, Research &amp; Technology</span><h3>Labor-rights research, Jurio &amp; recognition</h3><p>"A Pagoda" received a Bechtel Prize honorable mention from <em>Teachers &amp; Writers Magazine</em>. Began interview-based research on industrial robots and worker protection (39 certified labor attorneys interviewed <span class="ph">[confirm]</span>) and co-planning the Jurio legal-information app. Lumen donated 205 books to the National Library of Cambodia. LL.B. expected December 2026.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section-alt">
+  <div class="wrap">
+    <h2 class="sec-title">Expertise</h2>
+    <div class="skill-grid">
+      <div class="skill reveal"><h3>Education &amp; Teaching</h3><div class="pills"><span class="pill">English composition</span><span class="pill">AP World History</span><span class="pill">Curriculum &amp; study guides</span><span class="pill">Debate coaching</span><span class="pill">Reading &amp; storytelling workshops</span></div></div>
+      <div class="skill reveal"><h3>Writing &amp; Journalism</h3><div class="pills"><span class="pill">Personal essay</span><span class="pill">Feature writing &amp; interviews</span><span class="pill">Children's books</span><span class="pill">Editing</span></div></div>
+      <div class="skill reveal"><h3>Translation &amp; Language</h3><div class="pills"><span class="pill">Korean ↔ English (ITT Level 2)</span><span class="pill">Medical/community interpreting</span><span class="pill">Trilingual publishing (KM/EN/KR)</span><span class="pill">Plain-language legal writing</span></div></div>
+      <div class="skill reveal"><h3>Legal Research</h3><div class="pills"><span class="pill">Korean labor law</span><span class="pill">International law &amp; IR</span><span class="pill">Statutory analysis</span><span class="pill">Semi-structured interviews</span><span class="pill">Thematic coding</span></div></div>
+      <div class="skill reveal"><h3>Community · NGO · Technology</h3><div class="pills"><span class="pill">Program coordination</span><span class="pill">Fundraising campaigns</span><span class="pill">Cross-cultural partnerships</span><span class="pill">Legal-content strategy</span><span class="pill">Documentary support</span></div></div>
+      <div class="skill reveal"><h3>Public-Interest Focus</h3><div class="pills"><span class="pill">Labor rights</span><span class="pill">Migrant communities</span><span class="pill">Children's rights</span><span class="pill">Language access</span><span class="pill">Access to justice</span></div></div>
+    </div>
+    <p class="langs"><strong>Languages:</strong> Korean (native), English (native), French (advanced)<br><span style="font-size:14px"><strong>Interests:</strong> photography, recognized in the Peaceful Unification Advisory Council Photo Contest and the National Student Smartphone Photography Contest (2024), with work on Korean division, remembrance, and cultural heritage <span class="ph">[mini-gallery? confirm]</span></span></p>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <h2 class="sec-title">In the field</h2>
+    <div class="gal-grid">
+      <figure class="gal-item reveal"><img loading="lazy" decoding="async" src="images/lumen-library-children.png" alt="Children reading picture books on green chairs beside a stocked bookshelf"><figcaption>One of the children's libraries in Siem Reap, created with Angels for the Journey.</figcaption></figure>
+      <figure class="gal-item reveal"><img loading="lazy" decoding="async" src="images/lumen-reading-session.jpg" alt="A large group of children reading picture books together on the floor"><figcaption>A community reading session in Siem Reap, Lumen's books pair Khmer and English.</figcaption></figure>
+      <figure class="gal-item reveal"><img loading="lazy" decoding="async" src="images/lumen-team-library-desk.jpg" alt="Michelle and colleagues with a librarian behind stacks of books at the National Library of Cambodia"><figcaption>Delivering books to the National Library of Cambodia, Phnom Penh.</figcaption></figure>
+      <figure class="gal-item reveal"><img loading="lazy" decoding="async" src="images/angels-workshop-watching.png" alt="Two children watching a community workshop, seen from behind"><figcaption>A community workshop in Cambodia, field visits center joint activities with local schools.</figcaption></figure>
+      <figure class="gal-item reveal"><img loading="lazy" decoding="async" src="images/angels-cetusa-meeting.jpg" alt="Michelle and Alex in Angels for the Journey shirts with CETUSA's executive director"><figcaption>Exploring J-1 scholarship pathways with CETUSA's executive director (2024).</figcaption></figure>
+      <figure class="gal-item reveal"><img loading="lazy" decoding="async" src="images/lumen-youth-workshop.png" alt="A large group of Cambodian youth and volunteers at a story-development workshop"><figcaption>Story-development workshop with Cambodian youth co-authors.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h2 class="sec-title">Let's work together.</h2>
+    <p class="sec-intro">I'm glad to hear about collaborations in education, writing and journalism, translation, public-interest law, legal technology, labor rights, and community projects, or fellowship and law-related opportunities. Messages welcome in English or Korean, 한국어로 연락 주셔도 좋습니다.</p>
+    <a class="btn primary ph" href="mailto:[confirm-public-email]">Email Michelle</a>
+    <p style="margin-top:20px;font-size:14px;color:var(--muted)"><span class="ph">[LinkedIn · other links, only what Michelle wants public]</span></p>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Michelle Lee · 이민정 Minjung Lee</strong></p>
+    <p>© 2026 Michelle Lee</p>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => document.querySelector('.nav-links').classList.remove('open')));
+</script>
+</body>
+</html>
+
+</file>
+
+<file path="jurio.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jurio: Legal Information &amp; Labor Rights App | Michelle Lee</title>
+<meta name="description" content="Jurio 주리오: an early-stage bilingual legal-literacy app for Korean labor-rights issues, plain-language issue guides, statute citations, a glossary, and a directory of certified labor attorneys. Michelle Lee: co-planner and legal-content strategist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <ul class="nav-links" style="display:flex">
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#projects">← All projects</a>
+    <p class="eyebrow">Public-interest technology · Early-stage prototype</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Jurio 주리오</h1>
+    <p style="font-family:var(--serif);font-style:italic;font-size:20px;color:var(--terra)">An early-stage legal-literacy app for Korean labor-rights issues</p>
+    <p class="meta-line"><strong>Co-planner &amp; legal-content strategist</strong>, with developer Alex Lee, 2026-present · <a href="https://jurio-gamma.vercel.app/">live prototype ↗</a></p>
+    <p class="lede">Korean labor law protects workers who often cannot read it. A worker facing unpaid wages, a sudden contract non-renewal, or an injury on the job must translate their situation into legal vocabulary before they can even search for help, and for migrant workers doing this in a second or third language, that distance can decide whether they get protection at all. Jurio is a bilingual (Korean/English) legal-information app built to shorten it.</p>
+  </div>
+</header>
+
+<div class="proj-section">
+  <div class="wrap">
+    <h2>What Jurio does</h2>
+    <p>Jurio starts from the worker's situation, not the statute:</p>
+    <ul>
+      <li><strong>Plain-language issue guides</strong>: entries like “I didn't get paid” (임금을 못 받았어요), “I was hurt at work” (일하다 다쳤어요 · 산재), and contract expiration walk users from a real situation toward the relevant legal concepts.</li>
+      <li><strong>Statute cards with real citations</strong>: key provisions of the Labor Standards Act (restrictions on dismissal, written notice of grounds, wage-claim limitation periods), the Minimum Wage Act, and the Foreign Workers Employment Act (workplace-change rules), each linked to Korea's official statute database (law.go.kr).</li>
+      <li><strong>A glossary of labor-law terminology</strong>: explained in plain language.</li>
+      <li><strong>A directory of certified labor attorneys (공인노무사)</strong> and labor-law offices organized by region, connecting information to actual professional help.</li>
+      <li><strong>Resource navigation for migrant workers</strong>: multilingual hotlines including Danuri (1577-1366, 13 languages), the foreign-workforce counseling line (1644-0644, 18 languages), and the 1345 immigration information center.</li>
+      <li><strong>Practical documentation guidance</strong>: e.g., wage-arrears confirmation documents (체불 확인서).</li>
+    </ul>
+    <p class="note">Feature list verified against the deployed prototype (July 2026). <span class="ph">[Mark any feature not yet live as “planned” before publishing.]</span></p>
+
+    <h2 style="margin-top:40px">Michelle's contributions</h2>
+    <ul>
+      <li>Helped define the app's purpose and its issue-first (rather than statute-first) structure</li>
+      <li>Identifies and organizes the key labor-rights issues the app covers</li>
+      <li>Reviews legal content and terminology explanations for accuracy and plain-language clarity</li>
+      <li>Suggests glossary improvements and connects entries to real worker situations</li>
+      <li>Gives continuous feedback on user flow and comprehension</li>
+      <li class="ph">[Shapes future features, multilingual expansion? guided intake? confirm roadmap]</li>
+      <li>Works with developer Alex Lee on overall direction</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Why it belongs in her story</h2>
+    <p>Jurio is Michelle's translation work in a third form. First she translated between Korean and English; then between oral folktale and children's book; now between statute and plain language. Her <a href="research.html">labor-rights research</a> and the app inform each other, the same three questions (Is it safe? Was I consulted? What happens to my job?) run through both.</p>
+
+    <h2 style="margin-top:40px">Current status</h2>
+    <p>An early-stage prototype is deployed and evolving. <span class="ph">[One sentence on what's next, user testing? content expansion? multilingual versions?]</span></p>
+
+    <p class="disclaimer" style="margin-top:32px"><strong>Note:</strong> Jurio provides legal information and educational content only. It is not a substitute for professional legal advice; for advice on a specific situation, users are directed to the certified labor attorneys and public counseling services listed in the app.</p>
+
+    <h2 style="margin-top:40px">What this project shows</h2>
+    <p>That Michelle's public-interest direction is already practical. She is not waiting for a J.D. to work on access to justice, she is building the on-ramp now, with the tools she already has: writing, translation, teaching, and an educator's sense of where understanding breaks down.</p>
+
+    <p style="margin-top:40px"><a class="btn primary" href="research.html">Related project: Labor rights &amp; automation research →</a></p>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Michelle Lee · 이민정 Minjung Lee</strong></p>
+    <p>© 2026 Michelle Lee</p>
+  </div>
+</footer>
+</body>
+</html>
+
+</file>
+
+<file path="lumen.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumen Education Program | Michelle Lee</title>
+<meta name="description" content="Lumen Education Program: multilingual children's books for literacy and cultural preservation in Cambodia. Co-founded and directed by Minjung (Michelle) Lee, Khmer/English/Korean books, three libraries in Siem Reap, 205 books donated to the National Library of Cambodia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <ul class="nav-links" style="display:flex">
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#projects">← All projects</a>
+    <p class="eyebrow">Featured Project</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Lumen Education Program</h1>
+    <p style="font-family:var(--serif);font-style:italic;font-size:20px;color:var(--terra)">Multilingual children's books for literacy and cultural preservation in Cambodia</p>
+    <p class="meta-line"><strong>Co-Founder &amp; Publication Director</strong>, September 2025-present, Siem Reap &amp; Phnom Penh, Cambodia · <a href="https://lumen-education.squarespace.com/">organization site ↗</a></p>
+    <p class="lede">A publication-centered social venture co-founded by Minjung (Michelle) Lee with Alex Lee. Working with Cambodian youth and educators, Lumen adapts local folktales and everyday experiences into illustrated children's books in Khmer, English, and Korean, then places those books in libraries and classrooms where age-appropriate books in a child's own language are hard to find. Proceeds are reinvested in further donations and new reading spaces.</p>
+  </div>
+</header>
+
+<div class="proj-section">
+  <div class="wrap">
+    <figure class="photo"><img loading="lazy" decoding="async" src="images/lumen-national-library-donation.jpg" alt="Michelle Lee and a partner librarian at the National Library of Cambodia, holding the picture book Amok beside stacks of donated books"><figcaption>At the National Library of Cambodia with a partner librarian, presenting <em>Amok</em> among 205 donated titles.</figcaption></figure>
+
+    <h2>Why it started</h2>
+    <p>In Phnom Penh and Siem Reap, the contrast is hard to miss: tourists, hotels, and souvenir shops on one side; children with almost no access to age-appropriate books in their own language on the other. After consulting teachers, parents, and young people, Michelle and her co-founder built Lumen as a small, practical bridge, a Cambodian publication turning local oral stories into books children can actually hold.</p>
+
+    <h2 style="margin-top:40px">The approach</h2>
+    <ul>
+      <li><strong>Well-made and culturally familiar</strong>: children deserve books where the settings, foods, and families look like their own.</li>
+      <li><strong>Adaptation with permission</strong>: folktales are retold with context and input from the people who live them.</li>
+      <li><strong>Youth as co-authors</strong>: Cambodian young people are credited co-creators, not sources; stories have been developed with co-authors including Mey Yean, Kun Thea, Villay, Sreynoch, Thaily, and Rota.</li>
+      <li><strong>Revenue returns to readers</strong>: book sales fund further donations and library creation.</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Publications</h2>
+    <div class="photo-pair">
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/book-amok.png" alt="Cover of the picture book Amok, a bowl of fish amok in a banana-leaf wrap"><figcaption><em>Amok</em> (Khmer · English · Korean), Srey Leak learns to cook fish amok with her grandmother during Pchum Ben: how a single dish carries family memory, gratitude, and Khmer culture.</figcaption></figure>
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/book-phnom-pros-srei.png" alt="Cover of Phnom Pros and Phnom Srei, an illustrated Khmer queen before a temple"><figcaption><em>Phnom Pros and Phnom Srei</em> (Khmer · English · Korean), the Kampong Cham legend of Men's Hill and Women's Hill, where wisdom outbuilds strength.</figcaption></figure>
+    </div>
+
+    <h2 style="margin-top:40px">Libraries &amp; reading spaces</h2>
+    <p>Lumen's books helped create <strong>three children's libraries in Siem Reap</strong> (with Angels for the Journey), where children can browse freely and read alone, with friends, or with teachers, practicing reading in both Khmer and English. In Phnom Penh, Lumen donated <strong>205 books to the National Library of Cambodia</strong>, acknowledged in a letter of gratitude from the Library's director.</p>
+    <div class="photo-pair">
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/lumen-library-children.png" alt="Children reading picture books on green chairs beside a stocked bookshelf"><figcaption>One of three children's libraries in Siem Reap.</figcaption></figure>
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/lumen-reading-session.jpg" alt="A large group of children reading picture books together on the floor"><figcaption>A community reading session in Siem Reap, Khmer and English side by side, with Korean editions used in exchange programs.</figcaption></figure>
+    </div>
+
+    <h2 style="margin-top:40px">Workshops &amp; partnerships</h2>
+    <p>With partners including the <strong>National Library of Cambodia</strong>, <strong>Royal University of Phnom Penh</strong>, <strong>Sipar</strong>, the Women's Resource Center, Hesed School, and Tent of David sites, Lumen runs book workshops, read-alouds, vocabulary games, children drawing scenes or retelling tales in their own variations, and free <strong>Korean language and cultural-exchange Zoom classes</strong> for Cambodian youth, librarians, and adult learners.</p>
+    <div class="photo-pair">
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/lumen-team-library-desk.jpg" alt="Michelle and colleagues with a librarian behind stacks of donated books at the National Library of Cambodia"><figcaption>Delivering books to the National Library of Cambodia with library staff, Phnom Penh.</figcaption></figure>
+      <figure class="photo"><img loading="lazy" decoding="async" src="images/lumen-nlc-thankyou-letter.png" alt="Official thank-you letter from the National Library of Cambodia acknowledging Lumen's donation of 205 books"><figcaption>Letter of gratitude from the National Library of Cambodia acknowledging the donation of 205 books.</figcaption></figure>
+    </div>
+
+    <h2 style="margin-top:40px">Michelle's contributions (as Publication Director)</h2>
+    <ul>
+      <li>Organizes and co-authors the multilingual books with local youth and students abroad, preserving oral folktales and cultural heritage</li>
+      <li>Arranged and initially funded the publications; reinvests book earnings in printing additional copies for free distribution to local schools and libraries</li>
+      <li>Designs original cartoon characters and stories, plus worksheets, story-based activities, and learning materials for English and Khmer literacy</li>
+      <li>Leads reading sessions and workshops in Cambodian schools, safe educational alternatives to the harmful or exploitative activities that often target vulnerable youth</li>
+      <li>Mentors American, Korean, and Cambodian youth through story-development workshops</li>
+    </ul>
+
+    <h2 style="margin-top:40px">The philosophy, “A Pagoda”</h2>
+    <p>The classroom described in Michelle's essay <a href="pagoda.html"><strong>“A Pagoda”</strong></a> (<em>Teachers &amp; Writers Magazine</em>, 2026, Bechtel Prize honorable mention) is the philosophy behind Lumen in miniature. Her students moved from naming feelings, to writing letters to their mothers, to transcribing Cambodian folktales in Khmer and English, and Lumen turned exactly that arc into a publishing model: children do not need to borrow stories from elsewhere to become readers and writers, because their families, villages, languages, and memories are already full of literary material. Publication, in this model, is not a product; it is dignity, a child's own culture, bound and shelved where they can reach it.</p>
+
+    <h2 style="margin-top:40px">What this project shows</h2>
+    <p>Lumen is where all of Michelle's skills operate at once: the educator designing how a book gets read, the writer and translator shaping how it speaks in three languages, and the organizer making sure it exists and reaches shelves. It is also the clearest statement of how she works across cultures, with permission, with co-authors, and with revenue flowing back to readers.</p>
+
+    <p style="margin-top:40px"><a class="btn primary" href="angels.html">Next project: Angels for the Journey →</a></p>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Michelle Lee · 이민정 Minjung Lee</strong></p>
+    <p>© 2026 Michelle Lee</p>
+  </div>
+</footer>
+</body>
+</html>
+
+</file>
+
+<file path="pagoda.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>“A Pagoda” | Michelle Lee · Teachers &amp; Writers Magazine, 2026 Bechtel Prize Honorable Mention</title>
+<meta name="description" content="Minjung (Michelle) Lee's published essay “A Pagoda” (Teachers & Writers Magazine, 2026 Bechtel Prize honorable mention), on teaching creative writing in Cambodia through feelings, identity, Khmer-English storytelling, and student voice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <ul class="nav-links" style="display:flex">
+      <li><a href="index.html#writing">Writing</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#writing">← Research &amp; Writing</a>
+    <p class="eyebrow">Featured Publication · 2026 Bechtel Prize Honorable Mention</p>
+    <h1 class="sec-title" style="margin-bottom:6px">“A Pagoda”</h1>
+    <p style="font-family:var(--serif);font-style:italic;font-size:20px;color:var(--terra)">Feelings, needs, and cultural identity as the building blocks of storytelling</p>
+    <p class="meta-line"><strong>Minjung (Michelle) Lee</strong>, <em>Teachers &amp; Writers Magazine</em> (New York), April 15, 2026 · <a href="https://teachersandwritersmagazine.org/a-pagoda/">Read the essay ↗</a></p>
+    <p class="lede">A reflective essay on teaching creative writing in Cambodia, and the closest thing to a manifesto Michelle has published. Its argument is its method: students don't need to borrow stories from elsewhere to become writers. They need a classroom that treats their emotions, families, languages, and cultural memories as literary material, and a teacher who listens first.</p>
+  </div>
+</header>
+
+<div class="proj-section">
+  <div class="wrap">
+    <h2>The classroom</h2>
+    <p>The essay opens in a crowded classroom that loses power mid-lesson, second-to-fifth graders on a concrete floor, mothers and grandmothers sitting in, a miniature pagoda visible near the doorway. From there it builds a writing course from the inside out: a read-aloud of Lydia Branković's <em>The Grand Hotel of Feelings</em>; a feelings-and-needs inventory that gives students an emotional vocabulary before anyone mentions grammar; identity trees branching from “I am”; letters to their mothers written in vivid, sensory language; and finally, students transcribing Cambodian folktales in both Khmer and English, their own oral tradition becoming their first literature.</p>
+
+    <blockquote style="margin:32px 0"><span class="ph">“English would not replace Khmer. This lingua franca would become a bridge.”</span><br><span style="font-size:14px;font-style:normal">from “A Pagoda” <span class="ph">[verify quotation verbatim before publishing]</span></span></blockquote>
+
+    <h2 style="margin-top:40px">The idea</h2>
+    <p>The title holds the pedagogy. Writing, in this classroom, is treated as construction, each chosen word a stone, fitted with care, the way a pagoda is built. Students who live with real instability get one space that is wholly theirs to design: the page. Before anything can be built there, though, they have to believe they have a voice worth writing with, which is why the course begins with feelings and family, not vocabulary lists, and why the teacher's first job is to listen.</p>
+
+    <h2 style="margin-top:40px">Key themes</h2>
+    <ul>
+      <li>Multilingual literacy and Khmer-English learning, English as expression, not replacement</li>
+      <li>Emotional vocabulary as the foundation of narrative voice</li>
+      <li>Identity writing: family, memory, and culture as literary material</li>
+      <li>Oral tradition entering the classroom, folktales as first texts</li>
+      <li>The teacher as listener; the classroom as a safe place to experiment with voice</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Where the philosophy went next</h2>
+    <p>The arc of this classroom, from naming feelings, to writing to mothers, to transcribing folktales bilingually, is the philosophy behind <a href="lumen.html">Lumen Education Program</a> in miniature. Lumen turned it into a publishing model: multilingual children's books co-authored with Cambodian youth, printed and shelved in libraries where the children who told the stories can reach them. Publication, in this model, is not a product; it is dignity.</p>
+
+    <figure class="photo" style="margin-top:32px"><img loading="lazy" decoding="async" src="images/lumen-reading-session.jpg" alt="A large group of children reading picture books together on the floor in Siem Reap"><figcaption>A community reading session in Siem Reap. The books pair Khmer and English, the essay's “bridge” in printed form.</figcaption></figure>
+
+    <p class="note" style="margin-top:24px">Students named in the published essay are not identified on this site. <span class="ph">[Photo wanted: an identity-tree worksheet or wide classroom writing shot, no faces needed.]</span></p>
+
+    <p style="margin-top:40px"><a class="btn primary" href="https://teachersandwritersmagazine.org/a-pagoda/">Read “A Pagoda” at Teachers &amp; Writers Magazine →</a></p>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Michelle Lee · 이민정 Minjung Lee</strong></p>
+    <p>© 2026 Michelle Lee</p>
+  </div>
+</footer>
+</body>
+</html>
+
+</file>
+
+<file path="research.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labor Rights &amp; Automation Research | Michelle Lee</title>
+<meta name="description" content="Interview-based research in progress: how Korean labor law protects manufacturing workers' safety, participation, and job transition in the age of industrial robots, based on interviews with certified labor attorneys (공인노무사).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <ul class="nav-links" style="display:flex">
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#projects">← All projects</a>
+    <p class="eyebrow">Research in progress</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Labor Rights in the Age of Industrial Robots</h1>
+    <p style="font-family:var(--serif);font-style:italic;font-size:20px;color:var(--terra)">Interview-based research on safety, participation, and transition protection in Korean manufacturing</p>
+    <p class="meta-line"><strong>Researcher</strong> (study design, statutory analysis, interviews, coding, writing) · 2026, South Korea</p>
+    <p class="lede">South Korea has one of the highest industrial-robot densities in the world; automation there is not a forecast but the current condition of manufacturing work. This ongoing study asks a deliberately practical question: when robots arrive on a factory floor, what protection does Korean labor law actually give the workers affected, and where do the professionals who handle these cases see it falling short?</p>
+  </div>
+</header>
+
+<div class="proj-section">
+  <div class="wrap">
+    <p class="note">Working title: <em>Industrial Robots and the Protection of Korean Manufacturing Workers: How Certified Labor Attorneys Assess Safety, Participation, and Transition Protection</em> (산업로봇 도입과 한국 제조업 노동자 보호: 안전·참여·전환 보호에 대한 노무사 인식을 중심으로)</p>
+
+    <h2 style="margin-top:40px">Three kinds of protection</h2>
+    <p>The study does not ask whether robots should be stopped. It asks what happens to the people working next to them, in three concrete dimensions:</p>
+    <ul>
+      <li><strong>Safety</strong>: collision, entrapment, and maintenance accidents; but also the less visible risks: increased work pace, musculoskeletal strain, and data-driven monitoring of performance.</li>
+      <li><strong>Participation</strong>: whether workers, unions, and labor-management councils receive information and a genuine chance to consult <em>before</em> robots are introduced, not after.</li>
+      <li><strong>Transition</strong>: what actually happens to redeployment, retraining, wages, and job security once automation changes what a job is.</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Why it matters</h2>
+    <p>Industrial robots rarely eliminate a workforce overnight. Instead they quietly rewrite the terms of work, the pace, the required skills, the safety envelope, the way performance is measured. The costs of that rewriting fall unevenly: older workers, mid-skill production workers, subcontracted and non-regular workers, and migrant workers are least positioned to absorb it.</p>
+    <p>Michelle's concern for that last group is not abstract. Her engagement with migrant communities, including concern for Sri Lankan migrant workers whose employment prospects can be narrowed by automation and shifting labor demand, is part of what shaped the research question: when machines change the terms of work, what does the law actually do for the workers affected?</p>
+
+    <h2 style="margin-top:40px">The analytical frame</h2>
+    <p>The project borrows a lens from U.S. debates. Lina Khan's critique of Amazon argued that measuring only consumer benefit makes the costs borne by workers and suppliers invisible. Amazon's warehouses, where automation raised productivity alongside injury rates, pace pressure, and algorithmic monitoring, drawing OSHA scrutiny, serve as a comparison point, not a subject. Translated to Korea, the question becomes: <em>when automation makes firms and consumers better off, what costs does it shift onto workers, and can current law see them?</em></p>
+
+    <h2 style="margin-top:40px">The legal terrain</h2>
+    <ul>
+      <li><strong>Occupational Safety and Health Act</strong> (산업안전보건법), how well robot-specific safety rules cover physical risks, and whether pace, strain, and psychosocial risks are addressed at all.</li>
+      <li><strong>Workers' Participation and Cooperation Act</strong> (근로자참여법), whether labor-management councils treat technology adoption as a real agenda item or a formality.</li>
+      <li><strong>Trade Union Act</strong> (노동조합법), the practical line between bargaining over <em>whether</em> robots are introduced (likely managerial prerogative) and bargaining over the <em>effects</em> of introduction (working conditions, arguably negotiable).</li>
+      <li><strong>Labor Standards Act</strong> (근로기준법), redeployment, restructuring, and dismissal law when automation is the stated reason.</li>
+      <li><strong>Vocational training &amp; transition support</strong>: whether retraining exists in practice or mostly on paper.</li>
+    </ul>
+
+    <h2 style="margin-top:40px">Method</h2>
+    <p>Literature review → Korean statutory analysis → U.S. comparison → short semi-structured interviews (10-15 minutes, five core questions) with <strong>certified labor attorneys (공인노무사)</strong>, licensed Korean professionals specializing in labor law, workplace compliance, and labor-management relations, spanning employer-side advisory, worker- and union-side cases, manufacturing workplaces, industrial-accident practice, and restructuring experience. Responses are anonymized and thematically coded, with frequencies compared across employer-side and worker-side practice backgrounds; no client, company, or case identities are recorded.</p>
+    <p><strong>Interviews conducted: 39 certified labor attorneys</strong> <span class="ph">[confirm, the proposal planned 20-30; publish 39 only if final]</span></p>
+    <p>The five questions probe: the most important legal issue raised by robot adoption; whether current labor and safety law responds adequately; which information-sharing and consultation procedures matter in practice; what legal issues arise when automated equipment and data-based management affect pace, safety, or evaluation; and which protection area Korean labor law should examine first as robots spread.</p>
+
+    <h2 style="margin-top:40px">Status &amp; direction</h2>
+    <p>The research is in progress. Themes the proposal expects, to be tested against the interviews, not asserted: that existing law handles physical safety better than consultation, transition, or data-driven management; that disputes cluster around redeployment and evaluation rather than dismissal; and that consultation bodies work only as well as workplace structures allow. Findings will be reported as practitioners' perceptions, with frequency analysis and anonymized quotations, a deliberately modest evidentiary claim.</p>
+
+    <h2 style="margin-top:40px">What this project shows</h2>
+    <p>The same instinct as Michelle's literacy work, aimed at a statute book: find the people the system talks <em>about</em> but rarely <em>to</em>, and ask what the rules look like from where they stand. It is her clearest step from education and translation into public-interest legal research, the foundation of her law-school direction.</p>
+
+    <p style="margin-top:40px"><a class="btn primary" href="jurio.html">Related project: Jurio legal-information app →</a></p>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Michelle Lee · 이민정 Minjung Lee</strong></p>
+    <p>© 2026 Michelle Lee</p>
+  </div>
+</footer>
+</body>
+</html>
+
+</file>
+
+<file path="styles.css">
+:root{
+  --bg:#FAF6EF; --bg-alt:#F3EDE2; --ink:#26221C; --muted:#6E6459;
+  --accent:#1E5C4B; --accent-soft:#E4EEE9; --terra:#C1683C;
+  --border:#E5DCCD; --card:#FFFEFB;
+  --serif:"EB Garamond",Georgia,serif; --sans:"Inter",-apple-system,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+@media (prefers-reduced-motion: no-preference){html{scroll-behavior:smooth}}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.skip{position:absolute;left:-9999px;top:12px;z-index:100;background:var(--accent);color:#fff;padding:10px 18px;border-radius:8px;font-weight:600;text-decoration:none}
+.skip:focus{left:12px}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.7;font-size:17px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2}
+a{color:var(--accent)}
+img{max-width:100%;display:block}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+section{padding:96px 0}
+.eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--terra);font-weight:600;margin-bottom:14px}
+.sec-title{font-size:clamp(28px,4vw,40px);margin-bottom:18px}
+.sec-intro{color:var(--muted);max-width:640px;margin-bottom:48px}
+
+/* Placeholder marker, remove class when real content is in */
+.ph{background:#FFF3D6;outline:2px dashed #D9B96A;outline-offset:2px;border-radius:4px;padding:0 4px}
+
+/* Nav */
+nav{position:sticky;top:0;background:rgba(250,246,239,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);z-index:50}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+.wordmark{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--ink);text-decoration:none}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{color:var(--ink);text-decoration:none;font-size:15px;font-weight:500}
+.nav-links a:hover{color:var(--accent)}
+.menu-btn{display:none;background:none;border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:15px;cursor:pointer}
+
+/* Hero */
+.hero{padding:110px 0 90px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(34px,5vw,54px)}
+.hero h1 .sub{display:block;font-size:.55em;font-weight:500;color:var(--accent);margin-top:10px}
+.mission{font-family:var(--serif);font-style:italic;font-size:clamp(19px,2.4vw,23px);color:var(--terra);margin:26px 0 18px}
+.hero p.intro{color:var(--muted);max-width:540px}
+.btn-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-block;padding:13px 26px;border-radius:10px;text-decoration:none;font-weight:600;font-size:15px;border:1.5px solid var(--accent);transition:all .15s}
+.btn.primary{background:var(--accent);color:#fff}
+.btn.primary:hover{background:#174a3c}
+.btn.ghost{color:var(--accent)}
+.btn.ghost:hover{background:var(--accent-soft)}
+.hero-photo{aspect-ratio:4/5;border-radius:18px;background:var(--bg-alt);border:1px solid var(--border);overflow:hidden}
+.hero-photo img{width:100%;height:100%;object-fit:cover}
+
+/* Stats */
+.stats{background:var(--card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:48px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:32px;text-align:center}
+.stat .num{font-family:var(--serif);font-size:clamp(30px,3.5vw,44px);font-weight:600;color:var(--accent)}
+.stat .label{font-size:13.5px;color:var(--muted);margin-top:6px}
+
+/* About */
+.about-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:start}
+.about-grid p{margin-bottom:18px}
+.facts{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px}
+.facts h3{font-size:18px;margin-bottom:16px}
+.facts dl div{padding:10px 0;border-bottom:1px solid var(--border)}
+.facts dl div:last-child{border-bottom:none}
+.facts dt{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--terra);font-weight:600}
+.facts dd{font-size:15px;margin-top:2px}
+
+/* Projects */
+.section-alt{background:var(--bg-alt)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
+.card:hover{box-shadow:0 8px 28px rgba(38,34,28,.10);transform:translateY(-2px)}
+.card-img{aspect-ratio:16/9;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;text-align:center;padding:0;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover}
+.card-img.empty{padding:12px}
+.card-body{padding:24px;display:flex;flex-direction:column;gap:10px;flex:1}
+.tag{align-self:flex-start;font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--terra);background:#F7E8DD;padding:3px 10px;border-radius:99px}
+.card h3{font-size:20px}
+.meta{font-size:13.5px;color:var(--muted)}
+.card p{font-size:15px}
+.contrib{font-size:14px;padding-left:18px;color:var(--muted)}
+.contrib li{margin-bottom:4px}
+.impact-line{font-size:13.5px;font-weight:600;color:var(--accent);margin-top:auto;padding-top:8px;border-top:1px dashed var(--border)}
+
+/* Writing */
+.rows{border-top:1px solid var(--border)}
+.row{display:grid;grid-template-columns:1fr auto;gap:8px 24px;padding:22px 4px;border-bottom:1px solid var(--border);align-items:baseline}
+.row h3{font-size:18px}
+.row .venue{font-size:14px;color:var(--muted)}
+.row .desc{grid-column:1/-1;font-size:15px;color:var(--muted)}
+.chip{font-size:13px;font-weight:600;color:var(--accent);text-decoration:none;white-space:nowrap}
+.award{font-size:12px;font-weight:600;color:#fff;background:var(--terra);padding:2px 10px;border-radius:99px;letter-spacing:.04em;white-space:nowrap}
+
+/* Teaching */
+.teach-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.teach-facts{display:grid;gap:14px}
+.tf{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 20px}
+.tf h4{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--terra);margin-bottom:6px}
+.tf p{font-size:15px}
+blockquote{font-family:var(--serif);font-style:italic;font-size:18px;background:var(--bg-alt);border-radius:10px;padding:18px 22px;margin-top:28px;color:var(--muted)}
+
+/* Law */
+.law{background:var(--ink);color:#F5F0E6}
+.law .eyebrow{color:#E0A57E}
+.law .sec-title{color:#fff}
+.law .prose{max-width:680px}
+.law p{margin-bottom:18px;color:#D8D0C2}
+.law .pull{font-family:var(--serif);font-style:italic;font-size:20px;color:#F0C9A8}
+
+/* Timeline */
+.timeline{position:relative;max-width:760px;margin:0 auto;padding-left:36px}
+.timeline::before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:2px;background:var(--border)}
+.tl-item{position:relative;padding-bottom:40px}
+.tl-item::before{content:"";position:absolute;left:-33px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--terra);border:2.5px solid var(--bg)}
+.tl-item .year{font-size:13px;font-weight:600;letter-spacing:.1em;color:var(--terra);text-transform:uppercase}
+.tl-item h3{font-size:19px;margin:4px 0 6px}
+.tl-item p{font-size:15px;color:var(--muted)}
+
+/* Skills */
+.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 40px}
+.skill{border-top:1px solid var(--ink);padding:18px 0 0}
+.skill h3{font-size:17px;margin-bottom:12px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{font-size:13px;background:var(--accent-soft);color:var(--accent);padding:4px 12px;border-radius:99px;font-weight:500}
+.langs{margin-top:32px;text-align:center;color:var(--muted);font-size:15px}
+
+/* Gallery */
+.gal-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.gal-item{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.gal-item img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.gal-item figcaption{font-size:13.5px;color:var(--muted);padding:12px 16px}
+
+/* Contact */
+.contact{text-align:center}
+.contact .sec-intro{margin:0 auto 36px}
+
+footer{border-top:1px solid var(--border);padding:36px 0;text-align:center;color:var(--muted);font-size:14px}
+
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .5s ease,transform .5s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .card,.card:hover{transition:none;transform:none}
+}
+
+/* Current focus band */
+.focus{background:var(--bg-alt);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:36px 0}
+.focus-inner{display:flex;align-items:center;gap:28px;flex-wrap:wrap}
+.focus-inner p{font-size:16px;color:var(--muted);flex:1;min-width:260px;margin:0}
+.focus-chips{display:flex;gap:10px;flex-wrap:wrap}
+.focus-chip{font-size:13.5px;font-weight:600;color:var(--accent);background:var(--accent-soft);border:1px solid var(--accent);padding:6px 14px;border-radius:99px;text-decoration:none}
+.focus-chip:hover{background:var(--accent);color:#fff}
+
+/* Featured 2-col grid + status badge */
+.cards.two{grid-template-columns:repeat(2,1fr)}
+.status-badge{font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);padding:3px 10px;border-radius:99px;align-self:flex-start}
+.more-title{font-size:20px;font-family:var(--serif);margin:48px 0 8px;color:var(--muted)}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
+.mini{border-top:1px solid var(--border);padding:20px 0}
+.mini h3{font-size:17px;font-family:var(--sans);font-weight:600}
+.mini .meta{font-size:13px;margin:2px 0 6px}
+.mini p{font-size:14.5px;color:var(--muted)}
+
+/* Legal studies */
+.legal-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:start}
+.course-list{list-style:none;display:grid;gap:10px}
+.course-list li{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 18px;font-size:15px}
+
+/* Civic service band */
+.civic{padding:64px 0}
+.civic-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:36px 40px;max-width:820px;margin:0 auto}
+.civic-card h3{font-size:20px;margin-bottom:12px}
+.civic-card p{font-size:15.5px;color:var(--muted)}
+
+/* Disclaimer */
+.disclaimer{font-size:13.5px;color:var(--muted);background:var(--bg-alt);border:1px solid var(--border);border-radius:10px;padding:14px 18px;max-width:720px}
+
+/* Project subpages */
+.proj-hero{padding:80px 0 56px;border-bottom:1px solid var(--border)}
+.proj-hero .meta-line{font-size:15px;color:var(--muted);margin-top:14px}
+.proj-hero .lede{font-size:19px;color:var(--muted);max-width:720px;margin-top:20px}
+.backlink{display:inline-block;font-size:14px;font-weight:600;text-decoration:none;margin-bottom:24px}
+.proj-section{padding:56px 0}
+.proj-section h2{font-size:26px;margin-bottom:16px}
+.proj-section p{max-width:720px;margin-bottom:16px}
+.proj-section ul{max-width:720px;padding-left:22px;margin-bottom:16px}
+.proj-section li{margin-bottom:8px}
+figure.photo{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin:28px 0}
+figure.photo img{width:100%}
+figure.photo figcaption{font-size:13.5px;color:var(--muted);padding:12px 18px}
+.photo-pair{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.note{font-size:13.5px;color:var(--muted);background:var(--bg-alt);padding:12px 16px;border-radius:8px;max-width:720px}
+
+@media(max-width:900px){
+  .hero-grid,.about-grid,.teach-grid,.photo-pair,.legal-grid,.cards.two{grid-template-columns:1fr}
+  .hero-grid{gap:36px}
+  .hero-photo{order:-1;max-width:340px;aspect-ratio:1}
+  .cards,.skill-grid,.gal-grid{grid-template-columns:1fr 1fr}
+  .mini-grid{grid-template-columns:1fr}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg);flex-direction:column;padding:20px 24px;gap:18px;border-bottom:1px solid var(--border)}
+  .nav-links.open{display:flex}
+  .menu-btn{display:block}
+}
+@media(max-width:600px){
+  .cards,.skill-grid,.gal-grid{grid-template-columns:1fr}
+  section{padding:72px 0}
+  .btn{width:100%;text-align:center;padding:14px}
+  .btn-row{flex-direction:column}
+}
+
+</file>
+
+<file path="thesis.html">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Second Great Game: Undergraduate Thesis | Michelle Lee</title>
+<meta name="description" content="Michelle Lee's undergraduate thesis at Ewha Womans University: 'The Second Great Game: the U.S. and China in the Indo-Pacific', a historical-comparative analysis of great-power rivalry, from the 19th-century Great Game to the Belt and Road Initiative, the South China Sea, FOIP, the Quad, and AUKUS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <ul class="nav-links" style="display:flex">
+      <li><a href="index.html#writing">Research</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#writing">← Research &amp; Writing</a>
+    <p class="eyebrow">Undergraduate Thesis · International Relations</p>
+    <h1 class="sec-title" style="margin-bottom:6px">The Second Great Game</h1>
+    <p style="font-family:var(--serif);font-style:italic;font-size:20px;color:var(--terra)">The U.S. and China in the Indo-Pacific</p>
+    <p class="meta-line"><strong>Author</strong>, B.A. thesis, Department of International Studies, Ewha Womans University, Presented November 2024 · Advisor: Prof. Jean S. Kang</p>
+    <p class="lede">What does the 21st century's defining rivalry look like when set beside the 19th century's? This thesis reads the contest between the United States and China in the Indo-Pacific against the "Great Game" between Britain and Russia, and finds that while the instruments of power have transformed, the underlying logic has not.</p>
+  </div>
+</header>
+
+<div class="proj-section">
+  <div class="wrap">
+    <h2>The research question</h2>
+    <p><em>How does the 21st-century geopolitical rivalry between the U.S. and China in the Indo-Pacific resemble the 19th-century Great Game between Britain and Russia, and what might this mean for global power dynamics?</em></p>
+    <p>Building on scholars who described a "New Great Game" in Central Asia (Menon 2003; Blank 2012; Kim 2013), the thesis coins and defends the term <strong>"Second Great Game"</strong> for the U.S.-China rivalry, arguing it is the closest structural descendant of the original Anglo-Russian contest.</p>
+
+    <h2 style="margin-top:40px">Method</h2>
+    <p>A historical-comparative design: a literature review across scholarly articles, treaties and policy documents, case studies, and reporting; thematic analysis to identify patterns in territorial, economic, and military practice; then systematic comparison of the two eras. Sources were drawn from peer-reviewed databases (JSTOR, ScienceDirect, Sage), with particular caution applied to documents produced by state-affiliated authors.</p>
+
+    <h2 style="margin-top:40px">The two games</h2>
+    <ul>
+      <li><strong>The Great Game (19th c.)</strong>: Britain's defense of India against Russia's southward drive for warm-water ports, traced through the Treaty of Gulistan, the First Anglo-Afghan War, and the Panjdeh Incident; buffer states, proxy rulers, and imperial frontier-making, with Afghanistan and Persia as the contested middle.</li>
+      <li><strong>The Second Great Game (21st c.)</strong>: China's Belt and Road Initiative and its strategic ports (Gwadar, Hambantota); artificial island-building and militarization in the South China Sea against the 2016 Permanent Court of Arbitration ruling; and the U.S. response, the Free and Open Indo-Pacific strategy, the Quad, AUKUS, freedom-of-navigation operations, and economic counterweights, with Taiwan, the Philippines, India, and the Maldives navigating between the two powers.</li>
+    </ul>
+
+    <h2 style="margin-top:40px">The argument</h2>
+    <p>The comparison yields a double finding. The <em>instruments</em> of great-power competition have evolved decisively, from territorial conquest and puppet regimes to economic diplomacy, strategic infrastructure, security alliances, and technological leverage. But the <em>motives</em> are strikingly continuous: control over strategically critical regions, secure access to trade routes and resources, and spheres of influence, with smaller states, then as now, serving as both intermediaries and battlegrounds. The thesis closes on the Great Game's cautionary lesson: unchecked rivalry destabilizes the regions it contests, and the Second Great Game will require dialogue mechanisms, regional resilience, and adherence to international norms if competition is not to overshadow cooperation.</p>
+
+    <h2 style="margin-top:40px">Why it matters to her work</h2>
+    <p>The thesis is where Michelle's two lenses first meet in writing: international politics seen structurally, and the people caught inside the structure, the smaller states "in the crossfire of competing influences." Her subsequent research keeps that vantage point but moves it from the map to the factory floor: her <a href="research.html">labor-rights and automation study</a> asks the same kind of question about power and protection, one scale down. It is also evidence of the research discipline, framing, sourcing, comparative method, that her legal studies now build on.</p>
+
+    <p class="note" style="margin-top:32px"><span class="ph">[Thesis PDF download, include if Michelle wants it public: “Read the full thesis (PDF)”]</span></p>
+
+    <p style="margin-top:40px"><a class="btn primary" href="research.html">Next: Labor rights &amp; automation research →</a></p>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p><strong>Michelle Lee · 이민정 Minjung Lee</strong></p>
+    <p>© 2026 Michelle Lee</p>
+  </div>
+</footer>
+</body>
+</html>
+
+</file>
+
+</files>

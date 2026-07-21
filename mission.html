@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mission Center for Migrants | Michelle Lee</title>
+<meta name="description" content="Michelle Lee at the Mission Center for Migrants, Daegu: documentaries reframing language barriers as accessibility, Korean/English interpretation, Sri Lankan migrant-worker communities.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#FAF6EF">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="index.html">Michelle Lee</a>
+    <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html#story">My Story</a></li>
+      <li><a href="index.html#writing">Writing &amp; Research</a></li>
+      <li><a href="index.html#gallery">Gallery</a></li>
+      <li><a href="index.html#skills">Interest &amp; Skill</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<main id="main">
+
+<header class="proj-hero">
+  <div class="wrap">
+    <a class="backlink" href="index.html#story">← My Story</a>
+    <p class="eyebrow">Since 2024</p>
+    <h1 class="sec-title" style="margin-bottom:6px">Mission Center for Migrants</h1>
+    <p class="meta-line"><strong>Volunteer, interpretation &amp; media</strong>, Jun 2024-present · Daegu, Korea</p>
+  </div>
+</header>
+<div class="hero-strip">
+  <div class="wrap" style="position:relative">
+    <button class="hs-nav hs-prev" aria-label="Previous photos">&#8249;</button>
+    <div class="hs-track"><figure class="hs-item has-cap"><img loading="lazy" decoding="async" src="images/story/mission-1.jpg" alt=""><figcaption>Photo with Center Head, Reverend Ko Kyung Soo</figcaption></figure><figure class="hs-item" data-video="mdGiLs9ijPM"><img loading="lazy" decoding="async" src="images/tiles/yt-mdGiLs9ijPM.jpg" alt=""><span class="hs-play"><span>&#9654;</span></span></figure><figure class="hs-item" data-video="3NrmwtkH8tU"><img loading="lazy" decoding="async" src="images/tiles/yt-3NrmwtkH8tU.jpg" alt=""><span class="hs-play"><span>&#9654;</span></span></figure></div>
+    <button class="hs-nav hs-next" aria-label="More photos">&#8250;</button>
+  </div>
+</div>
+
+
+<div class="proj-section">
+  <div class="wrap">
+    <h2>At a glance</h2>
+    <ul class="course-list" style="max-width:720px">
+      <li>Photographed and co-produced two short documentaries on the center's impact and the language barriers migrant workers face</li>
+      <li>On-site Korean-English interpretation at the Full Moon Festival, plus translation of visa notices and everyday paperwork</li>
+      <li>Organized and interpreted for a three-week cultural exchange visit by 10 Sri Lankan guests, including a former migrant worker (April to May 2026)</li>
+      <li>Direct engagement with migrant-worker communities, including Sri Lankan workers</li>
+    </ul>
+    <p style="margin-top:24px"></p>
+    <h2 style="margin-top:40px">In video</h2>
+    <div style="max-width:720px"><div style="position:relative;padding-bottom:56.25%;height:0"><iframe src="https://www.youtube.com/embed/mdGiLs9ijPM" title="Short documentary co-produced with Mission Center staff on language barriers facing migrant workers." loading="lazy" frameborder="0" allow="picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:14px"></iframe></div><p style="font-size:13.5px;color:var(--muted);margin-top:10px">Short documentary co-produced with Mission Center staff on language barriers facing migrant workers.</p></div>
+    
+    <div style="max-width:720px;margin-top:24px"><div style="position:relative;padding-bottom:56.25%;height:0"><iframe src="https://www.youtube.com/embed/3NrmwtkH8tU" title="Mission Center for Migrants documentary" loading="lazy" frameborder="0" allow="picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:14px"></iframe></div></div>
+    <h2 style="margin-top:40px">In photos</h2>
+    <div class="ph-grid"><figure class="ph-item has-cap"><img loading="lazy" decoding="async" src="images/story/mission-1.jpg" alt="Mission Center for Migrants"><figcaption>Photo with Center Head, Reverend Ko Kyung Soo</figcaption></figure></div>
+    <div class="pn" style="margin-top:40px">
+      <a class="btn ghost" href="mediawatch.html">&larr; Media Watch</a>
+      <a class="btn primary" href="unmck.html">UN Memorial Cemetery &rarr;</a>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="wrap">
+    <p style="letter-spacing:.14em;font-size:13px">© 2026 MICHELLE LEE</p>
+  </div>
+</footer>
+<script>
+(function(){
+  document.querySelectorAll('.hero-strip').forEach(function(st){
+    var t=st.querySelector('.hs-track'), p=st.querySelector('.hs-prev'), n=st.querySelector('.hs-next');
+    if(!t) return;
+    function step(){ var it=t.querySelector('.hs-item'); return it? it.offsetWidth+14 : 314; }
+    function upd(){ if(!p) return;
+      p.disabled = t.scrollLeft<=2;
+      n.disabled = t.scrollLeft >= t.scrollWidth-t.clientWidth-2;
+      var one = t.scrollWidth<=t.clientWidth+2;
+      p.style.display=n.style.display= one?'none':'flex';
+    }
+    if(p) p.addEventListener('click',function(){t.scrollBy({left:-step()*2,behavior:'smooth'});setTimeout(upd,650);});
+    if(n) n.addEventListener('click',function(){t.scrollBy({left:step()*2,behavior:'smooth'});setTimeout(upd,650);});
+    t.addEventListener('scroll',upd); window.addEventListener('resize',upd);
+    window.addEventListener('load',upd);
+    t.querySelectorAll('img').forEach(function(im){im.addEventListener('load',upd);});
+    [0,300,1200,2500].forEach(function(d){setTimeout(upd,d);});
+  });
+})();
+</script>
+</body>
+</html>
