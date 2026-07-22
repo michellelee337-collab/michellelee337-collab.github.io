@@ -51,7 +51,7 @@ EXTRA_IMAGES = {
 }
 
 FIG = re.compile(
-    r'<figure class="ph-item[^"]*"[^>]*>\s*<img[^>]*src="([^"]+)"[^>]*>'
+    r'<figure class="(?:ph-item|hs-item)[^"]*"[^>]*>\s*<img[^>]*src="([^"]+)"[^>]*>'
     r'(?:<figcaption>(.*?)</figcaption>)?\s*</figure>', re.S)
 VID = re.compile(r'youtube\.com/embed/([\w-]+)')
 
