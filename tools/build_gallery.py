@@ -34,9 +34,9 @@ PAGES = {
 }
 
 # gallery display order: newest work first
-GALLERY_ORDER = ['research', 'jurio', 'lumen', 'welltain', 'puac', 'soldiers',
-                 'unmck', 'mission', 'mediawatch', 'leaderstimes', 'kang',
-                 'lawgic', 'angels', 'asianhub', 'isc']
+GALLERY_ORDER = ['research', 'jurio', 'lumen', 'angels', 'welltain', 'puac',
+                 'soldiers', 'unmck', 'mission', 'mediawatch', 'leaderstimes',
+                 'kang', 'lawgic', 'asianhub', 'isc']
 
 # page images that should stay out of the gallery
 SKIP_PREFIX = ('images/sites/',)
@@ -54,6 +54,10 @@ FIG = re.compile(
     r'<figure class="(?:ph-item|hs-item)[^"]*"[^>]*>\s*<img[^>]*src="([^"]+)"[^>]*>'
     r'(?:<figcaption>(.*?)</figcaption>)?\s*</figure>', re.S)
 VID = re.compile(r'youtube\.com/embed/([\w-]+)')
+# self-hosted video: hero-strip cards carrying data-file + poster image
+FILEVID = re.compile(
+    r'<figure class="hs-item[^"]*"[^>]*data-file="([^"]+)"[^>]*>\s*<img[^>]*src="([^"]+)"[^>]*>'
+    r'.*?(?:<figcaption>(.*?)</figcaption>)?\s*</figure>', re.S)
 
 
 def yt_thumb(vid):
@@ -99,6 +103,15 @@ def collect():
             capel = f'<figcaption>{cap}</figcaption>' if cap else ''
             cards.append(f'<figure class="g-item{cls}" data-cat="{cat}">'
                          f'<img loading="lazy" decoding="async" src="{src}" alt="">'
+                         f'{capel}</figure>')
+        for fl, poster, cap in FILEVID.findall(html):
+            if fl in seen:
+                continue
+            seen.add(fl); seen.add(poster)
+            cls = ' has-cap' if cap else ''
+            capel = f'<figcaption>{cap}</figcaption>' if cap else ''
+            cards.append(f'<figure class="g-item g-vid{cls}" data-cat="{cat}" data-file="{fl}">'
+                         f'<img loading="lazy" decoding="async" src="{poster}" alt="">'
                          f'{capel}</figure>')
         for vid in dict.fromkeys(VID.findall(html)):
             if 'yt:' + vid in seen:

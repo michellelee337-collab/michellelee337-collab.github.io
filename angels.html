@@ -32,7 +32,7 @@
 
 <header class="proj-hero">
   <div class="wrap">
-    <a class="backlink" href="index.html#story">&larr; My Story</a>
+    <div class="hero-nav"><a class="backlink" href="index.html#story">&larr; My Story</a><a class="nextlink" href="lawgic.html">Next: LAWGIC &amp; A.C.E. &rarr;</a></div>
     <p class="eyebrow">Since 2021</p>
     <h1 class="sec-title" style="margin-bottom:2px">Angels for the Journey</h1>
     <p style="font-weight:400;font-size:14px;color:var(--muted);margin:0 0 8px">(formerly Angels for Kor-Fils&#8217;s Journey)</p>
@@ -121,7 +121,9 @@
   function render(){
     var el=items[idx];if(!el)return;
     var v=el.getAttribute('data-video');
+    var fl=el.getAttribute('data-file');
     slot.innerHTML = v ? '<iframe src="https://www.youtube.com/embed/'+v+'?autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'
+                   : fl ? '<video controls autoplay playsinline src="'+fl+'"></video>'
                        : '<img src="'+el.querySelector('img').getAttribute('src')+'" alt="">';
     var f=el.querySelector('figcaption');cap.textContent=f?f.textContent.trim():'';
   }

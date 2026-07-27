@@ -36,6 +36,18 @@ Read `~/.claude/context/website-state.md` before edits; facts go through
 
 ## Custom domain
 
-`michellelee.com` is registered to someone else (since 1998). To use a domain
-you own: buy it, add a `CNAME` file containing the domain, then point DNS
-(A records to GitHub Pages IPs, or CNAME to michellelee337-collab.github.io).
+Live at **https://michellelee337.com** (CNAME file in repo root). The
+github.io URL still works and redirects. Do not delete `CNAME`: removing it
+drops the custom domain.
+
+## Branches
+
+The site is served from `main`. A separate `codex/industrial-robots-research`
+branch in this repo holds unrelated research work. Always confirm you are on
+`main` before editing or pushing site changes.
+
+## Video
+
+Self-hosted video lives in `files/video/` as web-optimized MP4 (720p, H.264,
+faststart). Compress before committing, GitHub rejects files over 100 MB:
+`ffmpeg -i in.mov -vf scale=-2:720 -c:v libx264 -crf 27 -movflags +faststart -c:a aac -b:a 96k out.mp4`

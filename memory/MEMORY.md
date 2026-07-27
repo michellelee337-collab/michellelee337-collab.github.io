@@ -1,0 +1,2 @@
+- [Industrial robots and worker protection source corpus](industrial-robots-worker-protection-source-corpus.md) — Use for future reporting, analysis, or drafting based on the certified labor attorney calls, emails, recordings, and survey processed on July 23, 2026.
+- [Certified labor attorney directory dataset](certified-labor-attorney-directory-dataset.md) — Use for the supplied Korean and English directory, regional and specialty coverage, outreach status, duplicate-name controls, and linkage to 44 named robot-study sources processed on July 23, 2026.
