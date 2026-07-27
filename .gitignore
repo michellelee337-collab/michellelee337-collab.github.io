@@ -8,3 +8,7 @@ images/_archive/
 # editor / temp
 *.swp
 *~
+
+# private research work (belongs on codex branch, never publish)
+research/
+AGENTS.md

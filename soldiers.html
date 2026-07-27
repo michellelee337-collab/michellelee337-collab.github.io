@@ -32,7 +32,7 @@
 
 <header class="proj-hero">
   <div class="wrap">
-    <a class="backlink" href="index.html#story">← My Story</a>
+    <div class="hero-nav"><a class="backlink" href="index.html#story">← My Story</a><a class="nextlink" href="puac.html">Next: Peaceful Unification Advisory Council &rarr;</a></div>
     <p class="eyebrow">Since 2024</p>
     <h1 class="sec-title" style="margin-bottom:6px">Soldiers' Angels</h1>
     <p class="meta-line"><strong>Volunteer, Letter Writing Team</strong>, Jul 2024-present · Remote (San Antonio, Texas org) · <a href="https://soldiersangels.org/show-your-appreciation-to-deployed-soldiers-through-letter-writing/">program ↗</a></p>
@@ -41,7 +41,7 @@
 <div class="hero-strip">
   <div class="wrap" style="position:relative">
     <button class="hs-nav hs-prev" aria-label="Previous photos">&#8249;</button>
-    <div class="hs-track"><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/soldiers-1.jpg" alt=""></figure></div>
+    <div class="hs-track"><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/soldiers-hours.jpg" alt=""></figure></div>
     <button class="hs-nav hs-next" aria-label="More photos">&#8250;</button>
   </div>
 </div>
@@ -57,7 +57,7 @@
     <p style="margin-top:24px"></p>
 
             <h2 style="margin-top:40px">In photos</h2>
-    <div class="ph-grid"><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/soldiers-1.jpg" alt="Soldiers' Angels"></figure></div>
+    <div class="ph-grid"><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/soldiers-hours.jpg" alt="Soldiers' Angels"></figure></div>
     <div class="pn" style="margin-top:40px">
       <a class="btn ghost" href="unmck.html">&larr; UN Memorial Cemetery</a>
       <a class="btn primary" href="puac.html">Peaceful Unification Advisory Council &rarr;</a>
@@ -95,7 +95,9 @@
   function render(){
     var el=items[idx];if(!el)return;
     var v=el.getAttribute('data-video');
+    var fl=el.getAttribute('data-file');
     slot.innerHTML = v ? '<iframe src="https://www.youtube.com/embed/'+v+'?autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'
+                   : fl ? '<video controls autoplay playsinline src="'+fl+'"></video>'
                        : '<img src="'+el.querySelector('img').getAttribute('src')+'" alt="">';
     var f=el.querySelector('figcaption');cap.textContent=f?f.textContent.trim():'';
   }

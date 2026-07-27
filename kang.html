@@ -32,7 +32,7 @@
 
 <header class="proj-hero">
   <div class="wrap">
-    <a class="backlink" href="index.html#story">← My Story</a>
+    <div class="hero-nav"><a class="backlink" href="index.html#story">← My Story</a><a class="nextlink" href="leaderstimes.html">Next: Leaders Times &rarr;</a></div>
     <p class="eyebrow">2023</p>
     <h1 class="sec-title" style="margin-bottom:6px">Undergraduate Research with Prof. Jean S. Kang</h1>
     <p class="meta-line"><strong>Research Fellow</strong>, Mar 2023 - Aug 2023 · Ewha Womans University, Seoul</p>
@@ -94,7 +94,9 @@
   function render(){
     var el=items[idx];if(!el)return;
     var v=el.getAttribute('data-video');
+    var fl=el.getAttribute('data-file');
     slot.innerHTML = v ? '<iframe src="https://www.youtube.com/embed/'+v+'?autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'
+                   : fl ? '<video controls autoplay playsinline src="'+fl+'"></video>'
                        : '<img src="'+el.querySelector('img').getAttribute('src')+'" alt="">';
     var f=el.querySelector('figcaption');cap.textContent=f?f.textContent.trim():'';
   }

@@ -32,7 +32,7 @@
 
 <header class="proj-hero">
   <div class="wrap">
-    <a class="backlink" href="index.html#story">← My Story</a>
+    <div class="hero-nav"><a class="backlink" href="index.html#story">← My Story</a><a class="nextlink" href="angels.html">Next: Angels for the Journey &rarr;</a></div>
     <p class="eyebrow">Since 2019</p>
     <h1 class="sec-title" style="margin-bottom:6px">AsianHub</h1>
     <p class="meta-line"><strong>Translation Volunteer (ITT Level 2 certified)</strong>, Aug 2019-present · Seoul, Korea · <a href="https://asianhub.kr">asianhub.kr ↗</a></p>
@@ -99,7 +99,9 @@
   function render(){
     var el=items[idx];if(!el)return;
     var v=el.getAttribute('data-video');
+    var fl=el.getAttribute('data-file');
     slot.innerHTML = v ? '<iframe src="https://www.youtube.com/embed/'+v+'?autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'
+                   : fl ? '<video controls autoplay playsinline src="'+fl+'"></video>'
                        : '<img src="'+el.querySelector('img').getAttribute('src')+'" alt="">';
     var f=el.querySelector('figcaption');cap.textContent=f?f.textContent.trim():'';
   }

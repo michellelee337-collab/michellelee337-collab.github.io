@@ -32,7 +32,7 @@
 
 <header class="proj-hero">
   <div class="wrap">
-    <a class="backlink" href="index.html#story">← My Story</a>
+    <div class="hero-nav"><a class="backlink" href="index.html#story">← My Story</a><a class="nextlink" href="lumen.html">Next: Lumen Education Program &rarr;</a></div>
     <p class="eyebrow">2024 - 2025</p>
     <h1 class="sec-title" style="margin-bottom:6px">Welltain Christian International School</h1>
     <p class="meta-line"><strong>Supplemental Instructor for English and Social Science</strong>, Sep 2024 - Jun 2025 · Incheon, Korea</p>
@@ -41,7 +41,7 @@
 <div class="hero-strip">
   <div class="wrap" style="position:relative">
     <button class="hs-nav hs-prev" aria-label="Previous photos">&#8249;</button>
-    <div class="hs-track"><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-1.jpg" alt=""></figure><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-2.jpg" alt=""></figure></div>
+    <div class="hs-track"><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-s1.jpg" alt=""></figure><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-s2.jpg" alt=""></figure><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-s3.jpg" alt=""></figure><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-s4.jpg" alt=""></figure><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-1.jpg" alt=""></figure><figure class="hs-item"><img loading="lazy" decoding="async" src="images/story/welltain-2.jpg" alt=""></figure></div>
     <button class="hs-nav hs-next" aria-label="More photos">&#8250;</button>
   </div>
 </div>
@@ -52,11 +52,11 @@
     <h2>At a glance</h2>
     <ul class="course-list" style="max-width:720px">
       <li>25 students, four grade levels, 25+ hours a week: English composition and history such as AP World History: Modern.</li>
-      <li>Created lesson plans for small-group and 1:1 sessions, with individual writing feedback on daily reading summaries</li>
+      <li>Developed lesson plans for small group and 1:1 sessions, facilitated discussions and debates, and provided individualized writing feedback on New York Times inspired essays and literature including <em>1984</em>, <em>The Metamorphosis</em>, <em>To Kill a Mockingbird</em>, and <em>Macbeth</em>.</li>
       <li>Coached one student to Finalist in the 2025 New York Times Open Letter Contest, &#8220;Combating the Rising Threat of Deepfakes.&#8221;</li>
     </ul>
         <h2 style="margin-top:40px">In photos</h2>
-    <div class="ph-grid"><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-1.jpg" alt="Welltain Christian International School"></figure><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-2.jpg" alt="Welltain Christian International School"></figure></div>
+    <div class="ph-grid"><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-s1.jpg" alt="Welltain Christian International School"></figure><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-s2.jpg" alt="Welltain Christian International School"></figure><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-s3.jpg" alt="Welltain Christian International School"></figure><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-s4.jpg" alt="Welltain Christian International School"></figure><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-1.jpg" alt="Welltain Christian International School"></figure><figure class="ph-item"><img loading="lazy" decoding="async" src="images/story/welltain-2.jpg" alt="Welltain Christian International School"></figure></div>
     <div class="pn" style="margin-top:40px">
       <a class="btn ghost" href="puac.html">&larr; Peaceful Unification Advisory Council</a>
       <a class="btn primary" href="lumen.html">Lumen Education Program &rarr;</a>
@@ -94,7 +94,9 @@
   function render(){
     var el=items[idx];if(!el)return;
     var v=el.getAttribute('data-video');
+    var fl=el.getAttribute('data-file');
     slot.innerHTML = v ? '<iframe src="https://www.youtube.com/embed/'+v+'?autoplay=1" allow="autoplay;picture-in-picture" allowfullscreen></iframe>'
+                   : fl ? '<video controls autoplay playsinline src="'+fl+'"></video>'
                        : '<img src="'+el.querySelector('img').getAttribute('src')+'" alt="">';
     var f=el.querySelector('figcaption');cap.textContent=f?f.textContent.trim():'';
   }
