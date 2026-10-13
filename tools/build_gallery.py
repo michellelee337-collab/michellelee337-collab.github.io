@@ -44,7 +44,7 @@ SKIP_PREFIX = ('images/sites/',)
 # site screenshots shown in the gallery for activities whose page embeds the live
 # site instead of a screenshot (category -> image path)
 EXTRA_IMAGES = {
-    'lumen':  ('images/sites/site-lumen.jpg',  'https://lumen-education.squarespace.com/'),
+    'lumen':  ('images/sites/site-lumen.jpg',  'https://www.lumen-education.org/'),
     'angels': ('images/sites/site-angels.jpg', 'https://angels-journey.squarespace.com/'),
     'jurio':  ('images/sites/site-jurio.png',  'https://jurio-gamma.vercel.app/'),
     'unmck':  ('images/sites/site-unmck.jpg',  'https://busan-koreanwar-project.netlify.app/'),
