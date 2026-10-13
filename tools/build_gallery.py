@@ -45,7 +45,7 @@ SKIP_PREFIX = ('images/sites/',)
 # site instead of a screenshot (category -> image path)
 EXTRA_IMAGES = {
     'lumen':  ('images/sites/site-lumen.jpg',  'https://www.lumen-education.org/'),
-    'angels': ('images/sites/site-angels.jpg', 'https://angels-journey.squarespace.com/'),
+    'angels': ('images/sites/site-angels.jpg', 'https://www.angels-journey.org/'),
     'jurio':  ('images/sites/site-jurio.png',  'https://jurio-gamma.vercel.app/'),
     'unmck':  ('images/sites/site-unmck.jpg',  'https://busan-koreanwar-project.netlify.app/'),
 }
