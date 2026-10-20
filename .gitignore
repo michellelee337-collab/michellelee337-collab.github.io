@@ -12,3 +12,13 @@ images/_archive/
 # private research work (belongs on codex branch, never publish)
 research/
 AGENTS.md
+
+# internal working notes (copies in ~/Desktop/michelle-website-notes/, never publish)
+/[0-9]*-*.md
+PHOTO-MANIFEST-*.md
+CLAUDE.md
+memory/
+repomix-pack.xml
+*.docx
+lt_articles.json
+tools/
